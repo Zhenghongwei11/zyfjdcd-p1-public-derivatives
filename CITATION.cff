@@ -18,6 +18,8 @@ keywords:
   - "reproducibility"
   - "information extraction"
 license: "MIT"
+doi: "10.5281/zenodo.20376556"
+repository-code: "https://github.com/Zhenghongwei11/zyfjdcd-p1-public-derivatives"
 abstract: >
   Derived-only reproducibility pack for an OCR-derived corpus from the 2nd edition
   of Zhongyi Fangji Da Cidian. This archive contains benchmark indices, evaluation

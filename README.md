@@ -33,4 +33,4 @@ To fully re-run the end-to-end extraction pipeline from OCR source, you need leg
 
 ## Public Deposit
 
-This staged pack is deposit-ready for Zenodo/OSF-style archival upload. A public DOI is not included until the archive is actually deposited.
+Zenodo DOI (versioned): `10.5281/zenodo.20376556`

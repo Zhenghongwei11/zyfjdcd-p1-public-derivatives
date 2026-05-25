@@ -1,0 +1,28 @@
+{
+  "input": "/Users/simanan/Desktop/zyfjdcd/data/structured/formulas_v14_formula.jsonl",
+  "output": "/Users/simanan/Desktop/zyfjdcd/data/normalized/composition_items_v0.jsonl",
+  "summary": {
+    "records": 96209,
+    "with_composition": 83505,
+    "items_total": 791176,
+    "with_warnings": 50670,
+    "no_composition": 12704
+  },
+  "strategy_counts": {
+    "lex_vocab": 83505
+  },
+  "confidence_bins": {
+    "0.1": 6516,
+    "0.4": 16027,
+    "0.5": 18145,
+    "0.2": 5944,
+    "0.3": 11246,
+    "0.6": 12498,
+    "0.9": 5854,
+    "0.7": 4904,
+    "0.8": 2371
+  },
+  "vocab_size": 2362,
+  "min_vocab_freq": 5,
+  "notes": "v0 composition normalization: token split where possible; otherwise scan herb+proc+dose; otherwise DP segmentation with in-corpus induced vocab."
+}

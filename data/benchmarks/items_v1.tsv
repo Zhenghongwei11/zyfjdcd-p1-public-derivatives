@@ -1,0 +1,105 @@
+item_id	source_file	source_line_start	source_line_end	doc_type_label	boundary_ok_label	noise_flags	split	split_bucket	tasks
+第1册1-00001	cidian/第1册1.md	1	11	FORMULA_ENTRY_FULL	yes		train	51	doc_type_classification|entry_segmentation
+第1册1-00005	cidian/第1册1.md	34	41	FORMULA_ENTRY_NOISY	no	markdown_field_heading	train	51	doc_type_classification|entry_segmentation
+第1册1-00015	cidian/第1册1.md	111	115	FORMULA_ENTRY_REDIRECT	yes		train	51	doc_type_classification|entry_segmentation
+第1册1-00019	cidian/第1册1.md	134	145	FORMULA_ENTRY_NOISY	no	inline_formula_id	train	51	doc_type_classification|entry_segmentation
+第1册1-00449	cidian/第1册1.md	3651	3653	MIXED_UNKNOWN	no		train	51	doc_type_classification|entry_segmentation
+第1册2-00001	cidian/第1册2.md	1	8	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	train	30	doc_type_classification|entry_segmentation
+第1册2-00003	cidian/第1册2.md	21	32	FORMULA_ENTRY_FULL	yes		train	30	doc_type_classification|entry_segmentation
+第1册2-00005	cidian/第1册2.md	42	46	FORMULA_ENTRY_REDIRECT	yes		train	30	doc_type_classification|entry_segmentation
+第1册2-00006	cidian/第1册2.md	46	56	FORMULA_ENTRY_NOISY	yes	inline_formula_id	train	30	doc_type_classification|entry_segmentation
+第1册2-00346	cidian/第1册2.md	2723	2723	MIXED_UNKNOWN	no		train	30	doc_type_classification|entry_segmentation
+第1册3-00001	cidian/第1册3.md	1	12	FORMULA_ENTRY_FULL	yes		dev	77	doc_type_classification|entry_segmentation
+第1册3-00002	cidian/第1册3.md	12	20	FORMULA_ENTRY_NOISY	yes	markdown_field_heading|inline_formula_id	dev	77	doc_type_classification|entry_segmentation
+第1册3-00004	cidian/第1册3.md	30	34	FORMULA_ENTRY_REDIRECT	yes		dev	77	doc_type_classification|entry_segmentation
+第1册3-00038	cidian/第1册3.md	286	296	FORMULA_ENTRY_NOISY	yes	inline_formula_id	dev	77	doc_type_classification|entry_segmentation
+第1册3-00330	cidian/第1册3.md	2679	2683	MIXED_UNKNOWN	yes		dev	77	doc_type_classification|entry_segmentation
+第1册4-00001	cidian/第1册4.md	6	14	FORMULA_ENTRY_FULL	yes		train	57	doc_type_classification|entry_segmentation
+第1册4-00002	cidian/第1册4.md	14	38	FORMULA_ENTRY_NOISY	yes	markdown_field_heading|inline_formula_id	train	57	doc_type_classification|entry_segmentation
+第1册4-00003	cidian/第1册4.md	39	41	FORMULA_ENTRY_REDIRECT	no		train	57	doc_type_classification|entry_segmentation
+第1册4-00005	cidian/第1册4.md	48	58	FORMULA_ENTRY_NOISY	yes	inline_formula_id	train	57	doc_type_classification|entry_segmentation
+第1册4-01163	cidian/第1册4.md	9416	9417	MIXED_UNKNOWN	yes		train	57	doc_type_classification|entry_segmentation
+第1册5-00001	cidian/第1册5.md	3	9	FORMULA_ENTRY_FULL	no		train	11	doc_type_classification|entry_segmentation
+第1册5-00002	cidian/第1册5.md	9	16	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	train	11	doc_type_classification|entry_segmentation
+第1册5-00010	cidian/第1册5.md	78	82	FORMULA_ENTRY_REDIRECT	yes	inline_formula_id	train	11	doc_type_classification|entry_segmentation
+第1册5-00014	cidian/第1册5.md	104	110	FORMULA_ENTRY_NOISY	yes	inline_formula_id	train	11	doc_type_classification|entry_segmentation
+第1册5-00224	cidian/第1册5.md	1888	1890	MIXED_UNKNOWN	yes		train	11	doc_type_classification|entry_segmentation
+第1册6-00001	cidian/第1册6.md	20	30	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	train	58	doc_type_classification|entry_segmentation
+第1册6-00002	cidian/第1册6.md	30	38	FORMULA_ENTRY_FULL	yes		train	58	doc_type_classification|entry_segmentation
+第1册6-00003	cidian/第1册6.md	38	50	FORMULA_ENTRY_NOISY	no	inline_formula_id	train	58	doc_type_classification|entry_segmentation
+第1册6-00015	cidian/第1册6.md	140	144	FORMULA_ENTRY_REDIRECT	yes	inline_formula_id	train	58	doc_type_classification|entry_segmentation
+第2册1-00001	cidian/第2册1.md	5	15	FORMULA_ENTRY_FULL	yes		test	92	doc_type_classification|entry_segmentation
+第2册1-00002	cidian/第2册1.md	15	19	FORMULA_ENTRY_REDIRECT	yes	inline_formula_id	test	92	doc_type_classification|entry_segmentation
+第2册1-00003	cidian/第2册1.md	19	29	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	test	92	doc_type_classification|entry_segmentation
+第2册1-00059	cidian/第2册1.md	449	457	FORMULA_ENTRY_NOISY	yes	inline_formula_id	test	92	doc_type_classification|entry_segmentation
+第2册1-00291	cidian/第2册1.md	2378	2379	MIXED_UNKNOWN	no		test	92	doc_type_classification|entry_segmentation
+第2册2-00001	cidian/第2册2.md	29	37	FORMULA_ENTRY_FULL	no		train	65	doc_type_classification|entry_segmentation
+第2册2-00007	cidian/第2册2.md	79	81	FORMULA_ENTRY_REDIRECT	no		train	65	doc_type_classification|entry_segmentation
+第2册2-00010	cidian/第2册2.md	99	108	FORMULA_ENTRY_NOISY	no	markdown_field_heading	train	65	doc_type_classification|entry_segmentation
+第2册2-00041	cidian/第2册2.md	297	306	FORMULA_ENTRY_NOISY	no	inline_formula_id	train	65	doc_type_classification|entry_segmentation
+第2册2-01152	cidian/第2册2.md	9506	9508	MIXED_UNKNOWN	yes		train	65	doc_type_classification|entry_segmentation
+第2册3-00001	cidian/第2册3.md	7	9	FORMULA_ENTRY_REDIRECT	no		train	17	doc_type_classification|entry_segmentation
+第2册3-00002	cidian/第2册3.md	9	22	FORMULA_ENTRY_FULL	no		train	17	doc_type_classification|entry_segmentation
+第2册3-00004	cidian/第2册3.md	29	42	FORMULA_ENTRY_NOISY	no	markdown_field_heading	train	17	doc_type_classification|entry_segmentation
+第2册3-00008	cidian/第2册3.md	68	76	FORMULA_ENTRY_NOISY	yes	inline_formula_id	train	17	doc_type_classification|entry_segmentation
+第2册3-00613	cidian/第2册3.md	4910	4913	MIXED_UNKNOWN	no		train	17	doc_type_classification|entry_segmentation
+第2册4-00001	cidian/第2册4.md	14	22	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	train	9	doc_type_classification|entry_segmentation
+第2册4-00002	cidian/第2册4.md	22	26	FORMULA_ENTRY_REDIRECT	yes		train	9	doc_type_classification|entry_segmentation
+第2册4-00005	cidian/第2册4.md	39	45	FORMULA_ENTRY_FULL	no		train	9	doc_type_classification|entry_segmentation
+第2册4-00049	cidian/第2册4.md	382	392	FORMULA_ENTRY_NOISY	yes	inline_formula_id	train	9	doc_type_classification|entry_segmentation
+第2册4-00150	cidian/第2册4.md	1237	1243	FORMULA_ENTRY_NOISY	no	html_contamination	train	9	doc_type_classification|entry_segmentation
+第2册4-00151	cidian/第2册4.md	1243	1243	MIXED_UNKNOWN	no		train	9	doc_type_classification|entry_segmentation
+第2册5-00001	cidian/第2册5.md	10	18	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	train	48	doc_type_classification|entry_segmentation
+第2册5-00002	cidian/第2册5.md	18	24	FORMULA_ENTRY_FULL	yes		train	48	doc_type_classification|entry_segmentation
+第2册5-00012	cidian/第2册5.md	90	96	FORMULA_ENTRY_NOISY	yes	inline_formula_id	train	48	doc_type_classification|entry_segmentation
+第2册5-00051	cidian/第2册5.md	407	411	FORMULA_ENTRY_REDIRECT	yes	inline_formula_id	train	48	doc_type_classification|entry_segmentation
+第2册5-00374	cidian/第2册5.md	3011	3013	MIXED_UNKNOWN	yes		train	48	doc_type_classification|entry_segmentation
+第2册6-00001	cidian/第2册6.md	3	5	FORMULA_ENTRY_REDIRECT	no		train	47	doc_type_classification|entry_segmentation
+第2册6-00002	cidian/第2册6.md	5	22	FORMULA_ENTRY_NOISY	no	markdown_field_heading	train	47	doc_type_classification|entry_segmentation
+第2册6-00004	cidian/第2册6.md	25	34	FORMULA_ENTRY_NOISY	no	inline_formula_id	train	47	doc_type_classification|entry_segmentation
+第2册6-00007	cidian/第2册6.md	43	49	FORMULA_ENTRY_FULL	no		train	47	doc_type_classification|entry_segmentation
+第2册6-00080	cidian/第2册6.md	674	683	FORMULA_ENTRY_NOISY	yes	image_contamination	train	47	doc_type_classification|entry_segmentation
+第3册1-00001	cidian/第3册1.md	5	15	FORMULA_ENTRY_FULL	no		test	94	doc_type_classification|entry_segmentation
+第3册1-00003	cidian/第3册1.md	21	42	FORMULA_ENTRY_NOISY	no	inline_formula_id	test	94	doc_type_classification|entry_segmentation
+第3册1-00005	cidian/第3册1.md	55	59	FORMULA_ENTRY_REDIRECT	no		test	94	doc_type_classification|entry_segmentation
+第3册1-00923	cidian/第3册1.md	7581	7582	MIXED_UNKNOWN	yes		test	94	doc_type_classification|entry_segmentation
+第3册2-00001	cidian/第3册2.md	22	26	FORMULA_ENTRY_REDIRECT	yes	inline_formula_id	train	36	doc_type_classification|entry_segmentation
+第3册2-00002	cidian/第3册2.md	26	34	FORMULA_ENTRY_NOISY	yes	inline_formula_id	train	36	doc_type_classification|entry_segmentation
+第3册2-00003	cidian/第3册2.md	34	42	FORMULA_ENTRY_FULL	yes		train	36	doc_type_classification|entry_segmentation
+第3册2-01516	cidian/第3册2.md	11913	11923	FORMULA_ENTRY_NOISY	yes	markdown_field_heading|inline_formula_id	train	36	doc_type_classification|entry_segmentation
+第3册2-01932	cidian/第3册2.md	15215	15219	MIXED_UNKNOWN	yes		train	36	doc_type_classification|entry_segmentation
+第3册3-00001	cidian/第3册3.md	8	18	FORMULA_ENTRY_FULL	yes		test	92	doc_type_classification|entry_segmentation
+第3册3-00002	cidian/第3册3.md	18	26	FORMULA_ENTRY_NOISY	yes	inline_formula_id	test	92	doc_type_classification|entry_segmentation
+第3册3-00014	cidian/第3册3.md	124	128	FORMULA_ENTRY_REDIRECT	yes	inline_formula_id	test	92	doc_type_classification|entry_segmentation
+第3册4-00001	cidian/第3册4.md	1	8	FORMULA_ENTRY_NOISY	yes	inline_formula_id	train	46	doc_type_classification|entry_segmentation
+第3册4-00004	cidian/第3册4.md	24	32	FORMULA_ENTRY_FULL	yes		train	46	doc_type_classification|entry_segmentation
+第3册4-00043	cidian/第3册4.md	359	362	FORMULA_ENTRY_REDIRECT	yes		train	46	doc_type_classification|entry_segmentation
+第3册4-00088	cidian/第3册4.md	737	741	MIXED_UNKNOWN	no		train	46	doc_type_classification|entry_segmentation
+第3册5-00001	cidian/第3册5.md	6	10	FORMULA_ENTRY_REDIRECT	yes		test	92	doc_type_classification|entry_segmentation
+第3册5-00003	cidian/第3册5.md	14	20	FORMULA_ENTRY_FULL	yes		test	92	doc_type_classification|entry_segmentation
+第3册5-00033	cidian/第3册5.md	257	282	FORMULA_ENTRY_NOISY	no	inline_formula_id	test	92	doc_type_classification|entry_segmentation
+第3册5-00988	cidian/第3册5.md	8305	8310	MIXED_UNKNOWN	yes		test	92	doc_type_classification|entry_segmentation
+第3册6-00001	cidian/第3册6.md	14	22	FORMULA_ENTRY_FULL	yes		train	3	doc_type_classification|entry_segmentation
+第3册6-00007	cidian/第3册6.md	74	84	FORMULA_ENTRY_NOISY	yes	inline_formula_id	train	3	doc_type_classification|entry_segmentation
+第3册6-00008	cidian/第3册6.md	84	88	FORMULA_ENTRY_REDIRECT	yes	inline_formula_id	train	3	doc_type_classification|entry_segmentation
+第4册1-00001	cidian/第4册1.md	7	13	FORMULA_ENTRY_FULL	no		train	34	doc_type_classification|entry_segmentation
+第4册1-00004	cidian/第4册1.md	29	35	FORMULA_ENTRY_NOISY	no	markdown_field_heading	train	34	doc_type_classification|entry_segmentation
+第4册1-00006	cidian/第4册1.md	44	48	FORMULA_ENTRY_REDIRECT	yes	inline_formula_id	train	34	doc_type_classification|entry_segmentation
+第4册1-00007	cidian/第4册1.md	48	54	FORMULA_ENTRY_NOISY	yes	inline_formula_id	train	34	doc_type_classification|entry_segmentation
+第4册1-00027	cidian/第4册1.md	214	216	MIXED_UNKNOWN	yes		train	34	doc_type_classification|entry_segmentation
+第4册2-00001	cidian/第4册2.md	2	10	FORMULA_ENTRY_FULL	yes		dev	82	doc_type_classification|entry_segmentation
+第4册2-00003	cidian/第4册2.md	20	22	MIXED_UNKNOWN	yes		dev	82	doc_type_classification|entry_segmentation
+第4册2-00004	cidian/第4册2.md	22	32	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	dev	82	doc_type_classification|entry_segmentation
+第4册2-00006	cidian/第4册2.md	34	36	FORMULA_ENTRY_NOISY	yes	inline_formula_id	dev	82	doc_type_classification|entry_segmentation
+第4册2-00014	cidian/第4册2.md	110	114	FORMULA_ENTRY_REDIRECT	yes		dev	82	doc_type_classification|entry_segmentation
+第4册3-00002	cidian/第4册3.md	14	22	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	dev	83	doc_type_classification|entry_segmentation
+第4册3-00080	cidian/第4册3.md	674	676	MIXED_UNKNOWN	yes		dev	83	doc_type_classification|entry_segmentation
+第4册4-00010	cidian/第4册4.md	78	88	FORMULA_ENTRY_NOISY	yes	markdown_field_heading|inline_formula_id	train	33	doc_type_classification|entry_segmentation
+第4册4-00173	cidian/第4册4.md	1387	1387	MIXED_UNKNOWN	no		train	33	doc_type_classification|entry_segmentation
+第4册5-00002	cidian/第4册5.md	18	28	FORMULA_ENTRY_NOISY	yes	markdown_field_heading|inline_formula_id	test	99	doc_type_classification|entry_segmentation
+第4册5-00485	cidian/第4册5.md	4045	4045	MIXED_UNKNOWN	no		test	99	doc_type_classification|entry_segmentation
+第4册5-01896	cidian/第4册5.md	14845	14862	FORMULA_ENTRY_NOISY	yes	image_contamination	test	99	doc_type_classification|entry_segmentation
+第5册1-00002	cidian/第5册1.md	14	28	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	train	56	doc_type_classification|entry_segmentation
+第5册1-00560	cidian/第5册1.md	4518	4522	MIXED_UNKNOWN	yes		train	56	doc_type_classification|entry_segmentation
+第5册2-00030	cidian/第5册2.md	266	274	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	train	58	doc_type_classification|entry_segmentation
+第7册6-00062	cidian/第7册6.md	482	495	FORMULA_ENTRY_NOISY	yes	image_contamination	train	33	doc_type_classification|entry_segmentation

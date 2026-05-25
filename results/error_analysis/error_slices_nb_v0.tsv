@@ -1,0 +1,7 @@
+task_id	model_id	label_column	slice_key	slice_value	n_labeled	accuracy	no_precision	no_recall	no_f1	tp_no	fp_no	fn_no
+entry_segmentation	nb_char3_v0	boundary_ok_gold	noise_flags	(none)	49	0.6735	0.5000	0.1250	0.2000	2	2	14
+entry_segmentation	nb_char3_v0	boundary_ok_gold	noise_flags	markdown_field_heading	39	0.5641	0.5000	0.0588	0.1053	1	1	16
+entry_segmentation	nb_char3_v0	boundary_ok_gold	noise_flags	inline_formula_id	28	0.8214	0.0000	0.0000	0.0000	0	0	5
+entry_segmentation	nb_char3_v0	boundary_ok_gold	noise_flags	markdown_field_heading|inline_formula_id	5	1.0000	0.0000	0.0000	0.0000	0	0	0
+entry_segmentation	nb_char3_v0	boundary_ok_gold	noise_flags	image_contamination	2	1.0000	0.0000	0.0000	0.0000	0	0	0
+entry_segmentation	nb_char3_v0	boundary_ok_gold	noise_flags	html_contamination	1	1.0000	1.0000	1.0000	1.0000	1	0	0

@@ -1,0 +1,9 @@
+task_id	model_id	split	label_column	n_labeled	accuracy	no_precision	no_recall	no_f1	tp_no	fp_no	fn_no	notes
+entry_segmentation	baseline_inline_formula_id	train	boundary_ok_gold	93	0.4516	0.1304	0.0882	0.1053	3	20	31	no treated as positive class
+entry_segmentation	baseline_inline_formula_id	dev	boundary_ok_gold	12	0.7500	0.0000	0.0000	0.0000	0	3	0	no treated as positive class
+entry_segmentation	baseline_inline_formula_id	test	boundary_ok_gold	19	0.5789	0.2857	0.4000	0.3333	2	5	3	no treated as positive class
+entry_segmentation	baseline_inline_formula_id	all	boundary_ok_gold	124	0.5000	0.1515	0.1282	0.1389	5	28	34	no treated as positive class
+entry_segmentation	rule_md_span_v1	train	boundary_ok_gold	93	0.9570	1.0000	0.8824	0.9375	30	0	4	no treated as positive class
+entry_segmentation	rule_md_span_v1	dev	boundary_ok_gold	12	1.0000	0.0000	0.0000	0.0000	0	0	0	no treated as positive class
+entry_segmentation	rule_md_span_v1	test	boundary_ok_gold	19	1.0000	1.0000	1.0000	1.0000	5	0	0	no treated as positive class
+entry_segmentation	rule_md_span_v1	all	boundary_ok_gold	124	0.9677	1.0000	0.8974	0.9459	35	0	4	no treated as positive class

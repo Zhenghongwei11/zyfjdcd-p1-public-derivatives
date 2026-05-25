@@ -1,0 +1,14 @@
+{
+  "input": "/Users/simanan/Desktop/zyfjdcd/data/structured/formulas_v14.jsonl",
+  "counts": {
+    "records": 97527,
+    "issue_heading_but_empty": 2
+  },
+  "by_field": {
+    "组成": {
+      "heading_but_empty": 2
+    }
+  },
+  "issues_truncated": false,
+  "max_issues": 2000
+}

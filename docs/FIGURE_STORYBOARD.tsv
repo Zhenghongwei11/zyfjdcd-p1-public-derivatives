@@ -1,0 +1,6 @@
+paper_id	figure_id	claim_id	figure_purpose	anchor_tables	notes
+P1	F1	C1	展示版次核验、文件拆分和文档类型版图	results/corpus/corpus_profile.json|results/corpus/source_registry.tsv	主图之一，先让审稿人明白这不是干净现成语料
+P1	F2	C1	展示字段覆盖、OCR噪声与异常概况	results/corpus/corpus_profile.json|results/corpus/source_anomalies.tsv|results/corpus/span_fidelity_summary_v0.json|results/corpus/field_selfcheck_summary_v0.json	突出HTML、误标题、条目粘连；并给出span一致性与字段自检作为质量证据
+P1	F3	C2	展示rights-aware的处理流程与发布分层（私有源文本 vs 派生公开包）	(none)	用流程图让审稿人一眼理解“能复现、但不泄露原文”
+P1	F4	C2	展示benchmark构成、split策略与困难层占比	data/benchmarks/items_gold_v2.tsv	显式展示 split 分布与噪声标记占比（困难层 proxy）
+P1	F5	C3	展示baseline性能、字段鲁棒性与error slices	results/benchmarks/task_eval_models.tsv|results/error_analysis/error_slices_models.tsv|results/manuscript/table5_field_robustness_all.tsv	不能只给一个总分；同时展示困难层切片与字段抽取鲁棒性差异

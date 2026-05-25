@@ -1,0 +1,7 @@
+task_id	model_id	slice_key	slice_value	n_labeled	accuracy	no_precision	no_recall	no_f1	tp_no	fp_no	fn_no
+entry_segmentation	baseline_inline_formula_id	noise_flags	(none)	52	0.6154	0.0000	0.0000	0.0000	0	0	20
+entry_segmentation	baseline_inline_formula_id	noise_flags	inline_formula_id	28	0.2143	0.2143	1.0000	0.3529	6	22	0
+entry_segmentation	baseline_inline_formula_id	noise_flags	markdown_field_heading	15	0.6667	0.0000	0.0000	0.0000	0	0	5
+entry_segmentation	baseline_inline_formula_id	noise_flags	markdown_field_heading|inline_formula_id	5	0.0000	0.0000	0.0000	0.0000	0	5	0
+entry_segmentation	baseline_inline_formula_id	noise_flags	image_contamination	3	1.0000	0.0000	0.0000	0.0000	0	0	0
+entry_segmentation	baseline_inline_formula_id	noise_flags	html_contamination	1	0.0000	0.0000	0.0000	0.0000	0	0	1

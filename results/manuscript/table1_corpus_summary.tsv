@@ -1,0 +1,15 @@
+key	value
+corpus_root_label	cidian
+n_files_md	48
+n_lines	759186
+n_characters	16640727
+html_blocks	181
+image_links	10
+suspicious_joined_entries	18179
+suspicious_field_heading_noise	24239
+parsed_records_total	97527
+doc_type_full	62778
+doc_type_noisy	21821
+doc_type_redirect	11803
+doc_type_index_like	683
+doc_type_mixed_unknown	442

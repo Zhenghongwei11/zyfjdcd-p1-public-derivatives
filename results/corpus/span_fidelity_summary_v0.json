@@ -1,0 +1,10 @@
+{
+  "input": "/Users/simanan/Desktop/zyfjdcd/data/structured/formulas_v14.jsonl",
+  "root": "/Users/simanan/Desktop/zyfjdcd",
+  "counts": {
+    "records": 97527,
+    "ok": 97527
+  },
+  "issues_truncated": false,
+  "max_issues": 2000
+}

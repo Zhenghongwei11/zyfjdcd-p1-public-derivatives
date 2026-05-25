@@ -1,0 +1,13 @@
+task_id	model_id	label_column	slice_key	slice_value	n_labeled	accuracy	no_precision	no_recall	no_f1	tp_no	fp_no	fn_no
+entry_segmentation_consensus	baseline_inline_formula_id	boundary_ok_consensus_agree	noise_flags	(none)	56224	0.9959	0.0000	0.0000	0.0000	0	0	230
+entry_segmentation_consensus	nb_char3_consensus_v1	boundary_ok_consensus_agree	noise_flags	(none)	56224	0.9586	0.0432	0.4304	0.0785	99	2194	131
+entry_segmentation_consensus	rule_id_count_v0	boundary_ok_consensus_agree	noise_flags	(none)	56224	0.9958	0.0000	0.0000	0.0000	0	8	230
+entry_segmentation_consensus	baseline_inline_formula_id	boundary_ok_consensus_agree	noise_flags	markdown_field_heading	15726	0.9847	0.0000	0.0000	0.0000	0	0	241
+entry_segmentation_consensus	nb_char3_consensus_v1	boundary_ok_consensus_agree	noise_flags	markdown_field_heading	15726	0.9412	0.1167	0.4315	0.1837	104	787	137
+entry_segmentation_consensus	rule_id_count_v0	boundary_ok_consensus_agree	noise_flags	markdown_field_heading	15726	0.9846	0.0000	0.0000	0.0000	0	1	241
+entry_segmentation_consensus	baseline_inline_formula_id	boundary_ok_consensus_agree	noise_flags	image_contamination	8	1.0000	0.0000	0.0000	0.0000	0	0	0
+entry_segmentation_consensus	nb_char3_consensus_v1	boundary_ok_consensus_agree	noise_flags	image_contamination	8	0.8750	0.0000	0.0000	0.0000	0	1	0
+entry_segmentation_consensus	rule_id_count_v0	boundary_ok_consensus_agree	noise_flags	image_contamination	8	0.3750	0.0000	0.0000	0.0000	0	5	0
+entry_segmentation_consensus	baseline_inline_formula_id	boundary_ok_consensus_agree	noise_flags	html_contamination	1	1.0000	0.0000	0.0000	0.0000	0	0	0
+entry_segmentation_consensus	nb_char3_consensus_v1	boundary_ok_consensus_agree	noise_flags	html_contamination	1	0.0000	0.0000	0.0000	0.0000	0	1	0
+entry_segmentation_consensus	rule_id_count_v0	boundary_ok_consensus_agree	noise_flags	html_contamination	1	1.0000	0.0000	0.0000	0.0000	0	0	0

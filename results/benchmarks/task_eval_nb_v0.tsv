@@ -1,0 +1,5 @@
+task_id	model_id	split	label_column	n_labeled	accuracy	no_precision	no_recall	no_f1	tp_no	fp_no	fn_no	notes
+entry_segmentation	nb_char3_v0	train	boundary_ok_gold	93	0.6452	0.5714	0.1176	0.1951	4	3	30	char_3gram_nb trained on consensus(train) only; no treated as positive class
+entry_segmentation	nb_char3_v0	dev	boundary_ok_gold	12	1.0000	0.0000	0.0000	0.0000	0	0	0	char_3gram_nb trained on consensus(train) only; no treated as positive class
+entry_segmentation	nb_char3_v0	test	boundary_ok_gold	19	0.7368	0.0000	0.0000	0.0000	0	0	5	char_3gram_nb trained on consensus(train) only; no treated as positive class
+entry_segmentation	nb_char3_v0	all	boundary_ok_gold	124	0.6935	0.5714	0.1026	0.1739	4	3	35	char_3gram_nb trained on consensus(train) only; no treated as positive class

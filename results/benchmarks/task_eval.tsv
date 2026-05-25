@@ -1,0 +1,4 @@
+task_id	model_id	split	n_labeled	accuracy	no_precision	no_recall	no_f1	tp_no	fp_no	fn_no	notes
+entry_segmentation	baseline_inline_formula_id	train	73	0.4384	0.1739	0.1538	0.1633	4	19	22	Silver labels = boundary_ok_label in {yes,no} (auto-labeled from md span); baseline predicts no if inline_formula_id else yes.
+entry_segmentation	baseline_inline_formula_id	dev	12	0.7500	0.0000	0.0000	0.0000	0	3	0	Silver labels = boundary_ok_label in {yes,no} (auto-labeled from md span); baseline predicts no if inline_formula_id else yes.
+entry_segmentation	baseline_inline_formula_id	test	19	0.5263	0.2857	0.3333	0.3077	2	5	4	Silver labels = boundary_ok_label in {yes,no} (auto-labeled from md span); baseline predicts no if inline_formula_id else yes.

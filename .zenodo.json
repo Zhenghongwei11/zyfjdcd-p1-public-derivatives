@@ -1,0 +1,28 @@
+{
+  "title": "ZYFJDCD P1 Derived-Only Reproducibility Pack",
+  "upload_type": "dataset",
+  "description": "<p>Derived-only reproducibility pack for an OCR-derived corpus from the 2nd edition of <em>Zhongyi Fangji Da Cidian</em>. The archive contains benchmark indices, evaluation tables, figure assets, provenance mappings, and public-safe verification scripts. It does not redistribute the full OCR-derived book text.</p>",
+  "creators": [
+    {
+      "name": "Zheng, Hongwei",
+      "affiliation": "School of Medicine, Quanzhou Medical College, Quanzhou, Fujian, China",
+      "orcid": ""
+    },
+    {
+      "name": "Chen, Wenbiao",
+      "affiliation": "School of Medicine, Quanzhou Medical College, Quanzhou, Fujian, China",
+      "orcid": ""
+    }
+  ],
+  "keywords": [
+    "Traditional Chinese Medicine",
+    "OCR",
+    "benchmark",
+    "reproducibility",
+    "information extraction"
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "version": "v1",
+  "notes": "Rights-sensitive OCR-derived full text is excluded by design. A stable public repository URL and DOI are assigned at the final external deposit step."
+}

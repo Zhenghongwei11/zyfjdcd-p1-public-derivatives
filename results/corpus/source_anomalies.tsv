@@ -1,0 +1,49 @@
+source_file	lines	html_blocks	image_links	suspicious_entry_join	suspicious_field_heading	priority_review	notes
+第1册5.md	20649	0	0	772	629	yes	joined_entries;field_heading_noise
+第3册5.md	17336	0	0	740	0	yes	joined_entries
+第1册2.md	20718	0	0	734	585	yes	joined_entries;field_heading_noise
+第3册2.md	18074	0	0	721	3	yes	joined_entries
+第1册3.md	20632	0	0	692	638	yes	joined_entries;field_heading_noise
+第3册4.md	17923	0	0	664	0	yes	joined_entries
+第1册4.md	18813	0	0	645	539	yes	joined_entries;field_heading_noise
+第2册4.md	20936	1	0	642	728	yes	html;joined_entries;field_heading_noise
+第3册6.md	16693	0	1	576	0	yes	image;joined_entries
+第2册5.md	20985	0	1	572	733	yes	image;joined_entries;field_heading_noise
+第7册4.md	20679	0	0	526	893	yes	joined_entries;field_heading_noise
+第2册3.md	21253	0	0	514	815	yes	joined_entries;field_heading_noise
+第7册3.md	20933	0	0	502	877	yes	joined_entries;field_heading_noise
+第7册5.md	21092	0	0	481	851	yes	joined_entries;field_heading_noise
+第3册1.md	7582	0	0	478	0	yes	joined_entries
+第5册4.md	23041	0	0	463	648	yes	joined_entries;field_heading_noise
+第5册2.md	21964	0	0	463	579	yes	joined_entries;field_heading_noise
+第3册3.md	18742	0	0	455	0	yes	joined_entries
+第2册2.md	21506	0	0	452	836	yes	joined_entries;field_heading_noise
+第5册5.md	22370	0	0	444	538	yes	joined_entries;field_heading_noise
+第5册3.md	21319	0	0	443	687	yes	joined_entries;field_heading_noise
+第4册4.md	20724	0	0	432	946	yes	joined_entries;field_heading_noise
+第6册4.md	21402	0	0	427	565	yes	joined_entries;field_heading_noise
+第7册2.md	21167	0	0	426	922	yes	joined_entries;field_heading_noise
+第4册2.md	21403	0	0	389	1074	yes	joined_entries;field_heading_noise
+第4册3.md	21314	0	0	388	970	yes	joined_entries;field_heading_noise
+第6册2.md	21409	0	0	375	666	yes	joined_entries;field_heading_noise
+第1册1.md	9927	0	0	367	370	yes	joined_entries
+第8册4.md	19266	0	0	341	803	yes	joined_entries;field_heading_noise
+第6册5.md	21189	0	0	323	657	yes	joined_entries;field_heading_noise
+第6册3.md	21130	0	0	303	707	yes	joined_entries;field_heading_noise
+第8册3.md	19279	0	1	281	870	yes	image;joined_entries;field_heading_noise
+第8册5.md	18047	0	0	272	652	yes	joined_entries;field_heading_noise
+第4册5.md	14862	0	1	269	712	yes	image;joined_entries;field_heading_noise
+第8册2.md	19418	0	0	255	854	yes	joined_entries;field_heading_noise
+第6册6.md	8242	0	1	126	278	yes	image
+第8册1.md	10284	0	0	114	514	yes	field_heading_noise
+第1册6.md	988	0	1	25	23	yes	image
+第2册6.md	683	0	1	17	16	yes	image
+第8册6.md	447	0	1	12	16	yes	image
+第7册6.md	495	0	1	10	28	yes	image
+第9册.md	1340	180	1	0	0	yes	html;image
+第2册1.md	10748	0	0	215	436	no	
+第7册1.md	9390	0	0	210	459	no	
+第4册1.md	9359	0	0	207	409	no	
+第6册1.md	11064	0	0	197	357	no	
+第5册1.md	9670	0	0	178	263	no	
+第5册6.md	2699	0	0	41	93	no	

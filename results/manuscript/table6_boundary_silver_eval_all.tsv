@@ -1,0 +1,4 @@
+task_id	model_id	split	label_column	n_labeled	accuracy	no_precision	no_recall	no_f1	tp_no	fp_no	fn_no	notes
+entry_segmentation_consensus	baseline_inline_formula_id	all	boundary_ok_consensus_agree	71959	0.9935	0.0000	0.0000	0.0000	0	0	471	independent heuristic; no treated as positive class
+entry_segmentation_consensus	rule_id_count_v0	all	boundary_ok_consensus_agree	71959	0.9933	0.0000	0.0000	0.0000	0	14	471	independent heuristic on >=2 distinct 5-digit ids; no treated as positive class
+entry_segmentation_consensus	nb_char3_consensus_v1	all	boundary_ok_consensus_agree	71959	0.9548	0.0637	0.4310	0.1110	203	2983	268	char_3gram_nb trained on consensus-agree(train) only; no treated as positive class

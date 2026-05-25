@@ -1,0 +1,14 @@
+data_id	tier	path_or_source	access	description	checksum_sha256	notes
+ocr_markdown_cidian	T0_PRIVATE_SOURCE	cidian/	not_redistributable_by_default	OCR-derived markdown from the 2nd edition of 《中医方剂大辞典》		Do not publish without explicit rights clearance
+structured_v14_private	T2_PRIVATE_DERIVED	data/structured/formulas_v14.jsonl	private	Structured JSONL with per-entry spans; includes raw_text		Keep private by default (text-reconstructable)
+structured_schema	T3_PUBLIC_DERIVED	data/structured/schema_version.json	public	Schema + version marker for structured artifacts		
+normalized_composition_items_v0	T2_PRIVATE_DERIVED	data/normalized/composition_items_v0.jsonl	private	Derived composition item list; may contain phrase-level content		
+normalized_alias_links_v0	T2_PRIVATE_DERIVED	data/normalized/alias_links_v0.tsv	private	Derived alias/redirect links; contains evidence snippets		
+normalized_clusters_v0	T2_PRIVATE_DERIVED	data/normalized/formula_clusters_v0.tsv	private	Conservative alias clusters (derived); keep private by default		
+normalized_summaries	T3_PUBLIC_DERIVED	results/normalized/	public	Summary JSONs for normalization stages (counts only; no phrase-level text)		
+benchmark_items_v1	T3_PUBLIC_DERIVED	data/benchmarks/items_v1.tsv	public	Benchmark item index (no excerpts; points to source spans)		
+benchmark_items_gold_v2	T3_PUBLIC_DERIVED	data/benchmarks/items_gold_v2.tsv	public	Benchmark items with boundary gold labels (no excerpts)		
+boundary_consensus_v1	T3_PUBLIC_DERIVED	data/benchmarks/boundary_consensus_v1.tsv	public	Consensus-labeled boundary set from two independent rule labelers (agree vs disagree)		
+benchmark_results_tables	T3_PUBLIC_DERIVED	results/benchmarks/	and results/error_analysis/	public	Evaluation tables + split audit + error slices		
+literature_search_logs	T3_PUBLIC_DERIVED	results/literature/	public	Literature search logs used for novelty positioning		
+data_acquisition_note	T3_PUBLIC_DERIVED	docs/DATA_ACQUISITION.md	public	Data acquisition + OCR/PDF-to-Markdown extraction chain (methods text)		

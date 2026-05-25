@@ -1,0 +1,7 @@
+{
+  "schema_version": "0.1.0",
+  "project": "tcm-formula-dictionary-corpus",
+  "source_root": "cidian",
+  "record_unit": "formula-level record",
+  "notes": "Initial schema marker created during corpus-planning phase."
+}

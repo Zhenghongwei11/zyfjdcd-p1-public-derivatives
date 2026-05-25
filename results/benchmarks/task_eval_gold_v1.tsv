@@ -1,0 +1,2 @@
+task_id	model_id	split	n_labeled	accuracy	no_precision	no_recall	no_f1	tp_no	fp_no	fn_no	notes
+entry_segmentation	baseline_inline_formula_id	gold_queue_v1	100	0.5100	0.1515	0.1923	0.1695	5	28	21	missing_manual=0; label_dist={'yes': 74, 'no': 26}

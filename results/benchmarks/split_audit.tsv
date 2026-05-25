@@ -1,0 +1,4 @@
+split	n_items	n_source_files	doc_type_dist	boundary_dist	noise_top5	notes
+train	73	18	FORMULA_ENTRY_NOISY:32|FORMULA_ENTRY_FULL:14|FORMULA_ENTRY_REDIRECT:14|MIXED_UNKNOWN:13	yes:47|no:26	(none):35|inline_formula_id:20|markdown_field_heading:12|markdown_field_heading|inline_formula_id:3|image_contamination:2	input=silver_v4_auto.tsv
+dev	12	3	FORMULA_ENTRY_NOISY:5|MIXED_UNKNOWN:3|FORMULA_ENTRY_FULL:2|FORMULA_ENTRY_REDIRECT:2	yes:12	(none):7|inline_formula_id:2|markdown_field_heading:2|markdown_field_heading|inline_formula_id:1	input=silver_v4_auto.tsv
+test	19	5	FORMULA_ENTRY_NOISY:7|FORMULA_ENTRY_FULL:4|FORMULA_ENTRY_REDIRECT:4|MIXED_UNKNOWN:4	yes:13|no:6	(none):10|inline_formula_id:6|markdown_field_heading:1|markdown_field_heading|inline_formula_id:1|image_contamination:1	input=silver_v4_auto.tsv

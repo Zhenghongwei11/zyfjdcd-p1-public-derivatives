@@ -1,5 +1,5 @@
 data_id	tier	path_or_source	access	description	checksum_sha256	notes
-ocr_markdown_cidian	T0_PRIVATE_SOURCE	cidian/	not_redistributable_by_default	OCR-derived markdown from the 2nd edition of 《中医方剂大辞典》		Do not publish without explicit rights clearance
+ocr_markdown_cidian	T0_PRIVATE_SOURCE	restricted_source/	not_redistributable_by_default	OCR-derived markdown from the 2nd edition of 《中医方剂大辞典》		Do not publish without explicit rights clearance
 structured_v14_private	T2_PRIVATE_DERIVED	data/structured/formulas_v14.jsonl	private	Structured JSONL with per-entry spans; includes raw_text		Keep private by default (text-reconstructable)
 structured_schema	T3_PUBLIC_DERIVED	data/structured/schema_version.json	public	Schema + version marker for structured artifacts		
 normalized_composition_items_v0	T2_PRIVATE_DERIVED	data/normalized/composition_items_v0.jsonl	private	Derived composition item list; may contain phrase-level content		

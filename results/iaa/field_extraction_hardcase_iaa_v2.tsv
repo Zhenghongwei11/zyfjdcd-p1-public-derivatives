@@ -1,0 +1,2 @@
+task_id	n_joint	agreement	cohen_kappa	n_disagreements	n_missing_a	n_missing_b	n_invalid_a	n_invalid_b
+field_extraction_hardcase	240	1.0000	1.0000	0	0	0	0	0

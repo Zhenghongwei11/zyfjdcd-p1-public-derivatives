@@ -1,0 +1,41 @@
+{
+  "gold_rows": 240,
+  "iaa": {
+    "task_id": "field_extraction_hardcase",
+    "n_joint": "240",
+    "agreement": "1.0000",
+    "cohen_kappa": "1.0000",
+    "n_disagreements": "0",
+    "n_missing_a": "0",
+    "n_missing_b": "0",
+    "n_invalid_a": "0",
+    "n_invalid_b": "0"
+  },
+  "review_status_counts": {
+    "accepted_as_is": 227,
+    "corrected": 11,
+    "cleared_empty": 2
+  },
+  "per_field_status_counts": {
+    "主治": {
+      "accepted_as_is": 57,
+      "cleared_empty": 2,
+      "corrected": 1
+    },
+    "功用": {
+      "corrected": 3,
+      "accepted_as_is": 57
+    },
+    "用法": {
+      "accepted_as_is": 53,
+      "corrected": 7
+    },
+    "组成": {
+      "accepted_as_is": 60
+    }
+  },
+  "gold_protocol": "dual_review_adjudicated_hardcase_v2",
+  "gold_release_tier": "T1_RESTRICTED_FIELD_VALUES",
+  "notes": "This slice contains phrase-level field values and is not part of the public derived-only release.",
+  "access_note": "Phrase-level field values are restricted; this public summary reports counts and agreement metrics only."
+}

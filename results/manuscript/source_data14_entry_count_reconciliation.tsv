@@ -1,0 +1,14 @@
+Metric	Value	Notes
+Printed formula entries (reported in reference work)	99584	Bibliographic/printed-work statement; not expected to match OCR-derived segmentation 1:1
+Parsed records (total)	97527	All OCR-derived segments retained as records (entry + redirect + index/mixed)
+Difference (printed − parsed records)	2057	Net gap influenced by OCR boundary merges, parsing/eligibility policy, and OCR conversion artifacts
+Parsed doc type: clean entry records (FORMULA_ENTRY_FULL)	62778	Entry-text records with canonical headings
+Parsed doc type: noisy entry records (FORMULA_ENTRY_NOISY)	21821	Entry-text records with non-canonical heading noise (e.g., markdown field heading)
+Parsed doc type: redirect-like records (FORMULA_ENTRY_REDIRECT)	11803	Alias/redirect pointers; not full entry text
+Parsed doc type: TOC/index records (TOC_INDEX)	683	Index-like content retained as records
+Parsed doc type: mixed/unknown records (MIXED_UNKNOWN)	442	Residual heterogeneous segments retained to avoid silent filtering
+Entry-text records (FULL + NOISY)	84599	Primary extraction substrate for structuring/evaluation
+Entry-like records (FULL + NOISY + REDIRECT)	96402	Closer to “entry universe” but still not identical to printed entry definition
+Non-entry records (TOC_INDEX + MIXED_UNKNOWN)	1125	Explicitly retained as first-class records rather than filtered out
+Skipped non-entry spans (not materialized as records)	4542	Parser-level skips for non-entry spans during segmentation (see parse summary v14)
+Joined-entry signal occurrences (corpus-level diagnostic)	18179	Heuristic count used in Table 1 (“Suspicious joined entries”); diagnostic indicator, not a gold merge count

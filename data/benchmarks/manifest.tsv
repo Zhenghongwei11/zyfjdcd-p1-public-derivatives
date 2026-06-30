@@ -4,6 +4,6 @@ entry_segmentation	internal_prototype	T3_PUBLIC_DERIVED	results/corpus/source_re
 entry_segmentation_consensus	internal_prototype	T3_PUBLIC_DERIVED	data/structured/formulas_v14.jsonl	available	boundary_consensus_v1 built from two independent rule labelers; provides agree vs disagree subsets
 field_extraction_presence	internal_prototype	T3_PUBLIC_DERIVED	results/corpus/source_registry.tsv	available	field_presence_eval.tsv computed on items_gold_v2 spans (truth=relaxed heading presence; compares strict vs relaxed heading parsing)
 field_extraction_value	internal_prototype	T3_PUBLIC_DERIVED	data/structured/formulas_v14.jsonl	available	field_value_eval.tsv computed on structured raw_text (truth=relaxed heading-based value parse; compares strict vs relaxed)
-field_extraction	internal_prototype	T3_PUBLIC_DERIVED	results/corpus/source_registry.tsv;data/structured/schema_version.json	available_partial	field_hardcase_gold_v1.tsv provides a 240-row human-reviewed hard-case slice (single-review; not dual-annotated adjudicated gold)
+field_extraction	internal_prototype	T1_RESTRICTED_FIELD_VALUES	results/corpus/source_registry.tsv;data/structured/schema_version.json	available_partial	240-row dual-reviewed hard-case field slice available under restricted access; phrase-level values are not public
 herb_normalization	planned	T3_PUBLIC_DERIVED	data/structured/schema_version.json	planned	await composition normalization gold
 alias_resolution	planned	T3_PUBLIC_DERIVED	results/corpus/source_registry.tsv	planned	await alias clusters/pairs gold

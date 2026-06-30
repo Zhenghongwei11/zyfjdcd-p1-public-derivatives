@@ -1,18 +1,18 @@
 {
-  "input": "/Users/simanan/Desktop/zyfjdcd/data/structured/formulas_v14.jsonl",
-  "out_links_tsv": "/Users/simanan/Desktop/zyfjdcd/data/normalized/alias_links_v0.tsv",
-  "out_clusters_tsv": "/Users/simanan/Desktop/zyfjdcd/data/normalized/formula_clusters_v0.tsv",
+  "input": "data/structured/formulas_v14.jsonl",
+  "out_links_tsv": "data/normalized/alias_links_v0.tsv",
+  "out_clusters_tsv": "data/normalized/formula_clusters_v0.tsv",
   "summary": {
     "records_with_alias_field": 7479,
     "alias_names_total": 10376,
-    "links_ambiguous_multi_target": 12253,
-    "redirect_records": 11610,
+    "links_ambiguous_multi_target": 12257,
+    "redirect_records": 11803,
     "redirect_targets_total": 11386,
-    "links_resolved_unique": 8204,
-    "links_unresolved_missing_target": 1305,
-    "clusters_singleton": 86084,
-    "clusters_multi": 4851,
-    "cluster_members_total_in_multi": 11418
+    "links_resolved_unique": 8209,
+    "links_unresolved_missing_target": 1296,
+    "clusters_singleton": 86096,
+    "clusters_multi": 4859,
+    "cluster_members_total_in_multi": 11431
   },
   "notes": "Conservative clustering: only merges when alias/redirect target name resolves uniquely to one headword in corpus. Does NOT merge purely by same name."
 }

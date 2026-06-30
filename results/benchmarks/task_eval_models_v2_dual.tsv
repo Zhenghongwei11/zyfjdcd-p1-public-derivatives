@@ -1,0 +1,13 @@
+task_id	model_id	split	label_column	n_labeled	accuracy	no_precision	no_recall	no_f1	tp_no	fp_no	fn_no	notes
+entry_segmentation	baseline_inline_formula_id	train	boundary_ok_gold	196	0.6020	0.1739	0.0635	0.0930	4	19	59	no treated as positive class
+entry_segmentation	baseline_inline_formula_id	dev	boundary_ok_gold	49	0.8367	0.0000	0.0000	0.0000	0	3	5	no treated as positive class
+entry_segmentation	baseline_inline_formula_id	test	boundary_ok_gold	55	0.7273	0.2857	0.1667	0.2105	2	5	10	no treated as positive class
+entry_segmentation	baseline_inline_formula_id	all	boundary_ok_gold	300	0.6633	0.1818	0.0750	0.1062	6	27	74	no treated as positive class
+entry_segmentation	rule_md_span_v1	train	boundary_ok_gold	196	0.9286	0.9298	0.8413	0.8833	53	4	10	no treated as positive class
+entry_segmentation	rule_md_span_v1	dev	boundary_ok_gold	49	1.0000	1.0000	1.0000	1.0000	5	0	0	no treated as positive class
+entry_segmentation	rule_md_span_v1	test	boundary_ok_gold	55	0.9636	1.0000	0.8333	0.9091	10	0	2	no treated as positive class
+entry_segmentation	rule_md_span_v1	all	boundary_ok_gold	300	0.9467	0.9444	0.8500	0.8947	68	4	12	no treated as positive class
+entry_segmentation	nb_char3_v0	train	boundary_ok_gold	196	0.6327	0.2857	0.0952	0.1429	6	15	57	char_3gram_nb trained on consensus(train) only; no treated as positive class
+entry_segmentation	nb_char3_v0	dev	boundary_ok_gold	49	0.8367	0.0000	0.0000	0.0000	0	3	5	char_3gram_nb trained on consensus(train) only; no treated as positive class
+entry_segmentation	nb_char3_v0	test	boundary_ok_gold	55	0.6545	0.0000	0.0000	0.0000	0	7	12	char_3gram_nb trained on consensus(train) only; no treated as positive class
+entry_segmentation	nb_char3_v0	all	boundary_ok_gold	300	0.6700	0.1935	0.0750	0.1081	6	25	74	char_3gram_nb trained on consensus(train) only; no treated as positive class

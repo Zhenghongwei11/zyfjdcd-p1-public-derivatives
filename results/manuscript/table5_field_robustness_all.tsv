@@ -1,5 +1,5 @@
 field	presence_f1_all	presence_recall_all	value_f1_all	value_recall_all	notes
-组成	0.9643	0.9310	0.9196	0.8512	strict heading parsing vs relaxed truth (proxy) on OCR-derived text
-用法	0.9682	0.9383	0.8314	0.7115	strict heading parsing vs relaxed truth (proxy) on OCR-derived text
-功用	0.7500	0.6000	0.7782	0.6369	strict heading parsing vs relaxed truth (proxy) on OCR-derived text
-主治	0.8750	0.7778	0.8944	0.8090	strict heading parsing vs relaxed truth (proxy) on OCR-derived text
+组成	0.9643	0.9310	0.9196	0.8512	strict heading parsing vs relaxed reference definition on OCR-derived text
+用法	0.9682	0.9383	0.8314	0.7115	strict heading parsing vs relaxed reference definition on OCR-derived text
+功用	0.7500	0.6000	0.7782	0.6369	strict heading parsing vs relaxed reference definition on OCR-derived text
+主治	0.8750	0.7778	0.8944	0.8090	strict heading parsing vs relaxed reference definition on OCR-derived text

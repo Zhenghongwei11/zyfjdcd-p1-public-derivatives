@@ -1,0 +1,5 @@
+Field	Heading presence recall	Value extraction recall
+Composition (组成)	0.9310	0.8512
+Administration (用法)	0.9383	0.7115
+Actions (功用)	0.6000	0.6369
+Indications (主治)	0.7778	0.8090

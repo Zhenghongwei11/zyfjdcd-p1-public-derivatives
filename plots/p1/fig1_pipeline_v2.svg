@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 630">
+  <defs>
+    <style>
+      text { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    </style>
+    <!-- Arrow marker -->
+    <marker id="arr" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2563eb"/>
+    </marker>
+    <marker id="arr-sm" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#2563eb"/>
+    </marker>
+    <!-- Subtle shadow for boxes -->
+    <filter id="shadow" x="-4%" y="-4%" width="108%" height="108%">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect width="960" height="630" fill="#ffffff"/>
+
+  <!-- ═══ Stage 1: OCR-Derived Corpus ═══ -->
+  <rect x="70" y="22" width="820" height="96" rx="8" fill="#F5F5F5" stroke="#9E9E9E" stroke-width="1.5" filter="url(#shadow)"/>
+  <!-- stage circle -->
+  <circle cx="106" cy="70" r="17" fill="#9E9E9E"/>
+  <text x="106" y="75" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="700">1</text>
+  <!-- title -->
+  <text x="137" y="50" fill="#111827" font-size="14" font-weight="700">OCR-Derived Corpus</text>
+  <!-- separator -->
+  <line x1="137" y1="56" x2="860" y2="56" stroke="#9E9E9E" stroke-width="0.7" opacity="0.5"/>
+  <!-- body -->
+  <text x="137" y="72" fill="#374151" font-size="12">Zhongyi Fangji Da Cidian, 2nd ed. (2019)  ·  48 Markdown files from 9 volumes</text>
+  <text x="137" y="91" fill="#374151" font-size="12">MinerU OCR/PDF extractor  ·  759,186 lines  ·  16.6 M characters  ·  Rights-restricted source text</text>
+  <line x1="480" y1="118" x2="480" y2="143" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- ═══ Stage 2: Corpus Profiling ═══ -->
+  <rect x="70" y="145" width="820" height="96" rx="8" fill="#EBF3FB" stroke="#2C7BB6" stroke-width="1.5" filter="url(#shadow)"/>
+  <circle cx="106" cy="193" r="17" fill="#2C7BB6"/>
+  <text x="106" y="198" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="700">2</text>
+  <text x="137" y="173" fill="#111827" font-size="14" font-weight="700">Corpus Profiling &amp; Heterogeneity Characterization</text>
+  <line x1="137" y1="179" x2="860" y2="179" stroke="#2C7BB6" stroke-width="0.7" opacity="0.5"/>
+  <text x="137" y="195" fill="#374151" font-size="12">181 HTML table/block remnants  ·  18,179 suspected glued-entry signals  ·  24,239 field-heading noise signals</text>
+  <text x="137" y="214" fill="#374151" font-size="12">Non-entry content: front matter, table-of-contents, indices, image markers  ·  Noise quantified prior to extraction</text>
+  <line x1="480" y1="241" x2="480" y2="266" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- ═══ Stage 3: Structured Extraction ═══ -->
+  <rect x="70" y="268" width="820" height="148" rx="8" fill="#EBF3FB" stroke="#2C7BB6" stroke-width="1.5" filter="url(#shadow)"/>
+  <circle cx="106" cy="342" r="17" fill="#2C7BB6"/>
+  <text x="106" y="347" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="700">3</text>
+  <text x="137" y="291" fill="#111827" font-size="14" font-weight="700">Entry-Level Structured Extraction &amp; Provenance</text>
+  <line x1="137" y1="297" x2="860" y2="297" stroke="#2C7BB6" stroke-width="0.7" opacity="0.5"/>
+  <text x="137" y="313" fill="#374151" font-size="12">97,527 parsed records  ·  Per-record provenance: source file + character/line span</text>
+  <text x="137" y="332" fill="#374151" font-size="12">Doc-type stratification (5 classes):   clean  |  noisy  |  redirect  |  index-like  |  mixed/unknown</text>
+  <!-- Quality Verification sub-section -->
+  <rect x="137" y="342" width="713" height="60" rx="5" fill="#FDF8E1" stroke="#B7950B" stroke-width="1.1"/>
+  <text x="157" y="360" fill="#7D6608" font-size="11" font-weight="700">Quality Verification</text>
+  <text x="260" y="360" fill="#555555" font-size="11">|  Span fidelity: 97,527 / 97,527 pass (100%)  |  Field self-check: 2 flagged (both explainable)</text>
+  <text x="157" y="378" fill="#555555" font-size="10.5">Confirms provenance traceability of extraction; does not assert semantic correctness</text>
+  <text x="157" y="394" fill="#555555" font-size="10.5">Each record: raw_text field exactly matches the source character span declared in provenance</text>
+  <!-- Arrow 3 -> Task A + B (Y-split) -->
+  <line x1="480" y1="416" x2="480" y2="445" stroke="#2563eb" stroke-width="2"/>
+  <line x1="285" y1="445" x2="675" y2="445" stroke="#2563eb" stroke-width="2"/>
+  <line x1="285" y1="445" x2="285" y2="473" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="675" y1="445" x2="675" y2="473" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- ═══ Task A: Entry Segmentation ═══ -->
+  <rect x="70" y="475" width="400" height="134" rx="8" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="270" y="498" text-anchor="middle" fill="#1B5E20" font-size="13" font-weight="700">Task A: Entry Segmentation</text>
+  <line x1="90" y1="504" x2="450" y2="504" stroke="#2E7D32" stroke-width="0.7" opacity="0.5"/>
+  <text x="90" y="520" fill="#374151" font-size="11">300-item human gold (2 annotators + adjudication)</text>
+  <text x="90" y="537" fill="#374151" font-size="11">Cohen's kappa inter-annotator agreement</text>
+  <text x="90" y="554" fill="#374151" font-size="11">Silver consensus (full corpus; agree/disagree split)</text>
+  <text x="90" y="571" fill="#374151" font-size="11">3 baseline families: heuristic, rule-based,</text>
+  <text x="90" y="588" fill="#374151" font-size="11">   char 3-gram naive Bayes  ·  noise-slice evaluation</text>
+
+  <!-- ═══ Task B: Field Robustness ═══ -->
+  <rect x="490" y="475" width="400" height="134" rx="8" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="690" y="498" text-anchor="middle" fill="#1B5E20" font-size="13" font-weight="700">Task B: Field Robustness</text>
+  <line x1="510" y1="504" x2="870" y2="504" stroke="#2E7D32" stroke-width="0.7" opacity="0.5"/>
+  <text x="510" y="520" fill="#374151" font-size="11">Strict vs. relaxed field-heading parsing comparison</text>
+  <text x="510" y="537" fill="#374151" font-size="11">Recall degradation under OCR/Markdown artifacts</text>
+  <text x="510" y="554" fill="#374151" font-size="11">Fields: composition, administration, actions,</text>
+  <text x="510" y="571" fill="#374151" font-size="11">   indications (recall loss quantification)</text>
+  <text x="510" y="588" fill="#374151" font-size="11">Per-noise-type error slice analysis</text>
+</svg>

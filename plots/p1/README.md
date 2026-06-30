@@ -14,9 +14,8 @@ python3 scripts/plot_p1_figures_v0.py --root . --outdir plots/p1
 
 ## Files
 
-- `fig1_source_registry.*`: file-level parsed record composition (by source markdown file).
-- `fig2_noise_and_audits.*`: noise landscape + audit summaries (span fidelity, field self-check).
-- `fig3_pipeline_diagram.*`: rights-aware pipeline + release tiers (private source vs public derived package).
-- `fig4_benchmark_composition.*`: benchmark split counts + top noise flags.
+- `fig1_rights_aware_workflow.*`: rights-aware workflow and release levels (conceptual diagram).
+- `fig2_volume_composition.*`: volume-level parsed record composition (100% stacked share).
+- `fig3_heterogeneity_distributions.*`: heterogeneity signal distributions by volume (violin plots).
+- `fig4_benchmark_composition.*`: benchmark split counts + top noise indicators.
 - `fig5_baselines_and_robustness.*`: boundary baselines + field robustness + error slices.
-

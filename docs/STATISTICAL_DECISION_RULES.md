@@ -54,7 +54,7 @@ This is a proxy task that treats a relaxed heading-based value parser as the "tr
 
 - Per-field exact-match precision/recall/F1 for `组成`, `用法`, `功用`, `主治` (after whitespace normalization)
 
-## 4. Split and Contamination Audit
+## 4. Split and Contamination Assessment
 
 - Train/dev/test are assigned by split policy described in [SPLIT_POLICY.md](SPLIT_POLICY.md).
 - `results/benchmarks/split_audit.tsv` is treated as a required artifact for any benchmark claim.

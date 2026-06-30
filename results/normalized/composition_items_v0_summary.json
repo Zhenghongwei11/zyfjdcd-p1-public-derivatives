@@ -1,12 +1,12 @@
 {
-  "input": "/Users/simanan/Desktop/zyfjdcd/data/structured/formulas_v14_formula.jsonl",
-  "output": "/Users/simanan/Desktop/zyfjdcd/data/normalized/composition_items_v0.jsonl",
+  "input": "data/structured/formulas_v14_formula.jsonl",
+  "output": "data/normalized/composition_items_v0.jsonl",
   "summary": {
-    "records": 96209,
+    "records": 96402,
     "with_composition": 83505,
     "items_total": 791176,
     "with_warnings": 50670,
-    "no_composition": 12704
+    "no_composition": 12897
   },
   "strategy_counts": {
     "lex_vocab": 83505

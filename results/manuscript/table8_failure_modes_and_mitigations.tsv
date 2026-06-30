@@ -1,6 +1,6 @@
-failure_mode	evidence	risk	current_mitigation
-inline_formula_id boundary confusion	pilot heuristic acc=0.1786 on inline_formula_id slice	Naive identifier-count heuristics can overfire on joined or repeated ids.	Rule-based boundary parser and consensus diagnostics isolate this slice explicitly.
-markdown heading noise	consensus NB no_f1=0.1837 on markdown_field_heading slice	Formatting artifacts concentrate disagreement and degrade generic models.	Noise-aware error slices and relaxed-heading evaluation are reported separately.
-strict heading recall collapse for usage	test recall=0.1816 on 用法 + markdown_field_heading	Field extraction under canonical-heading assumptions misses many valid OCR-shifted fields.	Reviewed derived layer exposes conservative *_mining values rather than hiding the issue.
-strict heading recall collapse for indication	test recall=0.4427 on 主治 + markdown_field_heading	Clinical-indication fields are especially sensitive to malformed headings.	Proxy-truth framing is explicit and a hard-case field slice is provided for inspection.
-hard-case field residue after OCR cleanup	human-reviewed slice: corrected=11 / cleared_empty=1 / total=240	Even after parser fixes, a small subset still needs explicit human resolution.	Public-safe field_hardcase_gold_v1.tsv documents these cases without redistributing source text.
+Observed pattern	Main observation
+Inline identifier–driven boundary ambiguity	Inline-identifier heuristic accuracy is 0.2143 on the inline-identifier slice; this slice is reported separately because repeated identifiers can reflect joined content rather than true new entries.
+Malformed or shifted headings under OCR/Markdown noise	Character 3-gram naive Bayes reaches boundary-error F1=0.1837 on the field-heading noise slice; relaxed-heading reference comparisons are reported for field extraction.
+Strict-heading extraction misses valid usage fields	Test-set value extraction recall is 0.1816 for Administration (用法) under field-heading noise, showing that canonical line-start assumptions undercount displaced headings.
+Indication fields are sensitive to heading noise	Test-set value extraction recall is 0.4427 for Indications (主治) under field-heading noise, indicating disproportionate sensitivity in narrative fields.
+Residual field-value errors remain visible in hard cases	The dual-reviewed hard-case field slice contains accepted=227, corrected=11, cleared empty=2 of 240 rows; phrase-level values are handled as restricted-access materials.

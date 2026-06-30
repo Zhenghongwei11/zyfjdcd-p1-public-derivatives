@@ -1,5 +1,5 @@
-key	value
-span_fidelity_records	97527
-span_fidelity_ok	97527
-field_selfcheck_records	97527
-field_selfcheck_issue_heading_but_empty	2
+Metric	Value
+Records evaluated for span correspondence (n)	97527
+Exact source-span matches (n)	97527
+Records evaluated for field consistency (n)	97527
+Empty heading but extracted value empty (n)	2

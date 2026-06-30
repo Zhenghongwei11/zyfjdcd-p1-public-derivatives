@@ -36,12 +36,14 @@ checksum_file() {
 
 checksum_file "$ROOT/docs/DATA_MANIFEST.tsv"
 checksum_file "$ROOT/docs/FIGURE_PROVENANCE.tsv"
-checksum_file "$ROOT/data/benchmarks/items_gold_v2.tsv"
+checksum_file "$ROOT/data/benchmarks/items_gold_v2_dual.tsv"
 checksum_file "$ROOT/results/benchmarks/task_eval_models.tsv"
 checksum_file "$ROOT/results/error_analysis/error_slices_models.tsv"
-checksum_file "$ROOT/plots/p1/fig1_source_registry.pdf"
-checksum_file "$ROOT/plots/p1/fig2_noise_and_audits.pdf"
-checksum_file "$ROOT/plots/p1/fig3_pipeline_diagram.pdf"
+checksum_file "$ROOT/results/iaa/field_extraction_hardcase_iaa_v2.tsv"
+checksum_file "$ROOT/results/benchmarks/field_hardcase_gold_v2_summary.json"
+checksum_file "$ROOT/plots/p1/fig1_pipeline_v2.pdf"
+checksum_file "$ROOT/plots/p1/fig2_volume_composition.pdf"
+checksum_file "$ROOT/plots/p1/fig3_heterogeneity_distributions.pdf"
 checksum_file "$ROOT/plots/p1/fig4_benchmark_composition.pdf"
 checksum_file "$ROOT/plots/p1/fig5_baselines_and_robustness.pdf"
 

@@ -1,0 +1,6 @@
+Asset	Task	Label tier	N	Availability	Reported as
+Entry segmentation gold subset	Boundary correctness (entry segmentation)	Dual annotation + adjudication	300	Public (derived-only)	Table 4; Figure 5
+Document-type stratification gold subset	Document-type label consistency	Dual annotation + adjudication	104	Public (derived-only)	Methods; Source Data 13
+Corpus-scale silver consensus	Boundary diagnostics at scale (agree vs disagree regions)	Rule-consensus (silver)	97527	Public (derived-only)	Table 3; Table 5–6
+Boundary hard-case slice	Checking disagreement-rich boundary cases	Human-reviewed (hard-case slice)	24	Public (derived-only; no excerpts)	Methods; Discussion
+Field hard-case reviewed slice	Field robustness under OCR artifacts (inspection-focused)	Dual annotation + adjudication	240	Restricted (phrase-level values)	Methods; Table 8

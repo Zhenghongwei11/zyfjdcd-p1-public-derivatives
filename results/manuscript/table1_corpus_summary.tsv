@@ -1,15 +1,15 @@
-key	value
-corpus_root_label	cidian
-n_files_md	48
-n_lines	759186
-n_characters	16640727
-html_blocks	181
-image_links	10
-suspicious_joined_entries	18179
-suspicious_field_heading_noise	24239
-parsed_records_total	97527
-doc_type_full	62778
-doc_type_noisy	21821
-doc_type_redirect	11803
-doc_type_index_like	683
-doc_type_mixed_unknown	442
+Metric	Value
+Corpus label	OCR-derived Markdown corpus (restricted)
+Markdown files (n)	48
+Lines (n)	759186
+Characters (n)	16640727
+HTML blocks (n)	181
+Image links (n)	10
+Suspicious joined entries (n)	18179
+Suspicious heading noise (n)	24239
+Parsed records (n)	97527
+Doc type: full entries (n)	62778
+Doc type: noisy entries (n)	21821
+Doc type: redirects (n)	11803
+Doc type: index-like (n)	683
+Doc type: mixed/unknown (n)	442

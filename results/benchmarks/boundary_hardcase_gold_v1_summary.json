@@ -1,0 +1,10 @@
+{
+  "asset": "boundary_hardcase_gold_v1",
+  "n_rows": 24,
+  "label_distribution": {
+    "no": 13,
+    "yes": 11
+  },
+  "source": "boundary_hardcase_queue_v1.tsv",
+  "review_mode": "single_review_hardcase_slice"
+}

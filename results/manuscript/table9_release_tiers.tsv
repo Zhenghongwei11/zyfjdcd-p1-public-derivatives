@@ -1,0 +1,5 @@
+Layer	Access	Included	Excluded	Purpose
+Private OCR-derived text	Restricted	OCR-derived book content (full text)	Not publicly redistributed	Internal extraction and verification source of truth
+Restricted structured records	Restricted	Entry schema + file/span provenance + extracted entry text	Not publicly redistributed	Traceable structuring layer bridging OCR text to derived artifacts
+Public derived analysis package	Public	Benchmark indices, deterministic splits, structural-check summaries, and evaluation outputs	Full OCR text; long excerpts enabling reconstitution of substantial content	Method comparison under rights constraints
+Restricted field inspection slice	Controlled (upon request)	Phrase-level hard-case field values for manual inspection	Not publicly redistributed by default	Focused checking of difficult field cases without broad redistribution

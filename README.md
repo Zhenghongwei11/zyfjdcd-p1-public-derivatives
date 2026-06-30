@@ -1,6 +1,6 @@
-# Reproducibility Pack (Derived Only)
+# Derived-Only Analysis Pack
 
-This repository contains a reproducible pipeline and derived artifacts for an OCR-derived corpus from the 2nd edition of 《中医方剂大辞典》.
+This repository contains derived artifacts and public-safe analysis scripts for an OCR-derived corpus from the 2nd edition of 《中医方剂大辞典》.
 
 ## What Is Included
 
@@ -13,9 +13,9 @@ This repository contains a reproducible pipeline and derived artifacts for an OC
 
 ## What Is Not Included
 
-- The full OCR-derived Markdown source under `cidian/`
+- The full OCR-derived Markdown source text
 - Any structured exports that contain raw text (`raw_text`) that could reconstruct the book content
-- Any derived files that contain phrase-level field values or evidence snippets from the book text (these remain private or reviewer-limited)
+- Any derived files that contain phrase-level field values or evidence snippets from the book text (these remain private or restricted)
 
 ## Quick Start
 
@@ -29,8 +29,8 @@ This performs integrity checks and writes a run log under `results/runs_public/<
 
 ## Notes on Access
 
-To fully re-run the end-to-end extraction pipeline from OCR source, you need legitimate access to the underlying book material. This pack is designed so that core benchmark tables and derived artifacts can be inspected without redistributing the full OCR text.
+To fully re-run the end-to-end extraction process from OCR source, you need legitimate access to the underlying book material. This pack is designed so that core benchmark tables and derived artifacts can be inspected without redistributing the full OCR text.
 
 ## Public Deposit
 
-Zenodo DOI (versioned): `10.5281/zenodo.20376556`
+This staged pack is deposit-ready for Zenodo/OSF-style archival upload. A public DOI is not included until the archive is actually deposited.

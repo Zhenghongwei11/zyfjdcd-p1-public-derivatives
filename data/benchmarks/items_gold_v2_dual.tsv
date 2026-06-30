@@ -1,0 +1,305 @@
+item_id	source_file	source_line_start	source_line_end	doc_type_label	boundary_ok_label	noise_flags	split	split_bucket	tasks	boundary_ok_gold	boundary_ok_eval	boundary_ok_eval_source
+第1册1-00001	restricted_source/第1册1.md	1	11	FORMULA_ENTRY_FULL	yes		train	51	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第1册1-00005	restricted_source/第1册1.md	34	41	FORMULA_ENTRY_NOISY	no	markdown_field_heading	train	51	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第1册1-00015	restricted_source/第1册1.md	111	115	FORMULA_ENTRY_REDIRECT	yes		train	51	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第1册1-00019	restricted_source/第1册1.md	134	145	FORMULA_ENTRY_NOISY	no	inline_formula_id	train	51	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第1册1-00449	restricted_source/第1册1.md	3651	3653	MIXED_UNKNOWN	no		train	51	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第1册2-00001	restricted_source/第1册2.md	1	8	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	train	30	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第1册2-00003	restricted_source/第1册2.md	21	32	FORMULA_ENTRY_FULL	yes		train	30	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第1册2-00005	restricted_source/第1册2.md	42	46	FORMULA_ENTRY_REDIRECT	yes		train	30	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第1册2-00006	restricted_source/第1册2.md	46	56	FORMULA_ENTRY_NOISY	yes	inline_formula_id	train	30	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第1册2-00346	restricted_source/第1册2.md	2723	2723	MIXED_UNKNOWN	no		train	30	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第1册3-00001	restricted_source/第1册3.md	1	12	FORMULA_ENTRY_FULL	yes		dev	77	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第1册3-00002	restricted_source/第1册3.md	12	20	FORMULA_ENTRY_NOISY	yes	markdown_field_heading|inline_formula_id	dev	77	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第1册3-00004	restricted_source/第1册3.md	30	34	FORMULA_ENTRY_REDIRECT	yes		dev	77	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第1册3-00038	restricted_source/第1册3.md	286	296	FORMULA_ENTRY_NOISY	yes	inline_formula_id	dev	77	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第1册3-00330	restricted_source/第1册3.md	2679	2683	MIXED_UNKNOWN	yes		dev	77	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第1册4-00001	restricted_source/第1册4.md	6	14	FORMULA_ENTRY_FULL	yes		train	57	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第1册4-00002	restricted_source/第1册4.md	14	38	FORMULA_ENTRY_NOISY	yes	markdown_field_heading|inline_formula_id	train	57	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第1册4-00003	restricted_source/第1册4.md	39	41	FORMULA_ENTRY_REDIRECT	no		train	57	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第1册4-00005	restricted_source/第1册4.md	48	58	FORMULA_ENTRY_NOISY	yes	inline_formula_id	train	57	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第1册4-01163	restricted_source/第1册4.md	9416	9417	MIXED_UNKNOWN	yes		train	57	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第1册5-00001	restricted_source/第1册5.md	3	9	FORMULA_ENTRY_FULL	no		train	11	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第1册5-00002	restricted_source/第1册5.md	9	16	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	train	11	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第1册5-00010	restricted_source/第1册5.md	78	82	FORMULA_ENTRY_REDIRECT	yes	inline_formula_id	train	11	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第1册5-00014	restricted_source/第1册5.md	104	110	FORMULA_ENTRY_NOISY	yes	inline_formula_id	train	11	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第1册5-00224	restricted_source/第1册5.md	1888	1890	MIXED_UNKNOWN	yes		train	11	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第1册6-00001	restricted_source/第1册6.md	20	30	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	train	58	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第1册6-00002	restricted_source/第1册6.md	30	38	FORMULA_ENTRY_FULL	yes		train	58	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第1册6-00003	restricted_source/第1册6.md	38	50	FORMULA_ENTRY_NOISY	no	inline_formula_id	train	58	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第1册6-00015	restricted_source/第1册6.md	140	144	FORMULA_ENTRY_REDIRECT	yes	inline_formula_id	train	58	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第2册1-00001	restricted_source/第2册1.md	5	15	FORMULA_ENTRY_FULL	yes		test	92	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第2册1-00002	restricted_source/第2册1.md	15	19	FORMULA_ENTRY_REDIRECT	yes	inline_formula_id	test	92	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第2册1-00003	restricted_source/第2册1.md	19	29	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	test	92	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第2册1-00059	restricted_source/第2册1.md	449	457	FORMULA_ENTRY_NOISY	yes	inline_formula_id	test	92	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第2册1-00291	restricted_source/第2册1.md	2378	2379	MIXED_UNKNOWN	no		test	92	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第2册2-00001	restricted_source/第2册2.md	29	37	FORMULA_ENTRY_FULL	no		train	65	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第2册2-00007	restricted_source/第2册2.md	79	81	FORMULA_ENTRY_REDIRECT	no		train	65	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第2册2-00010	restricted_source/第2册2.md	99	108	FORMULA_ENTRY_NOISY	no	markdown_field_heading	train	65	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第2册2-00041	restricted_source/第2册2.md	297	306	FORMULA_ENTRY_NOISY	no	inline_formula_id	train	65	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第2册2-01152	restricted_source/第2册2.md	9506	9508	MIXED_UNKNOWN	yes		train	65	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第2册3-00001	restricted_source/第2册3.md	7	9	FORMULA_ENTRY_REDIRECT	no		train	17	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第2册3-00002	restricted_source/第2册3.md	9	22	FORMULA_ENTRY_FULL	no		train	17	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第2册3-00004	restricted_source/第2册3.md	29	42	FORMULA_ENTRY_NOISY	no	markdown_field_heading	train	17	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第2册3-00008	restricted_source/第2册3.md	68	76	FORMULA_ENTRY_NOISY	yes	inline_formula_id	train	17	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第2册3-00613	restricted_source/第2册3.md	4910	4913	MIXED_UNKNOWN	no		train	17	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第2册4-00001	restricted_source/第2册4.md	14	22	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	train	9	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第2册4-00002	restricted_source/第2册4.md	22	26	FORMULA_ENTRY_REDIRECT	yes		train	9	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第2册4-00005	restricted_source/第2册4.md	39	45	FORMULA_ENTRY_FULL	no		train	9	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第2册4-00049	restricted_source/第2册4.md	382	392	FORMULA_ENTRY_NOISY	yes	inline_formula_id	train	9	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第2册4-00150	restricted_source/第2册4.md	1237	1243	FORMULA_ENTRY_NOISY	no	html_contamination	train	9	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第2册4-00151	restricted_source/第2册4.md	1243	1243	MIXED_UNKNOWN	no		train	9	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第2册5-00001	restricted_source/第2册5.md	10	18	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	train	48	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第2册5-00002	restricted_source/第2册5.md	18	24	FORMULA_ENTRY_FULL	yes		train	48	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第2册5-00012	restricted_source/第2册5.md	90	96	FORMULA_ENTRY_NOISY	yes	inline_formula_id	train	48	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第2册5-00051	restricted_source/第2册5.md	407	411	FORMULA_ENTRY_REDIRECT	yes	inline_formula_id	train	48	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第2册5-00374	restricted_source/第2册5.md	3011	3013	MIXED_UNKNOWN	yes		train	48	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第2册6-00001	restricted_source/第2册6.md	3	5	FORMULA_ENTRY_REDIRECT	no		train	47	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第2册6-00002	restricted_source/第2册6.md	5	22	FORMULA_ENTRY_NOISY	no	markdown_field_heading	train	47	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第2册6-00004	restricted_source/第2册6.md	25	34	FORMULA_ENTRY_NOISY	no	inline_formula_id	train	47	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第2册6-00007	restricted_source/第2册6.md	43	49	FORMULA_ENTRY_FULL	no		train	47	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第2册6-00080	restricted_source/第2册6.md	674	683	FORMULA_ENTRY_NOISY	yes	image_contamination	train	47	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第3册1-00001	restricted_source/第3册1.md	5	15	FORMULA_ENTRY_FULL	no		test	94	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第3册1-00003	restricted_source/第3册1.md	21	42	FORMULA_ENTRY_NOISY	no	inline_formula_id	test	94	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第3册1-00005	restricted_source/第3册1.md	55	59	FORMULA_ENTRY_REDIRECT	no		test	94	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第3册1-00923	restricted_source/第3册1.md	7581	7582	MIXED_UNKNOWN	yes		test	94	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第3册2-00001	restricted_source/第3册2.md	22	26	FORMULA_ENTRY_REDIRECT	yes	inline_formula_id	train	36	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第3册2-00002	restricted_source/第3册2.md	26	34	FORMULA_ENTRY_NOISY	yes	inline_formula_id	train	36	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第3册2-00003	restricted_source/第3册2.md	34	42	FORMULA_ENTRY_FULL	yes		train	36	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第3册2-01516	restricted_source/第3册2.md	11913	11923	FORMULA_ENTRY_NOISY	yes	markdown_field_heading|inline_formula_id	train	36	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第3册2-01932	restricted_source/第3册2.md	15215	15219	MIXED_UNKNOWN	yes		train	36	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第3册3-00001	restricted_source/第3册3.md	8	18	FORMULA_ENTRY_FULL	yes		test	92	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第3册3-00002	restricted_source/第3册3.md	18	26	FORMULA_ENTRY_NOISY	yes	inline_formula_id	test	92	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第3册3-00014	restricted_source/第3册3.md	124	128	FORMULA_ENTRY_REDIRECT	yes	inline_formula_id	test	92	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第3册4-00001	restricted_source/第3册4.md	1	8	FORMULA_ENTRY_NOISY	yes	inline_formula_id	train	46	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第3册4-00004	restricted_source/第3册4.md	24	32	FORMULA_ENTRY_FULL	yes		train	46	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第3册4-00043	restricted_source/第3册4.md	359	362	FORMULA_ENTRY_REDIRECT	yes		train	46	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第3册4-00088	restricted_source/第3册4.md	737	741	MIXED_UNKNOWN	no		train	46	doc_type_classification|entry_segmentation		no	silver_items_v0
+第3册5-00001	restricted_source/第3册5.md	6	10	FORMULA_ENTRY_REDIRECT	yes		test	92	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第3册5-00003	restricted_source/第3册5.md	14	20	FORMULA_ENTRY_FULL	yes		test	92	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第3册5-00033	restricted_source/第3册5.md	257	282	FORMULA_ENTRY_NOISY	no	inline_formula_id	test	92	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第3册5-00988	restricted_source/第3册5.md	8305	8310	MIXED_UNKNOWN	yes		test	92	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第3册6-00001	restricted_source/第3册6.md	14	22	FORMULA_ENTRY_FULL	yes		train	3	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第3册6-00007	restricted_source/第3册6.md	74	84	FORMULA_ENTRY_NOISY	yes	inline_formula_id	train	3	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第3册6-00008	restricted_source/第3册6.md	84	88	FORMULA_ENTRY_REDIRECT	yes	inline_formula_id	train	3	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第4册1-00001	restricted_source/第4册1.md	7	13	FORMULA_ENTRY_FULL	no		train	34	doc_type_classification|entry_segmentation		no	silver_items_v0
+第4册1-00004	restricted_source/第4册1.md	29	35	FORMULA_ENTRY_NOISY	no	markdown_field_heading	train	34	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第4册1-00006	restricted_source/第4册1.md	44	48	FORMULA_ENTRY_REDIRECT	yes	inline_formula_id	train	34	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第4册1-00007	restricted_source/第4册1.md	48	54	FORMULA_ENTRY_NOISY	yes	inline_formula_id	train	34	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第4册1-00027	restricted_source/第4册1.md	214	216	MIXED_UNKNOWN	yes		train	34	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第4册2-00001	restricted_source/第4册2.md	2	10	FORMULA_ENTRY_FULL	yes		dev	82	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第4册2-00003	restricted_source/第4册2.md	20	22	MIXED_UNKNOWN	yes		dev	82	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第4册2-00004	restricted_source/第4册2.md	22	32	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	dev	82	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第4册2-00006	restricted_source/第4册2.md	34	36	FORMULA_ENTRY_NOISY	yes	inline_formula_id	dev	82	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第4册2-00014	restricted_source/第4册2.md	110	114	FORMULA_ENTRY_REDIRECT	yes		dev	82	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第4册3-00002	restricted_source/第4册3.md	14	22	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	dev	83	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第4册3-00080	restricted_source/第4册3.md	674	676	MIXED_UNKNOWN	yes		dev	83	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第4册4-00010	restricted_source/第4册4.md	78	88	FORMULA_ENTRY_NOISY	yes	markdown_field_heading|inline_formula_id	train	33	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第4册4-00173	restricted_source/第4册4.md	1387	1387	MIXED_UNKNOWN	no		train	33	doc_type_classification|entry_segmentation		no	silver_items_v0
+第4册5-00002	restricted_source/第4册5.md	18	28	FORMULA_ENTRY_NOISY	yes	markdown_field_heading|inline_formula_id	test	99	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第4册5-00485	restricted_source/第4册5.md	4045	4045	MIXED_UNKNOWN	no		test	99	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第4册5-01896	restricted_source/第4册5.md	14845	14862	FORMULA_ENTRY_NOISY	yes	image_contamination	test	99	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第5册1-00002	restricted_source/第5册1.md	14	28	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	train	56	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第5册1-00560	restricted_source/第5册1.md	4518	4522	MIXED_UNKNOWN	yes		train	56	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第5册2-00030	restricted_source/第5册2.md	266	274	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	train	58	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第7册6-00062	restricted_source/第7册6.md	482	495	FORMULA_ENTRY_NOISY	yes	image_contamination	train	33	doc_type_classification|entry_segmentation		yes	silver_items_v0
+第1册1-00006	restricted_source/第1册1.md	41	53	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	train	51	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第1册1-00008	restricted_source/第1册1.md	64	69	FORMULA_ENTRY_NOISY	no	markdown_field_heading	train	51	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第1册1-00014	restricted_source/第1册1.md	104	111	FORMULA_ENTRY_NOISY	no	markdown_field_heading	train	51	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第1册1-00017	restricted_source/第1册1.md	118	125	FORMULA_ENTRY_NOISY	no	markdown_field_heading	train	51	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第1册1-00018	restricted_source/第1册1.md	125	133	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	train	51	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第1册1-00022	restricted_source/第1册1.md	154	165	FORMULA_ENTRY_NOISY	no	markdown_field_heading	train	51	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第1册1-00023	restricted_source/第1册1.md	165	175	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	train	51	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第1册1-00031	restricted_source/第1册1.md	233	241	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	train	51	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第1册1-00033	restricted_source/第1册1.md	244	254	FORMULA_ENTRY_NOISY	no	markdown_field_heading	train	51	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第1册1-00034	restricted_source/第1册1.md	254	263	FORMULA_ENTRY_NOISY	no	markdown_field_heading	train	51	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第1册1-00036	restricted_source/第1册1.md	270	276	FORMULA_ENTRY_NOISY	no	markdown_field_heading	train	51	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第1册1-00038	restricted_source/第1册1.md	283	293	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	train	51	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第1册1-00039	restricted_source/第1册1.md	293	299	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	train	51	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第1册1-00041	restricted_source/第1册1.md	306	314	FORMULA_ENTRY_NOISY	no	markdown_field_heading	train	51	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第1册1-00044	restricted_source/第1册1.md	333	343	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	train	51	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第1册1-00045	restricted_source/第1册1.md	343	355	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	train	51	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第1册1-00046	restricted_source/第1册1.md	355	363	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	train	51	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第1册1-00051	restricted_source/第1册1.md	394	401	FORMULA_ENTRY_NOISY	no	markdown_field_heading	train	51	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第1册1-00054	restricted_source/第1册1.md	413	421	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	train	51	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第1册1-00057	restricted_source/第1册1.md	438	444	FORMULA_ENTRY_NOISY	no	markdown_field_heading	train	51	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第1册1-00060	restricted_source/第1册1.md	456	463	FORMULA_ENTRY_NOISY	no	markdown_field_heading	train	51	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第1册1-00061	restricted_source/第1册1.md	463	469	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	train	51	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第1册1-00062	restricted_source/第1册1.md	470	482	FORMULA_ENTRY_NOISY	no	markdown_field_heading	train	51	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第1册1-00802	restricted_source/第1册1.md	6053	6067	FORMULA_ENTRY_FULL	no		train	51	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第1册2-00095	restricted_source/第1册2.md	698	702	FORMULA_ENTRY_REDIRECT	yes		train	30	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第1册2-00531	restricted_source/第1册2.md	3987	3994	FORMULA_ENTRY_NOISY	no	markdown_field_heading	train	30	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第1册2-00578	restricted_source/第1册2.md	4371	4378	FORMULA_ENTRY_NOISY	no	markdown_field_heading	train	30	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第1册2-00712	restricted_source/第1册2.md	5439	5446	FORMULA_ENTRY_FULL	no		train	30	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第1册3-00472	restricted_source/第1册3.md	3738	3746	FORMULA_ENTRY_FULL	no		dev	77	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第1册3-00868	restricted_source/第1册3.md	6793	6797	FORMULA_ENTRY_REDIRECT	yes		dev	77	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第1册3-00944	restricted_source/第1册3.md	7417	7424	FORMULA_ENTRY_FULL	no		dev	77	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第1册3-01082	restricted_source/第1册3.md	8472	8482	FORMULA_ENTRY_FULL	yes		dev	77	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第1册5-00181	restricted_source/第1册5.md	1468	1480	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	train	11	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第1册5-00191	restricted_source/第1册5.md	1566	1576	FORMULA_ENTRY_FULL	yes		train	11	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第1册5-01298	restricted_source/第1册5.md	10360	10368	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	train	11	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第1册5-02503	restricted_source/第1册5.md	19650	19656	FORMULA_ENTRY_FULL	yes		train	11	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第1册5-02518	restricted_source/第1册5.md	19772	19780	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	train	11	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第1册5-02534	restricted_source/第1册5.md	19896	19900	FORMULA_ENTRY_REDIRECT	yes		train	11	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第2册1-00797	restricted_source/第2册1.md	6461	6471	FORMULA_ENTRY_FULL	yes		test	92	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第2册1-00901	restricted_source/第2册1.md	7253	7263	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	test	92	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第2册1-00924	restricted_source/第2册1.md	7452	7460	FORMULA_ENTRY_FULL	no		test	92	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第2册2-00777	restricted_source/第2册2.md	6340	6350	FORMULA_ENTRY_FULL	yes		train	65	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第2册2-00999	restricted_source/第2册2.md	8096	8112	FORMULA_ENTRY_NOISY	no	markdown_field_heading	train	65	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第2册2-01401	restricted_source/第2册2.md	11497	11503	FORMULA_ENTRY_FULL	no		train	65	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第2册2-01680	restricted_source/第2册2.md	13733	13743	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	train	65	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第2册2-02244	restricted_source/第2册2.md	18287	18295	FORMULA_ENTRY_FULL	yes		train	65	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第2册2-02455	restricted_source/第2册2.md	20020	20027	FORMULA_ENTRY_FULL	no		train	65	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第2册3-00250	restricted_source/第2册3.md	1944	1952	FORMULA_ENTRY_FULL	yes		train	17	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第2册3-02155	restricted_source/第2册3.md	17290	17298	FORMULA_ENTRY_FULL	yes		train	17	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第2册4-00219	restricted_source/第2册4.md	1653	1659	FORMULA_ENTRY_NOISY	no	markdown_field_heading	train	9	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第2册4-01387	restricted_source/第2册4.md	10818	10826	FORMULA_ENTRY_FULL	yes		train	9	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第2册5-01386	restricted_source/第2册5.md	10821	10825	FORMULA_ENTRY_FULL	no		train	48	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第2册5-01665	restricted_source/第2册5.md	12978	12982	FORMULA_ENTRY_REDIRECT	yes		train	48	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第3册1-00194	restricted_source/第3册1.md	1433	1441	FORMULA_ENTRY_FULL	no		test	94	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第3册1-00791	restricted_source/第3册1.md	5800	5812	FORMULA_ENTRY_FULL	yes		test	94	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第3册2-00065	restricted_source/第3册2.md	516	526	FORMULA_ENTRY_FULL	yes		train	36	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第3册2-01817	restricted_source/第3册2.md	13837	13845	FORMULA_ENTRY_FULL	yes		train	36	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第3册3-00125	restricted_source/第3册3.md	968	974	FORMULA_ENTRY_FULL	yes		test	92	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第3册3-00993	restricted_source/第3册3.md	7908	7914	FORMULA_ENTRY_FULL	yes		test	92	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第3册3-01507	restricted_source/第3册3.md	12156	12164	FORMULA_ENTRY_FULL	yes		test	92	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第3册3-01929	restricted_source/第3册3.md	15653	15661	FORMULA_ENTRY_FULL	yes		test	92	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第3册3-02247	restricted_source/第3册3.md	18427	18437	FORMULA_ENTRY_FULL	yes		test	92	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第3册4-01435	restricted_source/第3册4.md	10811	10815	FORMULA_ENTRY_REDIRECT	yes		train	46	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第3册4-01781	restricted_source/第3册4.md	13510	13516	FORMULA_ENTRY_FULL	no		train	46	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第3册4-01896	restricted_source/第3册4.md	14358	14368	FORMULA_ENTRY_FULL	yes		train	46	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第3册4-02163	restricted_source/第3册4.md	16550	16554	FORMULA_ENTRY_REDIRECT	yes		train	46	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第3册5-00587	restricted_source/第3册5.md	4636	4646	FORMULA_ENTRY_FULL	yes		test	92	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第3册5-01179	restricted_source/第3册5.md	8994	8998	FORMULA_ENTRY_REDIRECT	yes		test	92	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第3册5-02137	restricted_source/第3册5.md	16530	16537	FORMULA_ENTRY_FULL	no		test	92	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第4册1-00376	restricted_source/第4册1.md	2947	2959	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	train	34	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第4册1-00471	restricted_source/第4册1.md	3671	3677	FORMULA_ENTRY_REDIRECT	yes		train	34	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第4册1-00527	restricted_source/第4册1.md	4134	4142	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	train	34	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第4册1-00549	restricted_source/第4册1.md	4350	4354	FORMULA_ENTRY_REDIRECT	yes		train	34	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第4册1-00844	restricted_source/第4册1.md	6413	6419	FORMULA_ENTRY_FULL	yes		train	34	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第4册2-00200	restricted_source/第4册2.md	1616	1624	FORMULA_ENTRY_FULL	yes		dev	82	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第4册2-01774	restricted_source/第4册2.md	13407	13422	FORMULA_ENTRY_NOISY	no	markdown_field_heading	dev	82	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第4册3-00834	restricted_source/第4册3.md	6195	6203	FORMULA_ENTRY_FULL	yes		dev	83	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第4册3-01229	restricted_source/第4册3.md	9411	9419	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	dev	83	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第4册3-01306	restricted_source/第4册3.md	9979	9985	MIXED_UNKNOWN	yes		dev	83	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第4册3-02322	restricted_source/第4册3.md	17587	17591	FORMULA_ENTRY_REDIRECT	yes		dev	83	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第4册3-02417	restricted_source/第4册3.md	18367	18377	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	dev	83	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第4册4-00023	restricted_source/第4册4.md	178	198	FORMULA_ENTRY_NOISY	no	markdown_field_heading	train	33	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第4册4-01166	restricted_source/第4册4.md	9555	9559	FORMULA_ENTRY_REDIRECT	yes		train	33	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第4册5-00832	restricted_source/第4册5.md	6689	6701	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	test	99	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第4册5-01341	restricted_source/第4册5.md	10549	10555	FORMULA_ENTRY_FULL	no		test	99	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第4册5-01408	restricted_source/第4册5.md	11115	11121	FORMULA_ENTRY_NOISY	no	markdown_field_heading	test	99	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第4册5-01431	restricted_source/第4册5.md	11304	11308	FORMULA_ENTRY_REDIRECT	yes		test	99	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第4册5-01607	restricted_source/第4册5.md	12673	12681	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	test	99	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第4册5-01688	restricted_source/第4册5.md	13243	13250	FORMULA_ENTRY_FULL	no		test	99	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第4册5-01748	restricted_source/第4册5.md	13677	13687	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	test	99	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第5册1-00661	restricted_source/第5册1.md	5312	5316	FORMULA_ENTRY_REDIRECT	yes		train	56	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第5册2-00229	restricted_source/第5册2.md	1784	1788	FORMULA_ENTRY_REDIRECT	yes		train	58	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第5册2-00508	restricted_source/第5册2.md	3976	3984	FORMULA_ENTRY_FULL	yes		train	58	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第5册2-00743	restricted_source/第5册2.md	5894	5902	FORMULA_ENTRY_FULL	yes		train	58	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第5册2-00748	restricted_source/第5册2.md	5941	5955	FORMULA_ENTRY_FULL	no		train	58	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第5册2-00765	restricted_source/第5册2.md	6088	6092	FORMULA_ENTRY_REDIRECT	yes		train	58	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第5册2-01157	restricted_source/第5册2.md	9443	9447	FORMULA_ENTRY_REDIRECT	yes		train	58	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第5册2-01795	restricted_source/第5册2.md	14756	14764	FORMULA_ENTRY_FULL	yes		train	58	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第5册2-02011	restricted_source/第5册2.md	16614	16630	FORMULA_ENTRY_FULL	no		train	58	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第5册3-00096	restricted_source/第5册3.md	768	772	FORMULA_ENTRY_REDIRECT	yes		train	22	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第5册3-00452	restricted_source/第5册3.md	3574	3578	FORMULA_ENTRY_REDIRECT	yes		train	22	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第5册3-00865	restricted_source/第5册3.md	6908	6918	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	train	22	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第5册3-00943	restricted_source/第5册3.md	7624	7628	MIXED_UNKNOWN	yes		train	22	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第5册3-01225	restricted_source/第5册3.md	10153	10161	FORMULA_ENTRY_FULL	yes		train	22	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第5册3-01292	restricted_source/第5册3.md	10715	10723	FORMULA_ENTRY_FULL	yes		train	22	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第5册3-01617	restricted_source/第5册3.md	13430	13438	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	train	22	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第5册3-02085	restricted_source/第5册3.md	17120	17128	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	train	22	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第5册3-02534	restricted_source/第5册3.md	20764	20772	FORMULA_ENTRY_FULL	yes		train	22	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第5册4-01653	restricted_source/第5册4.md	13503	13507	MIXED_UNKNOWN	yes		train	48	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第5册4-02066	restricted_source/第5册4.md	16665	16673	FORMULA_ENTRY_FULL	yes		train	48	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第5册4-02444	restricted_source/第5册4.md	19629	19643	FORMULA_ENTRY_FULL	yes		train	48	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第5册5-00519	restricted_source/第5册5.md	4166	4174	FORMULA_ENTRY_FULL	yes		dev	79	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第5册5-01793	restricted_source/第5册5.md	14106	14110	FORMULA_ENTRY_REDIRECT	yes		dev	79	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第5册5-01858	restricted_source/第5册5.md	14574	14578	FORMULA_ENTRY_REDIRECT	yes		dev	79	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第5册5-01951	restricted_source/第5册5.md	15271	15275	FORMULA_ENTRY_REDIRECT	yes		dev	79	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第5册5-02410	restricted_source/第5册5.md	18842	18850	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	dev	79	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第5册6-00254	restricted_source/第5册6.md	2160	2170	FORMULA_ENTRY_FULL	yes		train	6	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第6册1-00219	restricted_source/第6册1.md	1691	1701	FORMULA_ENTRY_FULL	yes		train	11	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第6册1-00247	restricted_source/第6册1.md	1923	1927	MIXED_UNKNOWN	yes		train	11	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第6册1-00427	restricted_source/第6册1.md	3566	3576	FORMULA_ENTRY_FULL	yes		train	11	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第6册1-00728	restricted_source/第6册1.md	6063	6078	FORMULA_ENTRY_NOISY	no	markdown_field_heading	train	11	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第6册1-00751	restricted_source/第6册1.md	6242	6250	FORMULA_ENTRY_FULL	yes		train	11	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第6册1-00938	restricted_source/第6册1.md	7722	7726	FORMULA_ENTRY_REDIRECT	yes		train	11	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第6册1-00989	restricted_source/第6册1.md	8114	8128	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	train	11	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第6册2-00466	restricted_source/第6册2.md	3844	3848	FORMULA_ENTRY_FULL	yes		dev	70	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第6册2-00494	restricted_source/第6册2.md	4069	4073	FORMULA_ENTRY_REDIRECT	yes		dev	70	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第6册2-02116	restricted_source/第6册2.md	17515	17527	FORMULA_ENTRY_FULL	no		dev	70	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第6册3-00037	restricted_source/第6册3.md	294	306	FORMULA_ENTRY_FULL	yes		dev	76	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第6册3-00275	restricted_source/第6册3.md	2359	2371	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	dev	76	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第6册3-00982	restricted_source/第6册3.md	8196	8204	FORMULA_ENTRY_FULL	yes		dev	76	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第6册3-01976	restricted_source/第6册3.md	16355	16365	FORMULA_ENTRY_FULL	yes		dev	76	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第6册4-00158	restricted_source/第6册4.md	1264	1274	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	train	26	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第6册4-00175	restricted_source/第6册4.md	1400	1404	FORMULA_ENTRY_REDIRECT	yes		train	26	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第6册4-00624	restricted_source/第6册4.md	4904	4910	FORMULA_ENTRY_FULL	yes		train	26	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第6册4-00644	restricted_source/第6册4.md	5040	5046	FORMULA_ENTRY_FULL	yes		train	26	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第6册4-00917	restricted_source/第6册4.md	7160	7172	FORMULA_ENTRY_FULL	yes		train	26	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第6册4-01192	restricted_source/第6册4.md	9263	9272	FORMULA_ENTRY_FULL	no		train	26	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第6册4-01226	restricted_source/第6册4.md	9512	9520	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	train	26	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第6册4-01228	restricted_source/第6册4.md	9528	9534	FORMULA_ENTRY_FULL	yes		train	26	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第6册4-01548	restricted_source/第6册4.md	12142	12146	FORMULA_ENTRY_REDIRECT	yes		train	26	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第6册4-01819	restricted_source/第6册4.md	14305	14316	FORMULA_ENTRY_NOISY	no	markdown_field_heading	train	26	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第6册5-00015	restricted_source/第6册5.md	124	132	FORMULA_ENTRY_FULL	yes		test	85	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第6册5-00334	restricted_source/第6册5.md	2667	2673	FORMULA_ENTRY_FULL	yes		test	85	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第6册5-00408	restricted_source/第6册5.md	3259	3269	FORMULA_ENTRY_FULL	yes		test	85	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第6册5-00696	restricted_source/第6册5.md	5697	5701	FORMULA_ENTRY_REDIRECT	yes		test	85	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第6册5-01918	restricted_source/第6册5.md	16082	16086	FORMULA_ENTRY_REDIRECT	yes		test	85	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第6册5-02055	restricted_source/第6册5.md	17260	17272	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	test	85	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第6册5-02489	restricted_source/第6册5.md	20836	20844	FORMULA_ENTRY_FULL	yes		test	85	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第6册6-00118	restricted_source/第6册6.md	988	1000	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	train	38	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第6册6-00426	restricted_source/第6册6.md	3618	3628	FORMULA_ENTRY_FULL	yes		train	38	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第7册1-00091	restricted_source/第7册1.md	699	709	FORMULA_ENTRY_FULL	yes		train	36	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第7册2-00010	restricted_source/第7册2.md	81	91	FORMULA_ENTRY_NOISY	no	markdown_field_heading	train	1	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第7册2-00829	restricted_source/第7册2.md	6180	6189	FORMULA_ENTRY_FULL	no		train	1	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第7册2-01134	restricted_source/第7册2.md	8772	8786	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	train	1	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第7册2-01552	restricted_source/第7册2.md	12137	12141	FORMULA_ENTRY_REDIRECT	yes		train	1	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第7册2-01898	restricted_source/第7册2.md	14808	14818	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	train	1	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第7册2-02174	restricted_source/第7册2.md	16910	16918	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	train	1	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第7册3-00131	restricted_source/第7册3.md	863	871	FORMULA_ENTRY_FULL	yes		train	53	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第7册3-00369	restricted_source/第7册3.md	2750	2754	MIXED_UNKNOWN	yes		train	53	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第7册3-01180	restricted_source/第7册3.md	8585	8593	FORMULA_ENTRY_FULL	yes		train	53	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第7册3-01492	restricted_source/第7册3.md	11044	11048	FORMULA_ENTRY_REDIRECT	yes		train	53	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第7册3-01902	restricted_source/第7册3.md	14209	14221	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	train	53	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第7册4-00399	restricted_source/第7册4.md	3121	3129	FORMULA_ENTRY_FULL	yes		dev	73	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第7册4-01048	restricted_source/第7册4.md	8247	8255	FORMULA_ENTRY_FULL	yes		dev	73	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第7册4-02065	restricted_source/第7册4.md	16061	16071	FORMULA_ENTRY_FULL	yes		dev	73	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第7册4-02136	restricted_source/第7册4.md	16607	16615	FORMULA_ENTRY_FULL	yes		dev	73	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第7册4-02403	restricted_source/第7册4.md	18838	18846	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	dev	73	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第7册4-02599	restricted_source/第7册4.md	20470	20474	FORMULA_ENTRY_REDIRECT	yes		dev	73	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第7册5-00275	restricted_source/第7册5.md	2106	2118	FORMULA_ENTRY_FULL	yes		dev	84	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第7册5-00439	restricted_source/第7册5.md	3426	3434	FORMULA_ENTRY_FULL	yes		dev	84	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第7册5-01567	restricted_source/第7册5.md	12408	12418	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	dev	84	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第7册5-01675	restricted_source/第7册5.md	13304	13308	FORMULA_ENTRY_REDIRECT	yes		dev	84	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第7册5-01745	restricted_source/第7册5.md	13812	13824	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	dev	84	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第7册5-02094	restricted_source/第7册5.md	16483	16487	FORMULA_ENTRY_REDIRECT	yes		dev	84	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第7册5-02439	restricted_source/第7册5.md	19126	19138	FORMULA_ENTRY_FULL	no		dev	84	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第7册5-02704	restricted_source/第7册5.md	21041	21045	FORMULA_ENTRY_REDIRECT	yes		dev	84	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第7册6-00025	restricted_source/第7册6.md	198	206	FORMULA_ENTRY_FULL	no		train	33	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第8册1-00154	restricted_source/第8册1.md	1159	1171	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	train	39	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第8册1-00343	restricted_source/第8册1.md	2504	2513	FORMULA_ENTRY_NOISY	no	markdown_field_heading	train	39	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第8册1-00883	restricted_source/第8册1.md	6430	6440	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	train	39	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第8册1-00938	restricted_source/第8册1.md	6910	6918	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	train	39	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第8册1-01373	restricted_source/第8册1.md	10186	10192	FORMULA_ENTRY_FULL	no		train	39	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第8册2-00757	restricted_source/第8册2.md	6166	6174	FORMULA_ENTRY_FULL	yes		test	95	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第8册2-00867	restricted_source/第8册2.md	7097	7101	FORMULA_ENTRY_REDIRECT	yes		test	95	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第8册2-01376	restricted_source/第8册2.md	11225	11233	FORMULA_ENTRY_FULL	yes		test	95	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第8册2-02034	restricted_source/第8册2.md	16106	16118	FORMULA_ENTRY_NOISY	yes	markdown_field_heading	test	95	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第8册2-02082	restricted_source/第8册2.md	16520	16524	FORMULA_ENTRY_REDIRECT	yes		test	95	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第8册3-00124	restricted_source/第8册3.md	899	907	FORMULA_ENTRY_FULL	yes		train	11	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第8册3-00226	restricted_source/第8册3.md	1637	1647	FORMULA_ENTRY_FULL	yes		train	11	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第8册3-00933	restricted_source/第8册3.md	6352	6353	FORMULA_ENTRY_FULL	no		train	11	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第8册3-01722	restricted_source/第8册3.md	11764	11772	FORMULA_ENTRY_FULL	yes		train	11	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第8册4-00022	restricted_source/第8册4.md	173	179	FORMULA_ENTRY_FULL	no		train	7	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第8册4-00078	restricted_source/第8册4.md	612	616	FORMULA_ENTRY_REDIRECT	yes		train	7	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第8册4-01153	restricted_source/第8册4.md	8047	8058	FORMULA_ENTRY_NOISY	no	markdown_field_heading	train	7	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第8册4-01280	restricted_source/第8册4.md	8853	8857	FORMULA_ENTRY_REDIRECT	yes		train	7	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第8册4-01984	restricted_source/第8册4.md	14354	14355	FORMULA_ENTRY_FULL	no		train	7	doc_type_classification|entry_segmentation	no	no	gold_boundary_dual_v2
+第8册5-00243	restricted_source/第8册5.md	1964	1972	FORMULA_ENTRY_FULL	yes		test	96	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第8册5-00685	restricted_source/第8册5.md	4840	4844	FORMULA_ENTRY_REDIRECT	yes		test	96	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第8册5-01069	restricted_source/第8册5.md	7675	7681	FORMULA_ENTRY_FULL	yes		test	96	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2
+第8册5-01554	restricted_source/第8册5.md	10699	10703	FORMULA_ENTRY_REDIRECT	yes		test	96	doc_type_classification|entry_segmentation	yes	yes	gold_boundary_dual_v2

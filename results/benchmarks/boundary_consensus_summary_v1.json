@@ -1,0 +1,16 @@
+{
+  "input": "data/structured/formulas_v14.jsonl",
+  "n_rows": 97527,
+  "counters": {
+    "records": 97527,
+    "doc_type::FORMULA_ENTRY_FULL": 62778,
+    "consensus::agree": 71959,
+    "consensus_label::yes": 71488,
+    "doc_type::FORMULA_ENTRY_NOISY": 21821,
+    "doc_type::FORMULA_ENTRY_REDIRECT": 11803,
+    "consensus::disagree": 25568,
+    "consensus_label::no": 471,
+    "doc_type::MIXED_UNKNOWN": 442,
+    "doc_type::TOC_INDEX": 683
+  }
+}

@@ -1,6 +1,6 @@
 paper_id	figure_id	panel	anchor_tables	script_or_cmd	notes
-P1	F1	all	results/corpus/source_registry.tsv	python3 scripts/plot_p1_figures_v0.py --root . --outdir plots/p1	Output: plots/p1/fig1_source_registry.pdf (file-level parsed record composition)
-P1	F2	all	results/corpus/source_anomalies.tsv|results/corpus/span_fidelity_summary_v0.json|results/corpus/field_selfcheck_summary_v0.json	python3 scripts/plot_p1_figures_v0.py --root . --outdir plots/p1	Output: plots/p1/fig2_noise_and_audits.pdf (noise landscape + auditable quality gates)
-P1	F3	all	(none)	python3 scripts/plot_p1_figures_v0.py --root . --outdir plots/p1	Output: plots/p1/fig3_pipeline_diagram.pdf (rights-aware pipeline + release tiers)
-P1	F4	all	data/benchmarks/items_gold_v2.tsv	python3 scripts/plot_p1_figures_v0.py --root . --outdir plots/p1	Output: plots/p1/fig4_benchmark_composition.pdf (benchmark split + top noise flags)
-P1	F5	all	results/benchmarks/task_eval_models.tsv|results/error_analysis/error_slices_models.tsv|results/manuscript/table5_field_robustness_all.tsv	python3 scripts/plot_p1_figures_v0.py --root . --outdir plots/p1	Output: plots/p1/fig5_baselines_and_robustness.pdf (boundary baselines + field robustness + error slices)
+P1	F1	all	(none)	rsvg-convert plots/p1/fig1_pipeline_v2.svg	Output: plots/p1/fig1_pipeline_v2.pdf and .png (workflow overview)
+P1	F2	all	results/corpus/source_registry.tsv	python3 scripts/plot_p1_figures_v0.py --root . --outdir plots/p1	Output: plots/p1/fig2_volume_composition.pdf (volume-level parsed record composition; 100% stacked share)
+P1	F3	all	results/corpus/source_anomalies.tsv	python3 scripts/plot_p1_figures_v0.py --root . --outdir plots/p1	Output: plots/p1/fig3_heterogeneity_distributions.pdf (heterogeneity signal distributions by volume; violin plots)
+P1	F4	all	data/benchmarks/items_gold_v2_dual.tsv	python3 scripts/plot_p1_figures_v0.py --root . --outdir plots/p1	Output: plots/p1/fig4_benchmark_composition.pdf (benchmark composition + top noise indicators)
+P1	F5	all	results/benchmarks/task_eval_models_v2_dual.tsv|results/error_analysis/error_slices_models_v2_dual.tsv|results/manuscript/table5_field_robustness_all.tsv	python3 scripts/plot_p1_figures_v0.py --root . --outdir plots/p1	Output: plots/p1/fig5_baselines_and_robustness.pdf (baselines + field robustness + error slices)

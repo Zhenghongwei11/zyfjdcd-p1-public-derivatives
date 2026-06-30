@@ -1,6 +1,6 @@
-key	value
-boundary_consensus_rows	97527
-boundary_consensus_agree	71959
-boundary_consensus_disagree	25568
-boundary_consensus_agree_yes	71488
-boundary_consensus_agree_no	471
+Metric	Value
+Consensus rows (n)	97527
+Consensus agree rows (n)	71959
+Consensus disagree rows (n)	25568
+Agree rows labeled boundary OK (n)	71488
+Agree rows labeled boundary NOT OK (n)	471

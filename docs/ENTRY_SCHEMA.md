@@ -75,7 +75,7 @@
 | `parse_status` | 解析状态 |
 | `noise_flags` | OCR 噪声标签 |
 | `review_status` | 是否人工复核 |
-| `benchmark_split` | train/dev/test 或 reviewer-only |
+| `benchmark_split` | train/dev/test 或 restricted |
 
 ## 4. 最小必需字段
 

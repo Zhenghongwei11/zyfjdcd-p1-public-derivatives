@@ -1,14 +1,14 @@
-group_key	group_value	n_rows	n_agree	n_disagree	disagree_rate
-overall	all	97527	71959	25568	0.2622
-split	train	59568	45044	14524	0.2438
-split	dev	21577	15560	6017	0.2789
-split	test	16382	11355	5027	0.3069
-doc_type	FORMULA_ENTRY_FULL	62778	50402	12376	0.1971
-doc_type	FORMULA_ENTRY_NOISY	21821	15735	6086	0.2789
-doc_type	FORMULA_ENTRY_REDIRECT	11803	4847	6956	0.5893
-doc_type	TOC_INDEX	683	680	3	0.0044
-doc_type	MIXED_UNKNOWN	442	295	147	0.3326
-noise_flags	(none)	75703	56224	19479	0.2573
-noise_flags	markdown_field_heading	21811	15726	6085	0.2790
-noise_flags	image_contamination	9	8	1	0.1111
-noise_flags	html_contamination	4	1	3	0.7500
+Group	Level	Rows (n)	Disagree rate
+Overall	All records	97527	26.2%
+Split	Train	59568	24.4%
+Split	Validation	21577	27.9%
+Split	Test	16382	30.7%
+Doc type	Clean entry	62778	19.7%
+Doc type	Noisy entry	21821	27.9%
+Doc type	Redirect-like	11803	58.9%
+Doc type	Index-like	683	0.4%
+Doc type	Mixed/unknown	442	33.3%
+Noise	None	75703	25.7%
+Noise	Field-heading noise	21811	27.9%
+Noise	Image markers	9	11.1%
+Noise	HTML remnants	4	75.0%

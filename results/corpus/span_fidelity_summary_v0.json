@@ -1,6 +1,6 @@
 {
-  "input": "/Users/simanan/Desktop/zyfjdcd/data/structured/formulas_v14.jsonl",
-  "root": "/Users/simanan/Desktop/zyfjdcd",
+  "input": "data/structured/formulas_v14.jsonl",
+  "root": "",
   "counts": {
     "records": 97527,
     "ok": 97527

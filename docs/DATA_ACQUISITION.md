@@ -1,6 +1,6 @@
 # 数据获取与 OCR/抽取链路（方法说明）
 
-本节用于在论文手稿的 Methods / Data acquisition 部分复用，明确 `cidian/*.md` 的来源与生成路径。
+本节说明本地受限 OCR Markdown 源文本的来源与生成路径。
 
 ## 1. 原始来源
 
@@ -21,11 +21,10 @@ https://opendatalab.com/OpenSourceTools/Extractor/PDF
 
 ### 2.2 产物落盘
 
-- OCR/抽取后的 Markdown 文件保存到：`cidian/`
-- 说明：`cidian/` 下文件属于 OCR 衍生文本，默认不公开再分发（见 `docs/RIGHTS_AND_RELEASE_PLAN.md`）。
+- OCR/抽取后的 Markdown 文件保存为本地受限源文本层。
+- 说明：该源文本层属于 OCR 衍生文本，默认不公开再分发（见 `docs/RIGHTS_AND_RELEASE_PLAN.md`）。
 
 ## 3. 可复现性与权利边界
 
-- 本项目对外发布以“派生层优先”为原则：公开 schema、评测表、split 审计、脚本与派生结构化/规范化产物；不默认公开整本 OCR 原文。
-- 若期刊或审稿要求查看原文证据，按最小必要原则提供 reviewer-only 片段或截图（不提供整册文本）。
-
+- 本项目对外发布以“派生层优先”为原则：公开 schema、评测表、split summary、脚本与派生结构化/规范化产物；不默认公开整本 OCR 原文。
+- 若期刊或编辑流程要求查看原文证据，按最小必要原则提供受限片段或截图（不提供整册文本）。

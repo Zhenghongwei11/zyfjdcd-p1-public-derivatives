@@ -1,16 +1,16 @@
 cff-version: 1.2.0
-message: "If you use this derived-only reproducibility pack, please cite the associated IEEE Access manuscript and this software/data record."
-title: "ZYFJDCD P1 Derived-Only Reproducibility Pack"
+message: "If you use this derived-only analysis pack, please cite the associated manuscript and this software/data record."
+title: "ZYFJDCD P1 Derived-Only Analysis Pack"
 type: dataset
 authors:
   - family-names: "Zheng"
     given-names: "Hongwei"
-    affiliation: "School of Medicine, Quanzhou Medical College, Quanzhou, Fujian, China"
+    affiliation: "School of Basic Medical Sciences, Quanzhou Medical College, Quanzhou, Fujian, China"
     email: "2010015@qzmc.edu.cn"
-  - family-names: "Chen"
-    given-names: "Wenbiao"
-    affiliation: "School of Medicine, Quanzhou Medical College, Quanzhou, Fujian, China"
-    email: "2008001@qzmc.edu.cn"
+  - family-names: "Zhuang"
+    given-names: "Xin"
+    affiliation: "Quanzhou First Hospital, Quanzhou, Fujian, China"
+    email: "zhuangxin8888@163.com"
 keywords:
   - "Traditional Chinese Medicine"
   - "OCR"
@@ -18,11 +18,9 @@ keywords:
   - "reproducibility"
   - "information extraction"
 license: "MIT"
-doi: "10.5281/zenodo.20376556"
-repository-code: "https://github.com/Zhenghongwei11/zyfjdcd-p1-public-derivatives"
 abstract: >
-  Derived-only reproducibility pack for an OCR-derived corpus from the 2nd edition
+  Derived-only analysis pack for an OCR-derived corpus from the 2nd edition
   of Zhongyi Fangji Da Cidian. This archive contains benchmark indices, evaluation
   tables, figures, provenance mappings, and public-safe scripts, but does not
   redistribute the full OCR-derived book text.
-version: "v1"
+version: "v1.0.5"

@@ -23,4 +23,4 @@ abstract: >
   of Zhongyi Fangji Da Cidian. This archive contains benchmark indices, evaluation
   tables, figures, provenance mappings, and public-safe scripts, but does not
   redistribute the full OCR-derived book text.
-version: "v1.0.5"
+version: "v1.0.6"

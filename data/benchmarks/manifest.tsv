@@ -1,9 +1,5 @@
-task_id	split	release_tier	source_asset_dependency	status	notes
-doc_type_classification	internal_prototype	T3_PUBLIC_DERIVED	results/corpus/source_registry.tsv	available	items_v1 built from annotation/silver/silver_v4_auto.tsv; split policy in docs/SPLIT_POLICY.md
-entry_segmentation	internal_prototype	T3_PUBLIC_DERIVED	results/corpus/source_registry.tsv	available	items_gold_v2 + split_audit.tsv + baseline eval tables computed on 124 human-reviewed boundary items (100 pilot + 24 hard-case supplement)
-entry_segmentation_consensus	internal_prototype	T3_PUBLIC_DERIVED	data/structured/formulas_v14.jsonl	available	boundary_consensus_v1 built from two independent rule labelers; provides agree vs disagree subsets
-field_extraction_presence	internal_prototype	T3_PUBLIC_DERIVED	results/corpus/source_registry.tsv	available	field_presence_eval.tsv computed on items_gold_v2 spans (truth=relaxed heading presence; compares strict vs relaxed heading parsing)
-field_extraction_value	internal_prototype	T3_PUBLIC_DERIVED	data/structured/formulas_v14.jsonl	available	field_value_eval.tsv computed on structured raw_text (truth=relaxed heading-based value parse; compares strict vs relaxed)
-field_extraction	internal_prototype	T1_RESTRICTED_FIELD_VALUES	results/corpus/source_registry.tsv;data/structured/schema_version.json	available_partial	240-row dual-reviewed hard-case field slice available under restricted access; phrase-level values are not public
-herb_normalization	planned	T3_PUBLIC_DERIVED	data/structured/schema_version.json	planned	await composition normalization gold
-alias_resolution	planned	T3_PUBLIC_DERIVED	results/corpus/source_registry.tsv	planned	await alias clusters/pairs gold
+task	reference	partition	public evidence
+entry_segmentation	600 independently dual-annotated and adjudicated items	file-level training/development/test split	item-level paired labels, adjudicated labels, held-out predictions, confidence intervals, and paired tests
+document_type_classification	104 independently dual-annotated and adjudicated items	predefined file-level split	item-level paired labels, adjudicated labels, and agreement summary
+field_robustness	strict parser compared with a relaxed heading reference; 240-row dual-reviewed hard-case slice	file-level split and named noise slices	per-record binary outcomes, paired hard-case labels, and field-level summaries
+corpus_boundary_diagnostic	two-rule agreement and disagreement regions across 97,527 records	predefined file-level split	consensus labels, agreement-region evaluation, and disagreement-region summaries

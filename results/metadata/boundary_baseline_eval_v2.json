@@ -1,0 +1,20 @@
+{
+  "seed": 20260825,
+  "bootstrap_iterations": 10000,
+  "positive_class": "boundary error (boundary_ok=no)",
+  "split_policy": "file-level predefined train/dev/test; hyperparameters selected on dev; final metrics reported on test",
+  "transformer_model": "BAAI/bge-small-zh-v1.5",
+  "transformer_classifier": "frozen mean-pooled embeddings with class-balanced liblinear logistic regression",
+  "svm_c_selected": 0.3,
+  "transformer_c_selected": 10.0,
+  "n_train": 389,
+  "n_dev": 103,
+  "n_test": 108,
+  "software_versions": {
+    "numpy": "2.2.6",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "torch": "2.9.1",
+    "transformers": "4.57.3"
+  }
+}

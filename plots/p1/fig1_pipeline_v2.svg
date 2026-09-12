@@ -18,18 +18,18 @@
   <!-- Background -->
   <rect width="960" height="630" fill="#ffffff"/>
 
-  <!-- ═══ Stage 1: OCR-Derived Corpus ═══ -->
+  <!-- ═══ Stage 1: Source digitization and OCR-derived corpus ═══ -->
   <rect x="70" y="22" width="820" height="96" rx="8" fill="#F5F5F5" stroke="#9E9E9E" stroke-width="1.5" filter="url(#shadow)"/>
   <!-- stage circle -->
   <circle cx="106" cy="70" r="17" fill="#9E9E9E"/>
   <text x="106" y="75" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="700">1</text>
   <!-- title -->
-  <text x="137" y="50" fill="#111827" font-size="14" font-weight="700">OCR-Derived Corpus</text>
+  <text x="137" y="50" fill="#111827" font-size="14" font-weight="700">Source Digitization and OCR-Derived Corpus</text>
   <!-- separator -->
   <line x1="137" y1="56" x2="860" y2="56" stroke="#9E9E9E" stroke-width="0.7" opacity="0.5"/>
   <!-- body -->
-  <text x="137" y="72" fill="#374151" font-size="12">Zhongyi Fangji Da Cidian, 2nd ed. (2019)  ·  48 Markdown files from 9 volumes</text>
-  <text x="137" y="91" fill="#374151" font-size="12">MinerU OCR/PDF extractor  ·  759,186 lines  ·  16.6 M characters  ·  Rights-restricted source text</text>
+  <text x="137" y="72" fill="#374151" font-size="12">Physical 9-volume set (2nd ed., 2019)  →  page photographs  →  PDF  →  MinerU extraction</text>
+  <text x="137" y="91" fill="#374151" font-size="12">48 OCR-derived Markdown files  ·  759,186 lines  ·  16.6 M characters  ·  rights-restricted source</text>
   <line x1="480" y1="118" x2="480" y2="143" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
 
   <!-- ═══ Stage 2: Corpus Profiling ═══ -->
@@ -66,11 +66,11 @@
   <rect x="70" y="475" width="400" height="134" rx="8" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1.5" filter="url(#shadow)"/>
   <text x="270" y="498" text-anchor="middle" fill="#1B5E20" font-size="13" font-weight="700">Task A: Entry Segmentation</text>
   <line x1="90" y1="504" x2="450" y2="504" stroke="#2E7D32" stroke-width="0.7" opacity="0.5"/>
-  <text x="90" y="520" fill="#374151" font-size="11">300-item human gold (2 annotators + adjudication)</text>
-  <text x="90" y="537" fill="#374151" font-size="11">Cohen's kappa inter-annotator agreement</text>
-  <text x="90" y="554" fill="#374151" font-size="11">Silver consensus (full corpus; agree/disagree split)</text>
-  <text x="90" y="571" fill="#374151" font-size="11">3 baseline families: heuristic, rule-based,</text>
-  <text x="90" y="588" fill="#374151" font-size="11">   char 3-gram naive Bayes  ·  noise-slice evaluation</text>
+  <text x="90" y="520" fill="#374151" font-size="11">600-item human gold (2 annotators + adjudication)</text>
+  <text x="90" y="537" fill="#374151" font-size="11">File-level train/dev/test split; held-out test evaluation</text>
+  <text x="90" y="554" fill="#374151" font-size="11">Four baselines: heuristic, rule, char TF-IDF SVM,</text>
+  <text x="90" y="571" fill="#374151" font-size="11">   frozen BGE embeddings + logistic regression</text>
+  <text x="90" y="588" fill="#374151" font-size="11">Bootstrap 95% CIs  ·  exact McNemar tests  ·  noise slices</text>
 
   <!-- ═══ Task B: Field Robustness ═══ -->
   <rect x="490" y="475" width="400" height="134" rx="8" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1.5" filter="url(#shadow)"/>

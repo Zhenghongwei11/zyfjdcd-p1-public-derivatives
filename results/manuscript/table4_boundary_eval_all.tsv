@@ -1,4 +1,0 @@
-Baseline	n	Accuracy	F1 (boundary error)	Notes
-Inline-identifier heuristic	300	0.6633	0.1062	
-Span-based rule baseline	300	0.9467	0.8947	
-Character 3-gram naive Bayes	300	0.6700	0.1081	char 3-gram NB trained on consensus (train) only

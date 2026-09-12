@@ -1,0 +1,2 @@
+task_id	n_joint	agreement	cohen_kappa	n_disagreements	n_missing_a	n_missing_b	n_invalid_a	n_invalid_b
+entry_segmentation	600	0.9767	0.9351	14	0	0	0	0

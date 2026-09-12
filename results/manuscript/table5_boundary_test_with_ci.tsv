@@ -1,0 +1,5 @@
+Baseline	Test n	Accuracy (95% CI)	Precision (error)	Recall (error)	F1 (error; 95% CI)	Adjusted P vs. span rule
+Inline-identifier heuristic	108	0.768 (0.685–0.843)	0.286	0.091	0.138 (0.000–0.312)	<0.0001
+Span-based rule	108	0.963 (0.926–0.991)	1.000	0.818	0.900 (0.783–0.979)	Reference
+Character TF-IDF SVM	108	0.759 (0.676–0.843)	0.423	0.500	0.458 (0.267–0.627)	<0.0001
+BGE embeddings + logistic regression	108	0.806 (0.732–0.880)	0.517	0.682	0.588 (0.410–0.737)	0.0009

@@ -1,5 +1,5 @@
 Layer	Access	Included	Excluded	Purpose
-Private OCR-derived text	Restricted	OCR-derived book content (full text)	Not publicly redistributed	Internal extraction and verification source of truth
-Restricted structured records	Restricted	Entry schema + file/span provenance + extracted entry text	Not publicly redistributed	Traceable structuring layer bridging OCR text to derived artifacts
+Third-party printed source	Publisher, libraries, and book distributors	The 2nd edition of Zhongyi Fangji Da Cidian	No book pages redistributed by the authors	Source work from which the local OCR layer was created
+Local OCR-derived working corpus	Not redistributed by the authors	OCR-derived Markdown and text-bearing structured records	Complete text and reconstructable excerpts	Local extraction and source-span verification
 Public derived analysis package	Public	Benchmark indices, deterministic splits, structural-check summaries, and evaluation outputs	Full OCR text; long excerpts enabling reconstitution of substantial content	Method comparison under rights constraints
-Restricted field inspection slice	Controlled (upon request)	Phrase-level hard-case field values for manual inspection	Not publicly redistributed by default	Focused checking of difficult field cases without broad redistribution
+Field hard-case review	Binary review labels public	Item identifiers, review labels, and adjudicated statuses	Phrase-level book text	Reconstruction of agreement and review-status counts

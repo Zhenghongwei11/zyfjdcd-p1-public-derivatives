@@ -4,11 +4,10 @@ This repository contains derived artifacts and public-safe analysis scripts for 
 
 ## What Is Included
 
-- Derived benchmark indices and evaluation tables (no long text excerpts)
+- Derived benchmark indices, item-level paired annotation labels, held-out model predictions, and per-record binary evaluation outcomes (no source-text excerpts)
 - Corpus-scale consensus diagnostics for entry-boundary evaluation, including a large silver agreement subset and disagreement challenge summary
-- Public-safe normalization *summaries* (counts only; no phrase-level text exports)
 - Provenance tables for figures/tables and a data manifest
-- Scripts to verify the pack integrity
+- Author-generated parsing, integrity-check, evaluation, statistical-analysis, plotting, and pack-verification scripts
 - Archive metadata for public deposit (`CITATION.cff`, `.zenodo.json`)
 
 ## What Is Not Included
@@ -25,12 +24,12 @@ From repo root:
 scripts/reproduce_one_click_public.sh
 ```
 
-This performs integrity checks and writes a run log under `results/runs_public/<run_id>/`.
+This verifies the package, recomputes agreement and held-out statistics, rebuilds the manuscript tables, regenerates the data-driven figures, and writes all reconstructed outputs under `results/runs_public/<run_id>/`. See `docs/REPRODUCTION_GUIDE.md` for the boundary between public reconstruction and source-dependent reprocessing.
 
 ## Notes on Access
 
-To fully re-run the end-to-end extraction process from OCR source, you need legitimate access to the underlying book material. This pack is designed so that core benchmark tables and derived artifacts can be inspected without redistributing the full OCR text.
+To re-run extraction from source, researchers need lawful access to the underlying 2nd edition and must create or obtain a local OCR-derived text layer. The public prediction and per-record outcome tables are sufficient to reconstruct the reported aggregate evaluation metrics without redistributing the full OCR text.
 
 ## Public Deposit
 
-This staged pack is deposit-ready for Zenodo/OSF-style archival upload. A public DOI is not included until the archive is actually deposited.
+Versioned GitHub releases are archived on Zenodo. The concept DOI and release-specific DOI are recorded in `CITATION.cff` and the associated Zenodo record.

@@ -1,0 +1,433 @@
+item_id	split	noise_flags	gold_boundary_ok	predicted_boundary_ok	model_id
+第2册1-00001	test		yes	yes	inline_identifier_heuristic
+第2册1-00001	test		yes	yes	span_rule_v1
+第2册1-00001	test		yes	yes	char_tfidf_svm_v1
+第2册1-00001	test		yes	yes	bge_small_zh_logreg_v1
+第2册1-00002	test	inline_formula_id	yes	no	inline_identifier_heuristic
+第2册1-00002	test	inline_formula_id	yes	yes	span_rule_v1
+第2册1-00002	test	inline_formula_id	yes	yes	char_tfidf_svm_v1
+第2册1-00002	test	inline_formula_id	yes	yes	bge_small_zh_logreg_v1
+第2册1-00003	test	markdown_field_heading	yes	yes	inline_identifier_heuristic
+第2册1-00003	test	markdown_field_heading	yes	yes	span_rule_v1
+第2册1-00003	test	markdown_field_heading	yes	yes	char_tfidf_svm_v1
+第2册1-00003	test	markdown_field_heading	yes	no	bge_small_zh_logreg_v1
+第2册1-00059	test	inline_formula_id	yes	no	inline_identifier_heuristic
+第2册1-00059	test	inline_formula_id	yes	yes	span_rule_v1
+第2册1-00059	test	inline_formula_id	yes	yes	char_tfidf_svm_v1
+第2册1-00059	test	inline_formula_id	yes	yes	bge_small_zh_logreg_v1
+第2册1-00291	test		no	yes	inline_identifier_heuristic
+第2册1-00291	test		no	no	span_rule_v1
+第2册1-00291	test		no	no	char_tfidf_svm_v1
+第2册1-00291	test		no	no	bge_small_zh_logreg_v1
+第3册1-00001	test		no	yes	inline_identifier_heuristic
+第3册1-00001	test		no	no	span_rule_v1
+第3册1-00001	test		no	no	char_tfidf_svm_v1
+第3册1-00001	test		no	no	bge_small_zh_logreg_v1
+第3册1-00003	test	inline_formula_id	no	no	inline_identifier_heuristic
+第3册1-00003	test	inline_formula_id	no	no	span_rule_v1
+第3册1-00003	test	inline_formula_id	no	yes	char_tfidf_svm_v1
+第3册1-00003	test	inline_formula_id	no	no	bge_small_zh_logreg_v1
+第3册1-00005	test		no	yes	inline_identifier_heuristic
+第3册1-00005	test		no	yes	span_rule_v1
+第3册1-00005	test		no	yes	char_tfidf_svm_v1
+第3册1-00005	test		no	yes	bge_small_zh_logreg_v1
+第3册1-00923	test		yes	yes	inline_identifier_heuristic
+第3册1-00923	test		yes	yes	span_rule_v1
+第3册1-00923	test		yes	yes	char_tfidf_svm_v1
+第3册1-00923	test		yes	yes	bge_small_zh_logreg_v1
+第3册3-00001	test		yes	yes	inline_identifier_heuristic
+第3册3-00001	test		yes	yes	span_rule_v1
+第3册3-00001	test		yes	yes	char_tfidf_svm_v1
+第3册3-00001	test		yes	yes	bge_small_zh_logreg_v1
+第3册3-00002	test	inline_formula_id	yes	no	inline_identifier_heuristic
+第3册3-00002	test	inline_formula_id	yes	yes	span_rule_v1
+第3册3-00002	test	inline_formula_id	yes	yes	char_tfidf_svm_v1
+第3册3-00002	test	inline_formula_id	yes	yes	bge_small_zh_logreg_v1
+第3册3-00014	test	inline_formula_id	yes	no	inline_identifier_heuristic
+第3册3-00014	test	inline_formula_id	yes	yes	span_rule_v1
+第3册3-00014	test	inline_formula_id	yes	yes	char_tfidf_svm_v1
+第3册3-00014	test	inline_formula_id	yes	yes	bge_small_zh_logreg_v1
+第3册5-00001	test		yes	yes	inline_identifier_heuristic
+第3册5-00001	test		yes	yes	span_rule_v1
+第3册5-00001	test		yes	yes	char_tfidf_svm_v1
+第3册5-00001	test		yes	yes	bge_small_zh_logreg_v1
+第3册5-00003	test		yes	yes	inline_identifier_heuristic
+第3册5-00003	test		yes	yes	span_rule_v1
+第3册5-00003	test		yes	yes	char_tfidf_svm_v1
+第3册5-00003	test		yes	yes	bge_small_zh_logreg_v1
+第3册5-00033	test	inline_formula_id	no	no	inline_identifier_heuristic
+第3册5-00033	test	inline_formula_id	no	no	span_rule_v1
+第3册5-00033	test	inline_formula_id	no	no	char_tfidf_svm_v1
+第3册5-00033	test	inline_formula_id	no	no	bge_small_zh_logreg_v1
+第3册5-00988	test		yes	yes	inline_identifier_heuristic
+第3册5-00988	test		yes	yes	span_rule_v1
+第3册5-00988	test		yes	yes	char_tfidf_svm_v1
+第3册5-00988	test		yes	yes	bge_small_zh_logreg_v1
+第4册5-00002	test	markdown_field_heading|inline_formula_id	yes	no	inline_identifier_heuristic
+第4册5-00002	test	markdown_field_heading|inline_formula_id	yes	yes	span_rule_v1
+第4册5-00002	test	markdown_field_heading|inline_formula_id	yes	no	char_tfidf_svm_v1
+第4册5-00002	test	markdown_field_heading|inline_formula_id	yes	yes	bge_small_zh_logreg_v1
+第4册5-00485	test		no	yes	inline_identifier_heuristic
+第4册5-00485	test		no	no	span_rule_v1
+第4册5-00485	test		no	no	char_tfidf_svm_v1
+第4册5-00485	test		no	no	bge_small_zh_logreg_v1
+第4册5-01896	test	image_contamination	yes	yes	inline_identifier_heuristic
+第4册5-01896	test	image_contamination	yes	yes	span_rule_v1
+第4册5-01896	test	image_contamination	yes	yes	char_tfidf_svm_v1
+第4册5-01896	test	image_contamination	yes	no	bge_small_zh_logreg_v1
+第2册1-00103	test	markdown_field_heading	yes	yes	inline_identifier_heuristic
+第2册1-00103	test	markdown_field_heading	yes	yes	span_rule_v1
+第2册1-00103	test	markdown_field_heading	yes	no	char_tfidf_svm_v1
+第2册1-00103	test	markdown_field_heading	yes	yes	bge_small_zh_logreg_v1
+第2册1-00280	test		no	yes	inline_identifier_heuristic
+第2册1-00280	test		no	no	span_rule_v1
+第2册1-00280	test		no	yes	char_tfidf_svm_v1
+第2册1-00280	test		no	yes	bge_small_zh_logreg_v1
+第2册1-00306	test	markdown_field_heading	yes	yes	inline_identifier_heuristic
+第2册1-00306	test	markdown_field_heading	yes	yes	span_rule_v1
+第2册1-00306	test	markdown_field_heading	yes	no	char_tfidf_svm_v1
+第2册1-00306	test	markdown_field_heading	yes	no	bge_small_zh_logreg_v1
+第2册1-00797	test		yes	yes	inline_identifier_heuristic
+第2册1-00797	test		yes	yes	span_rule_v1
+第2册1-00797	test		yes	yes	char_tfidf_svm_v1
+第2册1-00797	test		yes	yes	bge_small_zh_logreg_v1
+第2册1-00901	test	markdown_field_heading	yes	yes	inline_identifier_heuristic
+第2册1-00901	test	markdown_field_heading	yes	yes	span_rule_v1
+第2册1-00901	test	markdown_field_heading	yes	no	char_tfidf_svm_v1
+第2册1-00901	test	markdown_field_heading	yes	no	bge_small_zh_logreg_v1
+第2册1-00924	test		no	yes	inline_identifier_heuristic
+第2册1-00924	test		no	no	span_rule_v1
+第2册1-00924	test		no	no	char_tfidf_svm_v1
+第2册1-00924	test		no	no	bge_small_zh_logreg_v1
+第3册1-00194	test		no	yes	inline_identifier_heuristic
+第3册1-00194	test		no	no	span_rule_v1
+第3册1-00194	test		no	no	char_tfidf_svm_v1
+第3册1-00194	test		no	no	bge_small_zh_logreg_v1
+第3册1-00791	test		yes	yes	inline_identifier_heuristic
+第3册1-00791	test		yes	yes	span_rule_v1
+第3册1-00791	test		yes	yes	char_tfidf_svm_v1
+第3册1-00791	test		yes	yes	bge_small_zh_logreg_v1
+第3册3-00108	test		yes	yes	inline_identifier_heuristic
+第3册3-00108	test		yes	yes	span_rule_v1
+第3册3-00108	test		yes	yes	char_tfidf_svm_v1
+第3册3-00108	test		yes	yes	bge_small_zh_logreg_v1
+第3册3-00125	test		yes	yes	inline_identifier_heuristic
+第3册3-00125	test		yes	yes	span_rule_v1
+第3册3-00125	test		yes	yes	char_tfidf_svm_v1
+第3册3-00125	test		yes	yes	bge_small_zh_logreg_v1
+第3册3-00570	test		yes	yes	inline_identifier_heuristic
+第3册3-00570	test		yes	yes	span_rule_v1
+第3册3-00570	test		yes	yes	char_tfidf_svm_v1
+第3册3-00570	test		yes	yes	bge_small_zh_logreg_v1
+第3册3-00578	test		yes	yes	inline_identifier_heuristic
+第3册3-00578	test		yes	yes	span_rule_v1
+第3册3-00578	test		yes	yes	char_tfidf_svm_v1
+第3册3-00578	test		yes	no	bge_small_zh_logreg_v1
+第3册3-00993	test		yes	yes	inline_identifier_heuristic
+第3册3-00993	test		yes	yes	span_rule_v1
+第3册3-00993	test		yes	yes	char_tfidf_svm_v1
+第3册3-00993	test		yes	yes	bge_small_zh_logreg_v1
+第3册3-01014	test		yes	yes	inline_identifier_heuristic
+第3册3-01014	test		yes	yes	span_rule_v1
+第3册3-01014	test		yes	yes	char_tfidf_svm_v1
+第3册3-01014	test		yes	no	bge_small_zh_logreg_v1
+第3册3-01172	test		yes	yes	inline_identifier_heuristic
+第3册3-01172	test		yes	yes	span_rule_v1
+第3册3-01172	test		yes	yes	char_tfidf_svm_v1
+第3册3-01172	test		yes	yes	bge_small_zh_logreg_v1
+第3册3-01367	test		yes	yes	inline_identifier_heuristic
+第3册3-01367	test		yes	yes	span_rule_v1
+第3册3-01367	test		yes	yes	char_tfidf_svm_v1
+第3册3-01367	test		yes	yes	bge_small_zh_logreg_v1
+第3册3-01507	test		yes	yes	inline_identifier_heuristic
+第3册3-01507	test		yes	yes	span_rule_v1
+第3册3-01507	test		yes	yes	char_tfidf_svm_v1
+第3册3-01507	test		yes	yes	bge_small_zh_logreg_v1
+第3册3-01679	test		yes	yes	inline_identifier_heuristic
+第3册3-01679	test		yes	yes	span_rule_v1
+第3册3-01679	test		yes	yes	char_tfidf_svm_v1
+第3册3-01679	test		yes	yes	bge_small_zh_logreg_v1
+第3册3-01850	test		yes	yes	inline_identifier_heuristic
+第3册3-01850	test		yes	yes	span_rule_v1
+第3册3-01850	test		yes	yes	char_tfidf_svm_v1
+第3册3-01850	test		yes	yes	bge_small_zh_logreg_v1
+第3册3-01929	test		yes	yes	inline_identifier_heuristic
+第3册3-01929	test		yes	yes	span_rule_v1
+第3册3-01929	test		yes	yes	char_tfidf_svm_v1
+第3册3-01929	test		yes	yes	bge_small_zh_logreg_v1
+第3册3-02070	test		yes	yes	inline_identifier_heuristic
+第3册3-02070	test		yes	yes	span_rule_v1
+第3册3-02070	test		yes	yes	char_tfidf_svm_v1
+第3册3-02070	test		yes	yes	bge_small_zh_logreg_v1
+第3册3-02225	test		yes	yes	inline_identifier_heuristic
+第3册3-02225	test		yes	yes	span_rule_v1
+第3册3-02225	test		yes	yes	char_tfidf_svm_v1
+第3册3-02225	test		yes	no	bge_small_zh_logreg_v1
+第3册3-02247	test		yes	yes	inline_identifier_heuristic
+第3册3-02247	test		yes	yes	span_rule_v1
+第3册3-02247	test		yes	yes	char_tfidf_svm_v1
+第3册3-02247	test		yes	yes	bge_small_zh_logreg_v1
+第3册5-00436	test		no	yes	inline_identifier_heuristic
+第3册5-00436	test		no	no	span_rule_v1
+第3册5-00436	test		no	yes	char_tfidf_svm_v1
+第3册5-00436	test		no	no	bge_small_zh_logreg_v1
+第3册5-00512	test		yes	yes	inline_identifier_heuristic
+第3册5-00512	test		yes	yes	span_rule_v1
+第3册5-00512	test		yes	yes	char_tfidf_svm_v1
+第3册5-00512	test		yes	no	bge_small_zh_logreg_v1
+第3册5-00572	test		yes	yes	inline_identifier_heuristic
+第3册5-00572	test		yes	yes	span_rule_v1
+第3册5-00572	test		yes	yes	char_tfidf_svm_v1
+第3册5-00572	test		yes	no	bge_small_zh_logreg_v1
+第3册5-00587	test		yes	yes	inline_identifier_heuristic
+第3册5-00587	test		yes	yes	span_rule_v1
+第3册5-00587	test		yes	yes	char_tfidf_svm_v1
+第3册5-00587	test		yes	yes	bge_small_zh_logreg_v1
+第3册5-00689	test		yes	yes	inline_identifier_heuristic
+第3册5-00689	test		yes	yes	span_rule_v1
+第3册5-00689	test		yes	yes	char_tfidf_svm_v1
+第3册5-00689	test		yes	yes	bge_small_zh_logreg_v1
+第3册5-01179	test		yes	yes	inline_identifier_heuristic
+第3册5-01179	test		yes	yes	span_rule_v1
+第3册5-01179	test		yes	yes	char_tfidf_svm_v1
+第3册5-01179	test		yes	yes	bge_small_zh_logreg_v1
+第3册5-01736	test		yes	yes	inline_identifier_heuristic
+第3册5-01736	test		yes	yes	span_rule_v1
+第3册5-01736	test		yes	yes	char_tfidf_svm_v1
+第3册5-01736	test		yes	yes	bge_small_zh_logreg_v1
+第3册5-02085	test		no	yes	inline_identifier_heuristic
+第3册5-02085	test		no	no	span_rule_v1
+第3册5-02085	test		no	no	char_tfidf_svm_v1
+第3册5-02085	test		no	no	bge_small_zh_logreg_v1
+第3册5-02137	test		no	yes	inline_identifier_heuristic
+第3册5-02137	test		no	no	span_rule_v1
+第3册5-02137	test		no	no	char_tfidf_svm_v1
+第3册5-02137	test		no	no	bge_small_zh_logreg_v1
+第4册5-00010	test		yes	yes	inline_identifier_heuristic
+第4册5-00010	test		yes	yes	span_rule_v1
+第4册5-00010	test		yes	yes	char_tfidf_svm_v1
+第4册5-00010	test		yes	yes	bge_small_zh_logreg_v1
+第4册5-00115	test		yes	yes	inline_identifier_heuristic
+第4册5-00115	test		yes	yes	span_rule_v1
+第4册5-00115	test		yes	yes	char_tfidf_svm_v1
+第4册5-00115	test		yes	yes	bge_small_zh_logreg_v1
+第4册5-00170	test		yes	yes	inline_identifier_heuristic
+第4册5-00170	test		yes	yes	span_rule_v1
+第4册5-00170	test		yes	no	char_tfidf_svm_v1
+第4册5-00170	test		yes	no	bge_small_zh_logreg_v1
+第4册5-00832	test	markdown_field_heading	yes	yes	inline_identifier_heuristic
+第4册5-00832	test	markdown_field_heading	yes	yes	span_rule_v1
+第4册5-00832	test	markdown_field_heading	yes	no	char_tfidf_svm_v1
+第4册5-00832	test	markdown_field_heading	yes	no	bge_small_zh_logreg_v1
+第4册5-01268	test		no	yes	inline_identifier_heuristic
+第4册5-01268	test		no	no	span_rule_v1
+第4册5-01268	test		no	yes	char_tfidf_svm_v1
+第4册5-01268	test		no	no	bge_small_zh_logreg_v1
+第4册5-01341	test		no	yes	inline_identifier_heuristic
+第4册5-01341	test		no	no	span_rule_v1
+第4册5-01341	test		no	yes	char_tfidf_svm_v1
+第4册5-01341	test		no	yes	bge_small_zh_logreg_v1
+第4册5-01408	test	markdown_field_heading	no	yes	inline_identifier_heuristic
+第4册5-01408	test	markdown_field_heading	no	no	span_rule_v1
+第4册5-01408	test	markdown_field_heading	no	yes	char_tfidf_svm_v1
+第4册5-01408	test	markdown_field_heading	no	yes	bge_small_zh_logreg_v1
+第4册5-01431	test		yes	yes	inline_identifier_heuristic
+第4册5-01431	test		yes	yes	span_rule_v1
+第4册5-01431	test		yes	yes	char_tfidf_svm_v1
+第4册5-01431	test		yes	yes	bge_small_zh_logreg_v1
+第4册5-01607	test	markdown_field_heading	yes	yes	inline_identifier_heuristic
+第4册5-01607	test	markdown_field_heading	yes	yes	span_rule_v1
+第4册5-01607	test	markdown_field_heading	yes	yes	char_tfidf_svm_v1
+第4册5-01607	test	markdown_field_heading	yes	yes	bge_small_zh_logreg_v1
+第4册5-01666	test		yes	yes	inline_identifier_heuristic
+第4册5-01666	test		yes	yes	span_rule_v1
+第4册5-01666	test		yes	yes	char_tfidf_svm_v1
+第4册5-01666	test		yes	yes	bge_small_zh_logreg_v1
+第4册5-01673	test		no	yes	inline_identifier_heuristic
+第4册5-01673	test		no	yes	span_rule_v1
+第4册5-01673	test		no	no	char_tfidf_svm_v1
+第4册5-01673	test		no	no	bge_small_zh_logreg_v1
+第4册5-01688	test		no	yes	inline_identifier_heuristic
+第4册5-01688	test		no	yes	span_rule_v1
+第4册5-01688	test		no	no	char_tfidf_svm_v1
+第4册5-01688	test		no	no	bge_small_zh_logreg_v1
+第4册5-01748	test	markdown_field_heading	yes	yes	inline_identifier_heuristic
+第4册5-01748	test	markdown_field_heading	yes	yes	span_rule_v1
+第4册5-01748	test	markdown_field_heading	yes	no	char_tfidf_svm_v1
+第4册5-01748	test	markdown_field_heading	yes	yes	bge_small_zh_logreg_v1
+第6册5-00009	test		yes	yes	inline_identifier_heuristic
+第6册5-00009	test		yes	yes	span_rule_v1
+第6册5-00009	test		yes	no	char_tfidf_svm_v1
+第6册5-00009	test		yes	no	bge_small_zh_logreg_v1
+第6册5-00015	test		yes	yes	inline_identifier_heuristic
+第6册5-00015	test		yes	yes	span_rule_v1
+第6册5-00015	test		yes	yes	char_tfidf_svm_v1
+第6册5-00015	test		yes	yes	bge_small_zh_logreg_v1
+第6册5-00334	test		yes	yes	inline_identifier_heuristic
+第6册5-00334	test		yes	yes	span_rule_v1
+第6册5-00334	test		yes	yes	char_tfidf_svm_v1
+第6册5-00334	test		yes	yes	bge_small_zh_logreg_v1
+第6册5-00408	test		yes	yes	inline_identifier_heuristic
+第6册5-00408	test		yes	yes	span_rule_v1
+第6册5-00408	test		yes	yes	char_tfidf_svm_v1
+第6册5-00408	test		yes	yes	bge_small_zh_logreg_v1
+第6册5-00654	test		no	yes	inline_identifier_heuristic
+第6册5-00654	test		no	no	span_rule_v1
+第6册5-00654	test		no	no	char_tfidf_svm_v1
+第6册5-00654	test		no	no	bge_small_zh_logreg_v1
+第6册5-00696	test		yes	yes	inline_identifier_heuristic
+第6册5-00696	test		yes	yes	span_rule_v1
+第6册5-00696	test		yes	yes	char_tfidf_svm_v1
+第6册5-00696	test		yes	yes	bge_small_zh_logreg_v1
+第6册5-00860	test	markdown_field_heading	yes	yes	inline_identifier_heuristic
+第6册5-00860	test	markdown_field_heading	yes	yes	span_rule_v1
+第6册5-00860	test	markdown_field_heading	yes	yes	char_tfidf_svm_v1
+第6册5-00860	test	markdown_field_heading	yes	yes	bge_small_zh_logreg_v1
+第6册5-01110	test		yes	yes	inline_identifier_heuristic
+第6册5-01110	test		yes	yes	span_rule_v1
+第6册5-01110	test		yes	yes	char_tfidf_svm_v1
+第6册5-01110	test		yes	yes	bge_small_zh_logreg_v1
+第6册5-01465	test		no	yes	inline_identifier_heuristic
+第6册5-01465	test		no	no	span_rule_v1
+第6册5-01465	test		no	yes	char_tfidf_svm_v1
+第6册5-01465	test		no	yes	bge_small_zh_logreg_v1
+第6册5-01574	test		yes	yes	inline_identifier_heuristic
+第6册5-01574	test		yes	yes	span_rule_v1
+第6册5-01574	test		yes	yes	char_tfidf_svm_v1
+第6册5-01574	test		yes	yes	bge_small_zh_logreg_v1
+第6册5-01717	test	markdown_field_heading	yes	yes	inline_identifier_heuristic
+第6册5-01717	test	markdown_field_heading	yes	yes	span_rule_v1
+第6册5-01717	test	markdown_field_heading	yes	no	char_tfidf_svm_v1
+第6册5-01717	test	markdown_field_heading	yes	yes	bge_small_zh_logreg_v1
+第6册5-01918	test		yes	yes	inline_identifier_heuristic
+第6册5-01918	test		yes	yes	span_rule_v1
+第6册5-01918	test		yes	yes	char_tfidf_svm_v1
+第6册5-01918	test		yes	yes	bge_small_zh_logreg_v1
+第6册5-02055	test	markdown_field_heading	yes	yes	inline_identifier_heuristic
+第6册5-02055	test	markdown_field_heading	yes	yes	span_rule_v1
+第6册5-02055	test	markdown_field_heading	yes	yes	char_tfidf_svm_v1
+第6册5-02055	test	markdown_field_heading	yes	yes	bge_small_zh_logreg_v1
+第6册5-02102	test	markdown_field_heading	yes	yes	inline_identifier_heuristic
+第6册5-02102	test	markdown_field_heading	yes	yes	span_rule_v1
+第6册5-02102	test	markdown_field_heading	yes	yes	char_tfidf_svm_v1
+第6册5-02102	test	markdown_field_heading	yes	yes	bge_small_zh_logreg_v1
+第6册5-02415	test		yes	yes	inline_identifier_heuristic
+第6册5-02415	test		yes	yes	span_rule_v1
+第6册5-02415	test		yes	yes	char_tfidf_svm_v1
+第6册5-02415	test		yes	yes	bge_small_zh_logreg_v1
+第6册5-02489	test		yes	yes	inline_identifier_heuristic
+第6册5-02489	test		yes	yes	span_rule_v1
+第6册5-02489	test		yes	yes	char_tfidf_svm_v1
+第6册5-02489	test		yes	yes	bge_small_zh_logreg_v1
+第8册2-00162	test		no	yes	inline_identifier_heuristic
+第8册2-00162	test		no	yes	span_rule_v1
+第8册2-00162	test		no	yes	char_tfidf_svm_v1
+第8册2-00162	test		no	yes	bge_small_zh_logreg_v1
+第8册2-00206	test	markdown_field_heading	yes	yes	inline_identifier_heuristic
+第8册2-00206	test	markdown_field_heading	yes	yes	span_rule_v1
+第8册2-00206	test	markdown_field_heading	yes	yes	char_tfidf_svm_v1
+第8册2-00206	test	markdown_field_heading	yes	yes	bge_small_zh_logreg_v1
+第8册2-00421	test		yes	yes	inline_identifier_heuristic
+第8册2-00421	test		yes	yes	span_rule_v1
+第8册2-00421	test		yes	no	char_tfidf_svm_v1
+第8册2-00421	test		yes	yes	bge_small_zh_logreg_v1
+第8册2-00452	test	markdown_field_heading	yes	yes	inline_identifier_heuristic
+第8册2-00452	test	markdown_field_heading	yes	yes	span_rule_v1
+第8册2-00452	test	markdown_field_heading	yes	yes	char_tfidf_svm_v1
+第8册2-00452	test	markdown_field_heading	yes	yes	bge_small_zh_logreg_v1
+第8册2-00521	test		yes	yes	inline_identifier_heuristic
+第8册2-00521	test		yes	yes	span_rule_v1
+第8册2-00521	test		yes	yes	char_tfidf_svm_v1
+第8册2-00521	test		yes	yes	bge_small_zh_logreg_v1
+第8册2-00568	test		no	yes	inline_identifier_heuristic
+第8册2-00568	test		no	no	span_rule_v1
+第8册2-00568	test		no	yes	char_tfidf_svm_v1
+第8册2-00568	test		no	yes	bge_small_zh_logreg_v1
+第8册2-00757	test		yes	yes	inline_identifier_heuristic
+第8册2-00757	test		yes	yes	span_rule_v1
+第8册2-00757	test		yes	yes	char_tfidf_svm_v1
+第8册2-00757	test		yes	yes	bge_small_zh_logreg_v1
+第8册2-00762	test		yes	yes	inline_identifier_heuristic
+第8册2-00762	test		yes	yes	span_rule_v1
+第8册2-00762	test		yes	no	char_tfidf_svm_v1
+第8册2-00762	test		yes	no	bge_small_zh_logreg_v1
+第8册2-00867	test		yes	yes	inline_identifier_heuristic
+第8册2-00867	test		yes	yes	span_rule_v1
+第8册2-00867	test		yes	yes	char_tfidf_svm_v1
+第8册2-00867	test		yes	yes	bge_small_zh_logreg_v1
+第8册2-01073	test	markdown_field_heading	no	yes	inline_identifier_heuristic
+第8册2-01073	test	markdown_field_heading	no	no	span_rule_v1
+第8册2-01073	test	markdown_field_heading	no	yes	char_tfidf_svm_v1
+第8册2-01073	test	markdown_field_heading	no	no	bge_small_zh_logreg_v1
+第8册2-01182	test	markdown_field_heading	yes	yes	inline_identifier_heuristic
+第8册2-01182	test	markdown_field_heading	yes	yes	span_rule_v1
+第8册2-01182	test	markdown_field_heading	yes	yes	char_tfidf_svm_v1
+第8册2-01182	test	markdown_field_heading	yes	yes	bge_small_zh_logreg_v1
+第8册2-01216	test		yes	yes	inline_identifier_heuristic
+第8册2-01216	test		yes	yes	span_rule_v1
+第8册2-01216	test		yes	yes	char_tfidf_svm_v1
+第8册2-01216	test		yes	yes	bge_small_zh_logreg_v1
+第8册2-01376	test		yes	yes	inline_identifier_heuristic
+第8册2-01376	test		yes	yes	span_rule_v1
+第8册2-01376	test		yes	yes	char_tfidf_svm_v1
+第8册2-01376	test		yes	yes	bge_small_zh_logreg_v1
+第8册2-01556	test		yes	yes	inline_identifier_heuristic
+第8册2-01556	test		yes	yes	span_rule_v1
+第8册2-01556	test		yes	yes	char_tfidf_svm_v1
+第8册2-01556	test		yes	yes	bge_small_zh_logreg_v1
+第8册2-01574	test		yes	yes	inline_identifier_heuristic
+第8册2-01574	test		yes	yes	span_rule_v1
+第8册2-01574	test		yes	yes	char_tfidf_svm_v1
+第8册2-01574	test		yes	yes	bge_small_zh_logreg_v1
+第8册2-02034	test	markdown_field_heading	yes	yes	inline_identifier_heuristic
+第8册2-02034	test	markdown_field_heading	yes	yes	span_rule_v1
+第8册2-02034	test	markdown_field_heading	yes	yes	char_tfidf_svm_v1
+第8册2-02034	test	markdown_field_heading	yes	yes	bge_small_zh_logreg_v1
+第8册2-02082	test		yes	yes	inline_identifier_heuristic
+第8册2-02082	test		yes	yes	span_rule_v1
+第8册2-02082	test		yes	yes	char_tfidf_svm_v1
+第8册2-02082	test		yes	yes	bge_small_zh_logreg_v1
+第8册5-00243	test		yes	yes	inline_identifier_heuristic
+第8册5-00243	test		yes	yes	span_rule_v1
+第8册5-00243	test		yes	yes	char_tfidf_svm_v1
+第8册5-00243	test		yes	no	bge_small_zh_logreg_v1
+第8册5-00685	test		yes	yes	inline_identifier_heuristic
+第8册5-00685	test		yes	yes	span_rule_v1
+第8册5-00685	test		yes	yes	char_tfidf_svm_v1
+第8册5-00685	test		yes	yes	bge_small_zh_logreg_v1
+第8册5-01069	test		yes	yes	inline_identifier_heuristic
+第8册5-01069	test		yes	yes	span_rule_v1
+第8册5-01069	test		yes	yes	char_tfidf_svm_v1
+第8册5-01069	test		yes	yes	bge_small_zh_logreg_v1
+第8册5-01249	test		yes	yes	inline_identifier_heuristic
+第8册5-01249	test		yes	yes	span_rule_v1
+第8册5-01249	test		yes	no	char_tfidf_svm_v1
+第8册5-01249	test		yes	yes	bge_small_zh_logreg_v1
+第8册5-01288	test		yes	yes	inline_identifier_heuristic
+第8册5-01288	test		yes	yes	span_rule_v1
+第8册5-01288	test		yes	no	char_tfidf_svm_v1
+第8册5-01288	test		yes	yes	bge_small_zh_logreg_v1
+第8册5-01465	test		yes	yes	inline_identifier_heuristic
+第8册5-01465	test		yes	yes	span_rule_v1
+第8册5-01465	test		yes	yes	char_tfidf_svm_v1
+第8册5-01465	test		yes	yes	bge_small_zh_logreg_v1
+第8册5-01554	test		yes	yes	inline_identifier_heuristic
+第8册5-01554	test		yes	yes	span_rule_v1
+第8册5-01554	test		yes	yes	char_tfidf_svm_v1
+第8册5-01554	test		yes	yes	bge_small_zh_logreg_v1
+第8册5-01740	test		yes	yes	inline_identifier_heuristic
+第8册5-01740	test		yes	yes	span_rule_v1
+第8册5-01740	test		yes	yes	char_tfidf_svm_v1
+第8册5-01740	test		yes	yes	bge_small_zh_logreg_v1
+第8册5-01751	test		yes	yes	inline_identifier_heuristic
+第8册5-01751	test		yes	yes	span_rule_v1
+第8册5-01751	test		yes	no	char_tfidf_svm_v1
+第8册5-01751	test		yes	yes	bge_small_zh_logreg_v1
+第8册5-01786	test		yes	yes	inline_identifier_heuristic
+第8册5-01786	test		yes	yes	span_rule_v1
+第8册5-01786	test		yes	no	char_tfidf_svm_v1
+第8册5-01786	test		yes	yes	bge_small_zh_logreg_v1
+第8册5-02416	test		yes	yes	inline_identifier_heuristic
+第8册5-02416	test		yes	yes	span_rule_v1
+第8册5-02416	test		yes	yes	char_tfidf_svm_v1
+第8册5-02416	test		yes	yes	bge_small_zh_logreg_v1

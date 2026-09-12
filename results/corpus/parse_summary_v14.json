@@ -1,0 +1,443 @@
+{
+  "root": "cidian",
+  "files": 48,
+  "summary": {
+    "records": 97527,
+    "doc_type::FORMULA_ENTRY_FULL": 62778,
+    "doc_type::FORMULA_ENTRY_NOISY": 21821,
+    "noise::markdown_field_heading": 21811,
+    "doc_type::FORMULA_ENTRY_REDIRECT": 11803,
+    "skipped_non_entry_span": 4542,
+    "doc_type::MIXED_UNKNOWN": 442,
+    "noise::image_contamination": 9,
+    "noise::html_contamination": 4,
+    "doc_type::TOC_INDEX": 683
+  },
+  "per_file": {
+    "第1册1.md": {
+      "records": 1312,
+      "doc_type::FORMULA_ENTRY_FULL": 792,
+      "doc_type::FORMULA_ENTRY_NOISY": 330,
+      "noise::markdown_field_heading": 330,
+      "doc_type::FORMULA_ENTRY_REDIRECT": 188,
+      "skipped_non_entry_span": 64,
+      "doc_type::MIXED_UNKNOWN": 2
+    },
+    "第1册2.md": {
+      "records": 2678,
+      "doc_type::FORMULA_ENTRY_NOISY": 558,
+      "noise::markdown_field_heading": 558,
+      "doc_type::FORMULA_ENTRY_FULL": 1752,
+      "doc_type::FORMULA_ENTRY_REDIRECT": 365,
+      "skipped_non_entry_span": 161,
+      "doc_type::MIXED_UNKNOWN": 3
+    },
+    "第1册3.md": {
+      "records": 2642,
+      "doc_type::FORMULA_ENTRY_FULL": 1683,
+      "doc_type::FORMULA_ENTRY_NOISY": 598,
+      "noise::markdown_field_heading": 598,
+      "doc_type::FORMULA_ENTRY_REDIRECT": 356,
+      "skipped_non_entry_span": 152,
+      "doc_type::MIXED_UNKNOWN": 5
+    },
+    "第1册4.md": {
+      "records": 2385,
+      "doc_type::FORMULA_ENTRY_FULL": 1519,
+      "doc_type::FORMULA_ENTRY_NOISY": 504,
+      "noise::markdown_field_heading": 504,
+      "skipped_non_entry_span": 125,
+      "doc_type::FORMULA_ENTRY_REDIRECT": 360,
+      "doc_type::MIXED_UNKNOWN": 2
+    },
+    "第1册5.md": {
+      "records": 2634,
+      "doc_type::FORMULA_ENTRY_FULL": 1780,
+      "doc_type::FORMULA_ENTRY_NOISY": 587,
+      "noise::markdown_field_heading": 587,
+      "doc_type::FORMULA_ENTRY_REDIRECT": 263,
+      "skipped_non_entry_span": 141,
+      "doc_type::MIXED_UNKNOWN": 4
+    },
+    "第1册6.md": {
+      "records": 117,
+      "doc_type::FORMULA_ENTRY_NOISY": 21,
+      "noise::markdown_field_heading": 20,
+      "doc_type::FORMULA_ENTRY_FULL": 85,
+      "doc_type::MIXED_UNKNOWN": 1,
+      "doc_type::FORMULA_ENTRY_REDIRECT": 10,
+      "skipped_non_entry_span": 5,
+      "noise::image_contamination": 1
+    },
+    "第2册1.md": {
+      "records": 1337,
+      "doc_type::FORMULA_ENTRY_FULL": 749,
+      "doc_type::FORMULA_ENTRY_REDIRECT": 192,
+      "doc_type::FORMULA_ENTRY_NOISY": 395,
+      "noise::markdown_field_heading": 395,
+      "skipped_non_entry_span": 38,
+      "doc_type::MIXED_UNKNOWN": 1
+    },
+    "第2册2.md": {
+      "records": 2636,
+      "doc_type::FORMULA_ENTRY_FULL": 1553,
+      "doc_type::FORMULA_ENTRY_REDIRECT": 325,
+      "doc_type::FORMULA_ENTRY_NOISY": 754,
+      "noise::markdown_field_heading": 754,
+      "skipped_non_entry_span": 77,
+      "doc_type::MIXED_UNKNOWN": 4
+    },
+    "第2册3.md": {
+      "records": 2648,
+      "doc_type::FORMULA_ENTRY_REDIRECT": 320,
+      "doc_type::FORMULA_ENTRY_FULL": 1587,
+      "doc_type::FORMULA_ENTRY_NOISY": 737,
+      "noise::markdown_field_heading": 737,
+      "skipped_non_entry_span": 84,
+      "doc_type::MIXED_UNKNOWN": 4
+    },
+    "第2册4.md": {
+      "records": 2695,
+      "doc_type::FORMULA_ENTRY_NOISY": 678,
+      "noise::markdown_field_heading": 677,
+      "doc_type::FORMULA_ENTRY_REDIRECT": 314,
+      "doc_type::FORMULA_ENTRY_FULL": 1691,
+      "doc_type::MIXED_UNKNOWN": 12,
+      "skipped_non_entry_span": 94,
+      "noise::html_contamination": 1
+    },
+    "第2册5.md": {
+      "records": 2678,
+      "doc_type::FORMULA_ENTRY_NOISY": 654,
+      "noise::markdown_field_heading": 653,
+      "doc_type::FORMULA_ENTRY_FULL": 1605,
+      "skipped_non_entry_span": 104,
+      "doc_type::FORMULA_ENTRY_REDIRECT": 412,
+      "doc_type::MIXED_UNKNOWN": 7,
+      "noise::image_contamination": 1
+    },
+    "第2册6.md": {
+      "records": 82,
+      "doc_type::FORMULA_ENTRY_REDIRECT": 13,
+      "doc_type::FORMULA_ENTRY_NOISY": 14,
+      "noise::markdown_field_heading": 13,
+      "skipped_non_entry_span": 2,
+      "doc_type::FORMULA_ENTRY_FULL": 55,
+      "noise::image_contamination": 1
+    },
+    "第3册1.md": {
+      "records": 1026,
+      "doc_type::FORMULA_ENTRY_FULL": 923,
+      "doc_type::FORMULA_ENTRY_REDIRECT": 102,
+      "skipped_non_entry_span": 41,
+      "doc_type::MIXED_UNKNOWN": 1
+    },
+    "第3册2.md": {
+      "records": 2359,
+      "doc_type::FORMULA_ENTRY_REDIRECT": 299,
+      "doc_type::FORMULA_ENTRY_FULL": 2057,
+      "skipped_non_entry_span": 149,
+      "doc_type::FORMULA_ENTRY_NOISY": 3,
+      "noise::markdown_field_heading": 3
+    },
+    "第3册3.md": {
+      "records": 2282,
+      "doc_type::FORMULA_ENTRY_FULL": 2175,
+      "skipped_non_entry_span": 177,
+      "doc_type::FORMULA_ENTRY_REDIRECT": 107
+    },
+    "第3册4.md": {
+      "records": 2333,
+      "doc_type::FORMULA_ENTRY_FULL": 1988,
+      "doc_type::FORMULA_ENTRY_REDIRECT": 343,
+      "skipped_non_entry_span": 85,
+      "doc_type::MIXED_UNKNOWN": 2
+    },
+    "第3册5.md": {
+      "records": 2241,
+      "doc_type::FORMULA_ENTRY_REDIRECT": 310,
+      "doc_type::FORMULA_ENTRY_FULL": 1928,
+      "skipped_non_entry_span": 134,
+      "doc_type::MIXED_UNKNOWN": 3
+    },
+    "第3册6.md": {
+      "records": 2089,
+      "doc_type::FORMULA_ENTRY_FULL": 1790,
+      "skipped_non_entry_span": 107,
+      "doc_type::FORMULA_ENTRY_REDIRECT": 298,
+      "doc_type::FORMULA_ENTRY_NOISY": 1,
+      "noise::image_contamination": 1
+    },
+    "第4册1.md": {
+      "records": 1216,
+      "doc_type::FORMULA_ENTRY_FULL": 685,
+      "doc_type::FORMULA_ENTRY_NOISY": 352,
+      "noise::markdown_field_heading": 352,
+      "doc_type::FORMULA_ENTRY_REDIRECT": 175,
+      "doc_type::MIXED_UNKNOWN": 4,
+      "skipped_non_entry_span": 56
+    },
+    "第4册2.md": {
+      "records": 2842,
+      "doc_type::FORMULA_ENTRY_FULL": 1500,
+      "doc_type::MIXED_UNKNOWN": 19,
+      "doc_type::FORMULA_ENTRY_NOISY": 936,
+      "noise::markdown_field_heading": 936,
+      "doc_type::FORMULA_ENTRY_REDIRECT": 387,
+      "skipped_non_entry_span": 132
+    },
+    "第4册3.md": {
+      "records": 2793,
+      "doc_type::FORMULA_ENTRY_FULL": 1611,
+      "doc_type::FORMULA_ENTRY_NOISY": 852,
+      "noise::markdown_field_heading": 852,
+      "doc_type::FORMULA_ENTRY_REDIRECT": 324,
+      "skipped_non_entry_span": 131,
+      "doc_type::MIXED_UNKNOWN": 6
+    },
+    "第4册4.md": {
+      "records": 2642,
+      "doc_type::FORMULA_ENTRY_FULL": 1470,
+      "doc_type::FORMULA_ENTRY_REDIRECT": 331,
+      "skipped_non_entry_span": 144,
+      "doc_type::FORMULA_ENTRY_NOISY": 833,
+      "noise::markdown_field_heading": 833,
+      "doc_type::MIXED_UNKNOWN": 8
+    },
+    "第4册5.md": {
+      "records": 1904,
+      "doc_type::FORMULA_ENTRY_FULL": 1041,
+      "doc_type::FORMULA_ENTRY_NOISY": 624,
+      "noise::markdown_field_heading": 623,
+      "skipped_non_entry_span": 93,
+      "doc_type::FORMULA_ENTRY_REDIRECT": 235,
+      "doc_type::MIXED_UNKNOWN": 4,
+      "noise::image_contamination": 1
+    },
+    "第5册1.md": {
+      "records": 1217,
+      "doc_type::FORMULA_ENTRY_FULL": 786,
+      "doc_type::FORMULA_ENTRY_NOISY": 248,
+      "noise::markdown_field_heading": 248,
+      "skipped_non_entry_span": 38,
+      "doc_type::FORMULA_ENTRY_REDIRECT": 179,
+      "doc_type::MIXED_UNKNOWN": 4
+    },
+    "第5册2.md": {
+      "records": 2671,
+      "doc_type::FORMULA_ENTRY_REDIRECT": 303,
+      "doc_type::FORMULA_ENTRY_FULL": 1806,
+      "skipped_non_entry_span": 94,
+      "doc_type::FORMULA_ENTRY_NOISY": 546,
+      "noise::markdown_field_heading": 546,
+      "doc_type::MIXED_UNKNOWN": 16
+    },
+    "第5册3.md": {
+      "records": 2603,
+      "doc_type::FORMULA_ENTRY_REDIRECT": 321,
+      "skipped_non_entry_span": 83,
+      "doc_type::FORMULA_ENTRY_FULL": 1631,
+      "doc_type::FORMULA_ENTRY_NOISY": 633,
+      "noise::markdown_field_heading": 633,
+      "doc_type::MIXED_UNKNOWN": 18
+    },
+    "第5册4.md": {
+      "records": 2874,
+      "doc_type::FORMULA_ENTRY_NOISY": 606,
+      "noise::markdown_field_heading": 606,
+      "doc_type::FORMULA_ENTRY_REDIRECT": 329,
+      "doc_type::FORMULA_ENTRY_FULL": 1925,
+      "skipped_non_entry_span": 127,
+      "doc_type::MIXED_UNKNOWN": 14
+    },
+    "第5册5.md": {
+      "records": 2839,
+      "doc_type::FORMULA_ENTRY_FULL": 1971,
+      "doc_type::FORMULA_ENTRY_NOISY": 511,
+      "noise::markdown_field_heading": 511,
+      "skipped_non_entry_span": 90,
+      "doc_type::FORMULA_ENTRY_REDIRECT": 346,
+      "doc_type::MIXED_UNKNOWN": 11
+    },
+    "第5册6.md": {
+      "records": 311,
+      "doc_type::FORMULA_ENTRY_NOISY": 85,
+      "noise::markdown_field_heading": 85,
+      "doc_type::FORMULA_ENTRY_REDIRECT": 34,
+      "doc_type::FORMULA_ENTRY_FULL": 191,
+      "skipped_non_entry_span": 9,
+      "doc_type::MIXED_UNKNOWN": 1
+    },
+    "第6册1.md": {
+      "records": 1347,
+      "doc_type::FORMULA_ENTRY_FULL": 825,
+      "doc_type::FORMULA_ENTRY_NOISY": 333,
+      "noise::markdown_field_heading": 333,
+      "doc_type::FORMULA_ENTRY_REDIRECT": 179,
+      "skipped_non_entry_span": 72,
+      "doc_type::MIXED_UNKNOWN": 10
+    },
+    "第6册2.md": {
+      "records": 2589,
+      "doc_type::FORMULA_ENTRY_REDIRECT": 294,
+      "doc_type::FORMULA_ENTRY_FULL": 1677,
+      "doc_type::FORMULA_ENTRY_NOISY": 610,
+      "noise::markdown_field_heading": 610,
+      "doc_type::MIXED_UNKNOWN": 8,
+      "skipped_non_entry_span": 115
+    },
+    "第6册3.md": {
+      "records": 2542,
+      "doc_type::FORMULA_ENTRY_REDIRECT": 329,
+      "doc_type::FORMULA_ENTRY_FULL": 1559,
+      "doc_type::FORMULA_ENTRY_NOISY": 642,
+      "noise::markdown_field_heading": 642,
+      "skipped_non_entry_span": 125,
+      "doc_type::MIXED_UNKNOWN": 12
+    },
+    "第6册4.md": {
+      "records": 2702,
+      "doc_type::FORMULA_ENTRY_FULL": 1734,
+      "doc_type::FORMULA_ENTRY_REDIRECT": 433,
+      "doc_type::FORMULA_ENTRY_NOISY": 524,
+      "noise::markdown_field_heading": 524,
+      "skipped_non_entry_span": 138,
+      "doc_type::MIXED_UNKNOWN": 11
+    },
+    "第6册5.md": {
+      "records": 2536,
+      "doc_type::FORMULA_ENTRY_FULL": 1632,
+      "doc_type::FORMULA_ENTRY_NOISY": 606,
+      "noise::markdown_field_heading": 606,
+      "skipped_non_entry_span": 137,
+      "doc_type::FORMULA_ENTRY_REDIRECT": 287,
+      "doc_type::MIXED_UNKNOWN": 11
+    },
+    "第6册6.md": {
+      "records": 985,
+      "doc_type::FORMULA_ENTRY_FULL": 623,
+      "doc_type::FORMULA_ENTRY_NOISY": 262,
+      "noise::markdown_field_heading": 261,
+      "doc_type::FORMULA_ENTRY_REDIRECT": 99,
+      "skipped_non_entry_span": 55,
+      "doc_type::MIXED_UNKNOWN": 1,
+      "noise::image_contamination": 1
+    },
+    "第7册1.md": {
+      "records": 1200,
+      "doc_type::FORMULA_ENTRY_NOISY": 396,
+      "noise::markdown_field_heading": 396,
+      "doc_type::FORMULA_ENTRY_FULL": 680,
+      "skipped_non_entry_span": 76,
+      "doc_type::FORMULA_ENTRY_REDIRECT": 120,
+      "doc_type::MIXED_UNKNOWN": 4
+    },
+    "第7册2.md": {
+      "skipped_non_entry_span": 171,
+      "records": 2752,
+      "doc_type::FORMULA_ENTRY_FULL": 1608,
+      "doc_type::FORMULA_ENTRY_NOISY": 825,
+      "noise::markdown_field_heading": 825,
+      "doc_type::FORMULA_ENTRY_REDIRECT": 306,
+      "doc_type::MIXED_UNKNOWN": 13
+    },
+    "第7册3.md": {
+      "records": 2770,
+      "doc_type::FORMULA_ENTRY_FULL": 1626,
+      "doc_type::FORMULA_ENTRY_NOISY": 777,
+      "noise::markdown_field_heading": 777,
+      "doc_type::FORMULA_ENTRY_REDIRECT": 353,
+      "skipped_non_entry_span": 172,
+      "doc_type::MIXED_UNKNOWN": 14
+    },
+    "第7册4.md": {
+      "records": 2621,
+      "doc_type::FORMULA_ENTRY_FULL": 1577,
+      "doc_type::FORMULA_ENTRY_NOISY": 793,
+      "noise::markdown_field_heading": 793,
+      "doc_type::FORMULA_ENTRY_REDIRECT": 240,
+      "skipped_non_entry_span": 175,
+      "doc_type::MIXED_UNKNOWN": 11
+    },
+    "第7册5.md": {
+      "records": 2709,
+      "doc_type::FORMULA_ENTRY_FULL": 1574,
+      "doc_type::FORMULA_ENTRY_NOISY": 752,
+      "noise::markdown_field_heading": 752,
+      "skipped_non_entry_span": 168,
+      "doc_type::FORMULA_ENTRY_REDIRECT": 368,
+      "doc_type::MIXED_UNKNOWN": 15
+    },
+    "第7册6.md": {
+      "records": 63,
+      "doc_type::FORMULA_ENTRY_FULL": 37,
+      "doc_type::FORMULA_ENTRY_NOISY": 23,
+      "noise::markdown_field_heading": 22,
+      "doc_type::MIXED_UNKNOWN": 1,
+      "skipped_non_entry_span": 3,
+      "doc_type::FORMULA_ENTRY_REDIRECT": 2,
+      "noise::image_contamination": 1
+    },
+    "第8册1.md": {
+      "records": 1384,
+      "doc_type::FORMULA_ENTRY_FULL": 767,
+      "doc_type::FORMULA_ENTRY_REDIRECT": 169,
+      "doc_type::FORMULA_ENTRY_NOISY": 442,
+      "noise::markdown_field_heading": 442,
+      "skipped_non_entry_span": 34,
+      "doc_type::MIXED_UNKNOWN": 6
+    },
+    "第8册2.md": {
+      "skipped_non_entry_span": 98,
+      "records": 2481,
+      "doc_type::FORMULA_ENTRY_REDIRECT": 268,
+      "doc_type::FORMULA_ENTRY_FULL": 1444,
+      "doc_type::FORMULA_ENTRY_NOISY": 757,
+      "noise::markdown_field_heading": 757,
+      "doc_type::MIXED_UNKNOWN": 12
+    },
+    "第8册3.md": {
+      "records": 2681,
+      "doc_type::FORMULA_ENTRY_FULL": 1684,
+      "skipped_non_entry_span": 85,
+      "doc_type::FORMULA_ENTRY_NOISY": 734,
+      "noise::markdown_field_heading": 733,
+      "doc_type::FORMULA_ENTRY_REDIRECT": 246,
+      "doc_type::MIXED_UNKNOWN": 17,
+      "noise::image_contamination": 1
+    },
+    "第8册4.md": {
+      "records": 2664,
+      "doc_type::FORMULA_ENTRY_NOISY": 703,
+      "noise::markdown_field_heading": 703,
+      "doc_type::FORMULA_ENTRY_FULL": 1645,
+      "skipped_non_entry_span": 97,
+      "doc_type::FORMULA_ENTRY_REDIRECT": 297,
+      "doc_type::MIXED_UNKNOWN": 19
+    },
+    "第8册5.md": {
+      "records": 2575,
+      "doc_type::FORMULA_ENTRY_NOISY": 566,
+      "noise::markdown_field_heading": 566,
+      "doc_type::FORMULA_ENTRY_FULL": 1716,
+      "doc_type::FORMULA_ENTRY_REDIRECT": 265,
+      "skipped_non_entry_span": 82,
+      "doc_type::MIXED_UNKNOWN": 28
+    },
+    "第8册6.md": {
+      "records": 64,
+      "doc_type::FORMULA_ENTRY_FULL": 41,
+      "skipped_non_entry_span": 2,
+      "doc_type::FORMULA_ENTRY_REDIRECT": 7,
+      "doc_type::FORMULA_ENTRY_NOISY": 16,
+      "noise::markdown_field_heading": 15,
+      "noise::image_contamination": 1
+    },
+    "第9册.md": {
+      "records": 776,
+      "doc_type::MIXED_UNKNOWN": 93,
+      "doc_type::TOC_INDEX": 683,
+      "noise::html_contamination": 3
+    }
+  }
+}

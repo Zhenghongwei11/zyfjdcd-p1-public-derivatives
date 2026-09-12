@@ -1,0 +1,6 @@
+Observed pattern	Main observation
+A small number of boundary errors remain under the span rule	The held-out span rule makes 4/108 errors (0 false positives; 4 false negatives).
+Learned text baselines show different error distributions	The character TF-IDF SVM makes 26/108 test errors, compared with 21/108 for frozen BGE embeddings plus logistic regression.
+Strict-heading extraction misses valid usage fields	Test-set value extraction recall is 0.1816 for Administration (用法) under field-heading noise, showing that canonical line-start assumptions undercount displaced headings.
+Indication fields are sensitive to heading noise	Test-set value extraction recall is 0.4427 for Indications (主治) under field-heading noise, indicating disproportionate sensitivity in narrative fields.
+Field review changes a minority of hard-case values	Among 240 reviewed rows, 227 are accepted as extracted, 11 are corrected, and 2 are cleared as empty.

@@ -1,0 +1,8 @@
+Benchmark	Scale	Language/domain	Annotation target	Source linkage and access
+PubLayNet	>360,000 pages	English scientific articles	Automatic layout regions (5 classes)	PDF–XML linked; public
+DocLayNet	80,863 pages	Diverse document domains	Manual layout regions (11 classes)	PDF-page linked; public
+FUNSD	199 scanned forms	English forms	Words, entities, and links	Form-image linked; research access
+XFUND	1,393 forms	7 languages, including Chinese	Key-value entities and relations	Form-image linked; public
+M6Doc	9,080 pages	Chinese and English modern documents	Manual layout instances (74 classes)	Page-image linked; public
+M5HisDoc	8,000 images	Chinese historical documents	Lines, characters, and reading order	Page-image linked; controlled non-commercial access
+This work	48 files; 97,527 record spans	Chinese TCM formula dictionary	Boundaries, document types, and formula fields	File/character-span linked; derived benchmark public, book text not redistributed

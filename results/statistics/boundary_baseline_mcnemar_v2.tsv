@@ -1,0 +1,7 @@
+model_a	model_b	a_correct_b_wrong	a_wrong_b_correct	mcnemar_exact_p	holm_adjusted_p
+inline_identifier_heuristic	span_rule_v1	0	21	9.53674e-07	5.72205e-06
+inline_identifier_heuristic	char_tfidf_svm_v1	15	14	1	1
+inline_identifier_heuristic	bge_small_zh_logreg_v1	14	18	0.596615	1
+span_rule_v1	char_tfidf_svm_v1	24	2	1.04904e-05	5.24521e-05
+span_rule_v1	bge_small_zh_logreg_v1	19	2	0.000221252	0.00088501
+char_tfidf_svm_v1	bge_small_zh_logreg_v1	8	13	0.38331	1

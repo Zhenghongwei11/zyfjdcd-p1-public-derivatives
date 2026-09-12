@@ -13,7 +13,7 @@
 
 - MinerU（通过 OpenDataLab 的在线 PDF Extractor 使用）
 
-在线工具入口（访问日期需在投稿前补齐）：
+在线工具入口：
 
 ```text
 https://opendatalab.com/OpenSourceTools/Extractor/PDF
@@ -27,4 +27,4 @@ https://opendatalab.com/OpenSourceTools/Extractor/PDF
 ## 3. 可复现性与权利边界
 
 - 本项目对外发布以“派生层优先”为原则：公开 schema、评测表、split summary、脚本与派生结构化/规范化产物；不默认公开整本 OCR 原文。
-- 若期刊或编辑流程要求查看原文证据，按最小必要原则提供受限片段或截图（不提供整册文本）。
+- 公开分析包提供不含原文的标签、预测、统计结果和图表数据；完整 OCR 文本不随包分发。

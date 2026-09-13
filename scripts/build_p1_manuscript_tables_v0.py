@@ -83,14 +83,14 @@ def main() -> None:
         ("Characters (n)", str(s.get("chars", ""))),
         ("HTML blocks (n)", str(s.get("html_blocks", ""))),
         ("Image links (n)", str(s.get("image_links", ""))),
-        ("Suspicious joined entries (n)", str(s.get("suspicious_entry_join", ""))),
-        ("Suspicious heading noise (n)", str(s.get("suspicious_field_heading", ""))),
+        ("Joined-entry signals (n)", str(s.get("suspicious_entry_join", ""))),
+        ("Malformed-heading signals (n)", str(s.get("suspicious_field_heading", ""))),
         ("Parsed records (n)", str(ps.get("records", ""))),
-        ("Doc type: full entries (n)", str(ps.get("doc_type::FORMULA_ENTRY_FULL", ""))),
-        ("Doc type: noisy entries (n)", str(ps.get("doc_type::FORMULA_ENTRY_NOISY", ""))),
-        ("Doc type: redirects (n)", str(ps.get("doc_type::FORMULA_ENTRY_REDIRECT", ""))),
-        ("Doc type: index-like (n)", str(ps.get("doc_type::TOC_INDEX", ""))),
-        ("Doc type: mixed/unknown (n)", str(ps.get("doc_type::MIXED_UNKNOWN", ""))),
+        ("Doc type: clean entry records (n)", str(ps.get("doc_type::FORMULA_ENTRY_FULL", ""))),
+        ("Doc type: noisy entry records (n)", str(ps.get("doc_type::FORMULA_ENTRY_NOISY", ""))),
+        ("Doc type: redirect-like records (n)", str(ps.get("doc_type::FORMULA_ENTRY_REDIRECT", ""))),
+        ("Doc type: index-like records (n)", str(ps.get("doc_type::TOC_INDEX", ""))),
+        ("Doc type: mixed/unknown records (n)", str(ps.get("doc_type::MIXED_UNKNOWN", ""))),
     ]
     write_kv_tsv(out_dir / "table1_corpus_summary.tsv", kv)
 
@@ -228,10 +228,10 @@ def main() -> None:
     # Also write a version with human-readable headers.
     out_paper = []
     field_name = {
-        "组成": "Composition (组成)",
-        "用法": "Administration (用法)",
-        "功用": "Actions (功用)",
-        "主治": "Indications (主治)",
+        "组成": "Composition",
+        "用法": "Administration",
+        "功用": "Actions",
+        "主治": "Indications",
     }
     for r in out:
         out_paper.append(
@@ -294,10 +294,10 @@ def main() -> None:
     # Challenge summary with human-readable labels.
     split_map = {"train": "Train", "dev": "Validation", "validation": "Validation", "test": "Test"}
     doc_type_map = {
-        "FORMULA_ENTRY_FULL": "Clean entry",
-        "FORMULA_ENTRY_NOISY": "Noisy entry",
-        "FORMULA_ENTRY_REDIRECT": "Redirect-like",
-        "TOC_INDEX": "Index-like",
+        "FORMULA_ENTRY_FULL": "Clean entry records",
+        "FORMULA_ENTRY_NOISY": "Noisy entry records",
+        "FORMULA_ENTRY_REDIRECT": "Redirect-like records",
+        "TOC_INDEX": "Index-like records",
         "MIXED_UNKNOWN": "Mixed/unknown",
     }
     noise_map = {

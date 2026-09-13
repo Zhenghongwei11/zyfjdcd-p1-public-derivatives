@@ -6,6 +6,11 @@ import csv
 from pathlib import Path
 
 
+def public_source_file(source_file: str) -> str:
+    name = Path((source_file or "").strip()).name
+    return f"restricted_source/{name}" if name else ""
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Export the labeled entry-boundary benchmark index.")
     parser.add_argument("--input-tsv", required=True)
@@ -19,7 +24,7 @@ def main() -> None:
         reader = csv.DictReader(handle, delimiter="\t")
         fieldnames = list(reader.fieldnames or [])
         rows = [
-            row
+            {**row, "source_file": public_source_file(row.get("source_file", ""))}
             for row in reader
             if (row.get(args.label_column) or "").strip().lower() in {"yes", "no"}
         ]

@@ -1,31 +1,31 @@
 item_id	split	annotator_a_label	annotator_b_label	adjudicated_label	agreement
 第1册1-00001	train	yes	yes	yes	yes
 第1册1-00005	train	no	no	no	yes
-第1册1-00006		yes	yes	yes	yes
-第1册1-00008		no	no	no	yes
-第1册1-00014		no	no	no	yes
+第1册1-00006	train	yes	yes	yes	yes
+第1册1-00008	train	no	no	no	yes
+第1册1-00014	train	no	no	no	yes
 第1册1-00015	train	yes	yes	yes	yes
-第1册1-00017		no	no	no	yes
-第1册1-00018		yes	yes	yes	yes
+第1册1-00017	train	no	no	no	yes
+第1册1-00018	train	yes	yes	yes	yes
 第1册1-00019	train	no	no	no	yes
-第1册1-00022		no	no	no	yes
-第1册1-00023		yes	yes	yes	yes
-第1册1-00031		yes	yes	yes	yes
-第1册1-00033		no	no	no	yes
-第1册1-00034		no	no	no	yes
-第1册1-00036		no	no	no	yes
-第1册1-00038		yes	yes	yes	yes
-第1册1-00039		yes	yes	yes	yes
-第1册1-00041		no	no	no	yes
-第1册1-00044		yes	yes	yes	yes
-第1册1-00045		yes	yes	yes	yes
-第1册1-00046		yes	yes	yes	yes
-第1册1-00051		no	no	no	yes
-第1册1-00054		yes	yes	yes	yes
-第1册1-00057		no	no	no	yes
-第1册1-00060		no	no	no	yes
-第1册1-00061		yes	yes	yes	yes
-第1册1-00062		no	no	no	yes
+第1册1-00022	train	no	no	no	yes
+第1册1-00023	train	yes	yes	yes	yes
+第1册1-00031	train	yes	yes	yes	yes
+第1册1-00033	train	no	no	no	yes
+第1册1-00034	train	no	no	no	yes
+第1册1-00036	train	no	no	no	yes
+第1册1-00038	train	yes	yes	yes	yes
+第1册1-00039	train	yes	yes	yes	yes
+第1册1-00041	train	no	no	no	yes
+第1册1-00044	train	yes	yes	yes	yes
+第1册1-00045	train	yes	yes	yes	yes
+第1册1-00046	train	yes	yes	yes	yes
+第1册1-00051	train	no	no	no	yes
+第1册1-00054	train	yes	yes	yes	yes
+第1册1-00057	train	no	no	no	yes
+第1册1-00060	train	no	no	no	yes
+第1册1-00061	train	yes	yes	yes	yes
+第1册1-00062	train	no	no	no	yes
 第1册1-00449	train	no	no	no	yes
 第1册1-00602	train	yes	yes	yes	yes
 第1册1-00714	train	yes	yes	yes	yes
@@ -379,7 +379,7 @@ item_id	split	annotator_a_label	annotator_b_label	adjudicated_label	agreement
 第6册1-00341	train	yes	yes	yes	yes
 第6册1-00427	train	yes	yes	yes	yes
 第6册1-00488	train	yes	yes	yes	yes
-第6册1-00728		no	no	no	yes
+第6册1-00728	train	no	no	no	yes
 第6册1-00751	train	yes	yes	yes	yes
 第6册1-00938	train	yes	yes	yes	yes
 第6册1-00989	train	yes	yes	yes	yes

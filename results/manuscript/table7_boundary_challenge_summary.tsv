@@ -3,10 +3,10 @@ Overall	All records	97527	26.2%
 Split	Train	59568	24.4%
 Split	Validation	21577	27.9%
 Split	Test	16382	30.7%
-Doc type	Clean entry	62778	19.7%
-Doc type	Noisy entry	21821	27.9%
-Doc type	Redirect-like	11803	58.9%
-Doc type	Index-like	683	0.4%
+Doc type	Clean entry records	62778	19.7%
+Doc type	Noisy entry records	21821	27.9%
+Doc type	Redirect-like records	11803	58.9%
+Doc type	Index-like records	683	0.4%
 Doc type	Mixed/unknown	442	33.3%
 Noise	None	75703	25.7%
 Noise	Field-heading noise	21811	27.9%

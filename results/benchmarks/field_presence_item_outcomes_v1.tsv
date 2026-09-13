@@ -1,513 +1,513 @@
-item_id	split	field	relaxed_reference_present	strict_prediction_present	agreement
-第1册1-00001	train	组成	yes	yes	yes
-第1册1-00001	train	用法	yes	yes	yes
-第1册1-00001	train	功用	no	no	yes
-第1册1-00001	train	主治	yes	yes	yes
-第1册1-00005	train	组成	yes	yes	yes
-第1册1-00005	train	用法	yes	no	no
-第1册1-00005	train	功用	no	no	yes
-第1册1-00005	train	主治	yes	yes	yes
-第1册1-00015	train	组成	no	no	yes
-第1册1-00015	train	用法	no	no	yes
-第1册1-00015	train	功用	no	no	yes
-第1册1-00015	train	主治	no	no	yes
-第1册1-00019	train	组成	yes	yes	yes
-第1册1-00019	train	用法	yes	yes	yes
-第1册1-00019	train	功用	yes	yes	yes
-第1册1-00019	train	主治	yes	yes	yes
-第1册1-00449	train	组成	no	no	yes
-第1册1-00449	train	用法	no	no	yes
-第1册1-00449	train	功用	no	no	yes
-第1册1-00449	train	主治	no	no	yes
-第1册2-00001	train	组成	yes	yes	yes
-第1册2-00001	train	用法	yes	yes	yes
-第1册2-00001	train	功用	no	no	yes
-第1册2-00001	train	主治	yes	no	no
-第1册2-00003	train	组成	yes	yes	yes
-第1册2-00003	train	用法	yes	yes	yes
-第1册2-00003	train	功用	no	no	yes
-第1册2-00003	train	主治	yes	yes	yes
-第1册2-00005	train	组成	no	no	yes
-第1册2-00005	train	用法	no	no	yes
-第1册2-00005	train	功用	no	no	yes
-第1册2-00005	train	主治	no	no	yes
-第1册2-00006	train	组成	yes	yes	yes
-第1册2-00006	train	用法	yes	yes	yes
-第1册2-00006	train	功用	no	no	yes
-第1册2-00006	train	主治	yes	yes	yes
-第1册2-00346	train	组成	no	no	yes
-第1册2-00346	train	用法	no	no	yes
-第1册2-00346	train	功用	no	no	yes
-第1册2-00346	train	主治	yes	yes	yes
-第1册3-00001	dev	组成	yes	yes	yes
-第1册3-00001	dev	用法	yes	yes	yes
-第1册3-00001	dev	功用	yes	yes	yes
-第1册3-00001	dev	主治	yes	yes	yes
-第1册3-00002	dev	组成	yes	yes	yes
-第1册3-00002	dev	用法	yes	yes	yes
-第1册3-00002	dev	功用	no	no	yes
-第1册3-00002	dev	主治	yes	no	no
-第1册3-00004	dev	组成	no	no	yes
-第1册3-00004	dev	用法	no	no	yes
-第1册3-00004	dev	功用	no	no	yes
-第1册3-00004	dev	主治	no	no	yes
-第1册3-00038	dev	组成	yes	yes	yes
-第1册3-00038	dev	用法	yes	yes	yes
-第1册3-00038	dev	功用	no	no	yes
-第1册3-00038	dev	主治	yes	yes	yes
-第1册3-00330	dev	组成	no	no	yes
-第1册3-00330	dev	用法	no	no	yes
-第1册3-00330	dev	功用	no	no	yes
-第1册3-00330	dev	主治	no	no	yes
-第1册4-00001	train	组成	yes	yes	yes
-第1册4-00001	train	用法	yes	yes	yes
-第1册4-00001	train	功用	no	no	yes
-第1册4-00001	train	主治	yes	yes	yes
-第1册4-00002	train	组成	yes	yes	yes
-第1册4-00002	train	用法	yes	yes	yes
-第1册4-00002	train	功用	yes	no	no
-第1册4-00002	train	主治	yes	yes	yes
-第1册4-00003	train	组成	no	no	yes
-第1册4-00003	train	用法	no	no	yes
-第1册4-00003	train	功用	no	no	yes
-第1册4-00003	train	主治	no	no	yes
-第1册4-00005	train	组成	yes	yes	yes
-第1册4-00005	train	用法	yes	yes	yes
-第1册4-00005	train	功用	no	no	yes
-第1册4-00005	train	主治	yes	yes	yes
-第1册4-01163	train	组成	no	no	yes
-第1册4-01163	train	用法	no	no	yes
-第1册4-01163	train	功用	no	no	yes
-第1册4-01163	train	主治	yes	yes	yes
-第1册5-00001	train	组成	yes	yes	yes
-第1册5-00001	train	用法	no	no	yes
-第1册5-00001	train	功用	no	no	yes
-第1册5-00001	train	主治	yes	yes	yes
-第1册5-00002	train	组成	yes	yes	yes
-第1册5-00002	train	用法	yes	no	no
-第1册5-00002	train	功用	no	no	yes
-第1册5-00002	train	主治	yes	no	no
-第1册5-00010	train	组成	no	no	yes
-第1册5-00010	train	用法	no	no	yes
-第1册5-00010	train	功用	no	no	yes
-第1册5-00010	train	主治	no	no	yes
-第1册5-00014	train	组成	no	no	yes
-第1册5-00014	train	用法	no	no	yes
-第1册5-00014	train	功用	no	no	yes
-第1册5-00014	train	主治	no	no	yes
-第1册5-00224	train	组成	no	no	yes
-第1册5-00224	train	用法	no	no	yes
-第1册5-00224	train	功用	no	no	yes
-第1册5-00224	train	主治	no	no	yes
-第1册6-00001	train	组成	yes	yes	yes
-第1册6-00001	train	用法	yes	yes	yes
-第1册6-00001	train	功用	yes	no	no
-第1册6-00001	train	主治	yes	yes	yes
-第1册6-00002	train	组成	yes	yes	yes
-第1册6-00002	train	用法	yes	yes	yes
-第1册6-00002	train	功用	no	no	yes
-第1册6-00002	train	主治	yes	yes	yes
-第1册6-00003	train	组成	yes	yes	yes
-第1册6-00003	train	用法	yes	yes	yes
-第1册6-00003	train	功用	yes	yes	yes
-第1册6-00003	train	主治	yes	yes	yes
-第1册6-00015	train	组成	no	no	yes
-第1册6-00015	train	用法	no	no	yes
-第1册6-00015	train	功用	no	no	yes
-第1册6-00015	train	主治	no	no	yes
-第2册1-00001	test	组成	yes	yes	yes
-第2册1-00001	test	用法	yes	yes	yes
-第2册1-00001	test	功用	no	no	yes
-第2册1-00001	test	主治	yes	yes	yes
-第2册1-00002	test	组成	no	no	yes
-第2册1-00002	test	用法	no	no	yes
-第2册1-00002	test	功用	no	no	yes
-第2册1-00002	test	主治	no	no	yes
-第2册1-00003	test	组成	yes	yes	yes
-第2册1-00003	test	用法	yes	yes	yes
-第2册1-00003	test	功用	no	no	yes
-第2册1-00003	test	主治	yes	no	no
-第2册1-00059	test	组成	yes	yes	yes
-第2册1-00059	test	用法	yes	yes	yes
-第2册1-00059	test	功用	yes	yes	yes
-第2册1-00059	test	主治	no	no	yes
-第2册1-00291	test	组成	no	no	yes
-第2册1-00291	test	用法	no	no	yes
-第2册1-00291	test	功用	no	no	yes
-第2册1-00291	test	主治	no	no	yes
-第2册2-00001	train	组成	yes	yes	yes
-第2册2-00001	train	用法	yes	yes	yes
-第2册2-00001	train	功用	no	no	yes
-第2册2-00001	train	主治	yes	yes	yes
-第2册2-00007	train	组成	no	no	yes
-第2册2-00007	train	用法	no	no	yes
-第2册2-00007	train	功用	no	no	yes
-第2册2-00007	train	主治	no	no	yes
-第2册2-00010	train	组成	yes	yes	yes
-第2册2-00010	train	用法	yes	yes	yes
-第2册2-00010	train	功用	no	no	yes
-第2册2-00010	train	主治	yes	yes	yes
-第2册2-00041	train	组成	yes	yes	yes
-第2册2-00041	train	用法	yes	yes	yes
-第2册2-00041	train	功用	no	no	yes
-第2册2-00041	train	主治	yes	yes	yes
-第2册2-01152	train	组成	no	no	yes
-第2册2-01152	train	用法	no	no	yes
-第2册2-01152	train	功用	no	no	yes
-第2册2-01152	train	主治	no	no	yes
-第2册3-00001	train	组成	no	no	yes
-第2册3-00001	train	用法	no	no	yes
-第2册3-00001	train	功用	no	no	yes
-第2册3-00001	train	主治	no	no	yes
-第2册3-00002	train	组成	yes	yes	yes
-第2册3-00002	train	用法	yes	yes	yes
-第2册3-00002	train	功用	no	no	yes
-第2册3-00002	train	主治	yes	yes	yes
-第2册3-00004	train	组成	yes	yes	yes
-第2册3-00004	train	用法	yes	yes	yes
-第2册3-00004	train	功用	no	no	yes
-第2册3-00004	train	主治	yes	yes	yes
-第2册3-00008	train	组成	yes	yes	yes
-第2册3-00008	train	用法	yes	yes	yes
-第2册3-00008	train	功用	no	no	yes
-第2册3-00008	train	主治	yes	yes	yes
-第2册3-00613	train	组成	no	no	yes
-第2册3-00613	train	用法	no	no	yes
-第2册3-00613	train	功用	no	no	yes
-第2册3-00613	train	主治	no	no	yes
-第2册4-00001	train	组成	yes	yes	yes
-第2册4-00001	train	用法	yes	yes	yes
-第2册4-00001	train	功用	no	no	yes
-第2册4-00001	train	主治	yes	no	no
-第2册4-00002	train	组成	no	no	yes
-第2册4-00002	train	用法	no	no	yes
-第2册4-00002	train	功用	no	no	yes
-第2册4-00002	train	主治	no	no	yes
-第2册4-00005	train	组成	yes	yes	yes
-第2册4-00005	train	用法	yes	yes	yes
-第2册4-00005	train	功用	no	no	yes
-第2册4-00005	train	主治	yes	yes	yes
-第2册4-00049	train	组成	yes	yes	yes
-第2册4-00049	train	用法	yes	yes	yes
-第2册4-00049	train	功用	no	no	yes
-第2册4-00049	train	主治	yes	yes	yes
-第2册4-00150	train	组成	yes	yes	yes
-第2册4-00150	train	用法	no	no	yes
-第2册4-00150	train	功用	no	no	yes
-第2册4-00150	train	主治	no	no	yes
-第2册4-00151	train	组成	no	no	yes
-第2册4-00151	train	用法	no	no	yes
-第2册4-00151	train	功用	no	no	yes
-第2册4-00151	train	主治	no	no	yes
-第2册5-00001	train	组成	yes	yes	yes
-第2册5-00001	train	用法	yes	yes	yes
-第2册5-00001	train	功用	no	no	yes
-第2册5-00001	train	主治	yes	no	no
-第2册5-00002	train	组成	yes	yes	yes
-第2册5-00002	train	用法	yes	yes	yes
-第2册5-00002	train	功用	no	no	yes
-第2册5-00002	train	主治	no	no	yes
-第2册5-00012	train	组成	yes	yes	yes
-第2册5-00012	train	用法	yes	yes	yes
-第2册5-00012	train	功用	no	no	yes
-第2册5-00012	train	主治	no	no	yes
-第2册5-00051	train	组成	no	no	yes
-第2册5-00051	train	用法	no	no	yes
-第2册5-00051	train	功用	no	no	yes
-第2册5-00051	train	主治	no	no	yes
-第2册5-00374	train	组成	no	no	yes
-第2册5-00374	train	用法	no	no	yes
-第2册5-00374	train	功用	no	no	yes
-第2册5-00374	train	主治	no	no	yes
-第2册6-00001	train	组成	no	no	yes
-第2册6-00001	train	用法	no	no	yes
-第2册6-00001	train	功用	no	no	yes
-第2册6-00001	train	主治	no	no	yes
-第2册6-00002	train	组成	yes	yes	yes
-第2册6-00002	train	用法	yes	yes	yes
-第2册6-00002	train	功用	no	no	yes
-第2册6-00002	train	主治	yes	yes	yes
-第2册6-00004	train	组成	yes	yes	yes
-第2册6-00004	train	用法	yes	yes	yes
-第2册6-00004	train	功用	no	no	yes
-第2册6-00004	train	主治	yes	yes	yes
-第2册6-00007	train	组成	yes	yes	yes
-第2册6-00007	train	用法	yes	yes	yes
-第2册6-00007	train	功用	no	no	yes
-第2册6-00007	train	主治	yes	yes	yes
-第2册6-00080	train	组成	yes	yes	yes
-第2册6-00080	train	用法	yes	yes	yes
-第2册6-00080	train	功用	no	no	yes
-第2册6-00080	train	主治	yes	yes	yes
-第3册1-00001	test	组成	yes	yes	yes
-第3册1-00001	test	用法	yes	yes	yes
-第3册1-00001	test	功用	no	no	yes
-第3册1-00001	test	主治	yes	yes	yes
-第3册1-00003	test	组成	yes	yes	yes
-第3册1-00003	test	用法	yes	yes	yes
-第3册1-00003	test	功用	yes	yes	yes
-第3册1-00003	test	主治	yes	yes	yes
-第3册1-00005	test	组成	no	no	yes
-第3册1-00005	test	用法	no	no	yes
-第3册1-00005	test	功用	no	no	yes
-第3册1-00005	test	主治	no	no	yes
-第3册1-00923	test	组成	no	no	yes
-第3册1-00923	test	用法	no	no	yes
-第3册1-00923	test	功用	no	no	yes
-第3册1-00923	test	主治	no	no	yes
-第3册2-00001	train	组成	no	no	yes
-第3册2-00001	train	用法	no	no	yes
-第3册2-00001	train	功用	no	no	yes
-第3册2-00001	train	主治	no	no	yes
-第3册2-00002	train	组成	yes	yes	yes
-第3册2-00002	train	用法	yes	yes	yes
-第3册2-00002	train	功用	no	no	yes
-第3册2-00002	train	主治	yes	yes	yes
-第3册2-00003	train	组成	yes	yes	yes
-第3册2-00003	train	用法	yes	yes	yes
-第3册2-00003	train	功用	no	no	yes
-第3册2-00003	train	主治	yes	yes	yes
-第3册2-01516	train	组成	yes	yes	yes
-第3册2-01516	train	用法	yes	yes	yes
-第3册2-01516	train	功用	no	no	yes
-第3册2-01516	train	主治	yes	no	no
-第3册2-01932	train	组成	no	no	yes
-第3册2-01932	train	用法	no	no	yes
-第3册2-01932	train	功用	no	no	yes
-第3册2-01932	train	主治	no	no	yes
-第3册3-00001	test	组成	yes	yes	yes
-第3册3-00001	test	用法	yes	yes	yes
-第3册3-00001	test	功用	yes	yes	yes
-第3册3-00001	test	主治	yes	yes	yes
-第3册3-00002	test	组成	yes	yes	yes
-第3册3-00002	test	用法	yes	yes	yes
-第3册3-00002	test	功用	no	no	yes
-第3册3-00002	test	主治	yes	yes	yes
-第3册3-00014	test	组成	no	no	yes
-第3册3-00014	test	用法	no	no	yes
-第3册3-00014	test	功用	no	no	yes
-第3册3-00014	test	主治	no	no	yes
-第3册4-00001	train	组成	yes	yes	yes
-第3册4-00001	train	用法	yes	yes	yes
-第3册4-00001	train	功用	no	no	yes
-第3册4-00001	train	主治	yes	yes	yes
-第3册4-00004	train	组成	yes	yes	yes
-第3册4-00004	train	用法	yes	yes	yes
-第3册4-00004	train	功用	no	no	yes
-第3册4-00004	train	主治	yes	yes	yes
-第3册4-00043	train	组成	no	no	yes
-第3册4-00043	train	用法	no	no	yes
-第3册4-00043	train	功用	no	no	yes
-第3册4-00043	train	主治	no	no	yes
-第3册4-00088	train	组成	no	no	yes
-第3册4-00088	train	用法	no	no	yes
-第3册4-00088	train	功用	no	no	yes
-第3册4-00088	train	主治	no	no	yes
-第3册5-00001	test	组成	no	no	yes
-第3册5-00001	test	用法	no	no	yes
-第3册5-00001	test	功用	no	no	yes
-第3册5-00001	test	主治	no	no	yes
-第3册5-00003	test	组成	yes	yes	yes
-第3册5-00003	test	用法	no	no	yes
-第3册5-00003	test	功用	no	no	yes
-第3册5-00003	test	主治	yes	yes	yes
-第3册5-00033	test	组成	yes	yes	yes
-第3册5-00033	test	用法	yes	yes	yes
-第3册5-00033	test	功用	no	no	yes
-第3册5-00033	test	主治	yes	yes	yes
-第3册5-00988	test	组成	no	no	yes
-第3册5-00988	test	用法	no	no	yes
-第3册5-00988	test	功用	no	no	yes
-第3册5-00988	test	主治	no	no	yes
-第3册6-00001	train	组成	yes	yes	yes
-第3册6-00001	train	用法	yes	yes	yes
-第3册6-00001	train	功用	no	no	yes
-第3册6-00001	train	主治	yes	yes	yes
-第3册6-00007	train	组成	yes	yes	yes
-第3册6-00007	train	用法	yes	yes	yes
-第3册6-00007	train	功用	yes	yes	yes
-第3册6-00007	train	主治	yes	yes	yes
-第3册6-00008	train	组成	no	no	yes
-第3册6-00008	train	用法	no	no	yes
-第3册6-00008	train	功用	no	no	yes
-第3册6-00008	train	主治	no	no	yes
-第4册1-00001	train	组成	yes	yes	yes
-第4册1-00001	train	用法	yes	yes	yes
-第4册1-00001	train	功用	no	no	yes
-第4册1-00001	train	主治	yes	yes	yes
-第4册1-00004	train	组成	yes	no	no
-第4册1-00004	train	用法	yes	yes	yes
-第4册1-00004	train	功用	no	no	yes
-第4册1-00004	train	主治	yes	yes	yes
-第4册1-00006	train	组成	no	no	yes
-第4册1-00006	train	用法	no	no	yes
-第4册1-00006	train	功用	no	no	yes
-第4册1-00006	train	主治	no	no	yes
-第4册1-00007	train	组成	yes	yes	yes
-第4册1-00007	train	用法	no	no	yes
-第4册1-00007	train	功用	yes	yes	yes
-第4册1-00007	train	主治	no	no	yes
-第4册1-00027	train	组成	no	no	yes
-第4册1-00027	train	用法	no	no	yes
-第4册1-00027	train	功用	no	no	yes
-第4册1-00027	train	主治	no	no	yes
-第4册2-00001	dev	组成	yes	yes	yes
-第4册2-00001	dev	用法	yes	yes	yes
-第4册2-00001	dev	功用	no	no	yes
-第4册2-00001	dev	主治	yes	yes	yes
-第4册2-00003	dev	组成	no	no	yes
-第4册2-00003	dev	用法	no	no	yes
-第4册2-00003	dev	功用	no	no	yes
-第4册2-00003	dev	主治	no	no	yes
-第4册2-00004	dev	组成	yes	no	no
-第4册2-00004	dev	用法	yes	yes	yes
-第4册2-00004	dev	功用	yes	yes	yes
-第4册2-00004	dev	主治	yes	yes	yes
-第4册2-00006	dev	组成	no	no	yes
-第4册2-00006	dev	用法	no	no	yes
-第4册2-00006	dev	功用	no	no	yes
-第4册2-00006	dev	主治	no	no	yes
-第4册2-00014	dev	组成	no	no	yes
-第4册2-00014	dev	用法	no	no	yes
-第4册2-00014	dev	功用	no	no	yes
-第4册2-00014	dev	主治	no	no	yes
-第4册3-00002	dev	组成	yes	no	no
-第4册3-00002	dev	用法	yes	yes	yes
-第4册3-00002	dev	功用	no	no	yes
-第4册3-00002	dev	主治	yes	yes	yes
-第4册3-00080	dev	组成	no	no	yes
-第4册3-00080	dev	用法	no	no	yes
-第4册3-00080	dev	功用	no	no	yes
-第4册3-00080	dev	主治	no	no	yes
-第4册4-00010	train	组成	yes	yes	yes
-第4册4-00010	train	用法	yes	yes	yes
-第4册4-00010	train	功用	no	no	yes
-第4册4-00010	train	主治	yes	yes	yes
-第4册4-00173	train	组成	yes	yes	yes
-第4册4-00173	train	用法	no	no	yes
-第4册4-00173	train	功用	no	no	yes
-第4册4-00173	train	主治	no	no	yes
-第4册5-00002	test	组成	yes	yes	yes
-第4册5-00002	test	用法	yes	yes	yes
-第4册5-00002	test	功用	no	no	yes
-第4册5-00002	test	主治	yes	no	no
-第4册5-00485	test	组成	no	no	yes
-第4册5-00485	test	用法	no	no	yes
-第4册5-00485	test	功用	no	no	yes
-第4册5-00485	test	主治	yes	yes	yes
-第4册5-01896	test	组成	yes	yes	yes
-第4册5-01896	test	用法	yes	yes	yes
-第4册5-01896	test	功用	no	no	yes
-第4册5-01896	test	主治	yes	yes	yes
-第5册1-00002	train	组成	yes	yes	yes
-第5册1-00002	train	用法	yes	yes	yes
-第5册1-00002	train	功用	yes	no	no
-第5册1-00002	train	主治	yes	yes	yes
-第5册1-00560	train	组成	no	no	yes
-第5册1-00560	train	用法	no	no	yes
-第5册1-00560	train	功用	no	no	yes
-第5册1-00560	train	主治	no	no	yes
-第5册2-00030	train	组成	yes	yes	yes
-第5册2-00030	train	用法	yes	yes	yes
-第5册2-00030	train	功用	no	no	yes
-第5册2-00030	train	主治	yes	no	no
-第7册6-00062	train	组成	yes	yes	yes
-第7册6-00062	train	用法	yes	yes	yes
-第7册6-00062	train	功用	no	no	yes
-第7册6-00062	train	主治	yes	yes	yes
-第1册1-00006	train	组成	yes	yes	yes
-第1册1-00006	train	用法	yes	yes	yes
-第1册1-00006	train	功用	no	no	yes
-第1册1-00006	train	主治	yes	no	no
-第1册1-00008	train	组成	yes	yes	yes
-第1册1-00008	train	用法	no	no	yes
-第1册1-00008	train	功用	no	no	yes
-第1册1-00008	train	主治	no	no	yes
-第1册1-00014	train	组成	yes	yes	yes
-第1册1-00014	train	用法	yes	yes	yes
-第1册1-00014	train	功用	no	no	yes
-第1册1-00014	train	主治	yes	yes	yes
-第1册1-00017	train	组成	yes	yes	yes
-第1册1-00017	train	用法	yes	yes	yes
-第1册1-00017	train	功用	no	no	yes
-第1册1-00017	train	主治	yes	no	no
-第1册1-00018	train	组成	yes	yes	yes
-第1册1-00018	train	用法	yes	yes	yes
-第1册1-00018	train	功用	no	no	yes
-第1册1-00018	train	主治	yes	no	no
-第1册1-00022	train	组成	yes	no	no
-第1册1-00022	train	用法	yes	yes	yes
-第1册1-00022	train	功用	no	no	yes
-第1册1-00022	train	主治	yes	yes	yes
-第1册1-00023	train	组成	yes	yes	yes
-第1册1-00023	train	用法	yes	yes	yes
-第1册1-00023	train	功用	no	no	yes
-第1册1-00023	train	主治	yes	no	no
-第1册1-00031	train	组成	yes	yes	yes
-第1册1-00031	train	用法	yes	no	no
-第1册1-00031	train	功用	no	no	yes
-第1册1-00031	train	主治	yes	yes	yes
-第1册1-00033	train	组成	yes	yes	yes
-第1册1-00033	train	用法	yes	yes	yes
-第1册1-00033	train	功用	no	no	yes
-第1册1-00033	train	主治	yes	no	no
-第1册1-00034	train	组成	yes	yes	yes
-第1册1-00034	train	用法	yes	yes	yes
-第1册1-00034	train	功用	yes	no	no
-第1册1-00034	train	主治	yes	no	no
-第1册1-00036	train	组成	yes	yes	yes
-第1册1-00036	train	用法	yes	no	no
-第1册1-00036	train	功用	no	no	yes
-第1册1-00036	train	主治	yes	yes	yes
-第1册1-00038	train	组成	yes	yes	yes
-第1册1-00038	train	用法	yes	yes	yes
-第1册1-00038	train	功用	no	no	yes
-第1册1-00038	train	主治	yes	yes	yes
-第1册1-00039	train	组成	yes	yes	yes
-第1册1-00039	train	用法	yes	no	no
-第1册1-00039	train	功用	no	no	yes
-第1册1-00039	train	主治	no	no	yes
-第1册1-00041	train	组成	yes	yes	yes
-第1册1-00041	train	用法	yes	yes	yes
-第1册1-00041	train	功用	yes	no	no
-第1册1-00041	train	主治	yes	yes	yes
-第1册1-00044	train	组成	yes	yes	yes
-第1册1-00044	train	用法	yes	yes	yes
-第1册1-00044	train	功用	no	no	yes
-第1册1-00044	train	主治	yes	yes	yes
-第1册1-00045	train	组成	yes	yes	yes
-第1册1-00045	train	用法	yes	yes	yes
-第1册1-00045	train	功用	no	no	yes
-第1册1-00045	train	主治	yes	no	no
-第1册1-00046	train	组成	yes	yes	yes
-第1册1-00046	train	用法	yes	yes	yes
-第1册1-00046	train	功用	no	no	yes
-第1册1-00046	train	主治	yes	no	no
-第1册1-00051	train	组成	yes	yes	yes
-第1册1-00051	train	用法	yes	yes	yes
-第1册1-00051	train	功用	no	no	yes
-第1册1-00051	train	主治	yes	yes	yes
-第1册1-00054	train	组成	yes	yes	yes
-第1册1-00054	train	用法	yes	yes	yes
-第1册1-00054	train	功用	no	no	yes
-第1册1-00054	train	主治	yes	no	no
-第1册1-00057	train	组成	yes	no	no
-第1册1-00057	train	用法	yes	yes	yes
-第1册1-00057	train	功用	no	no	yes
-第1册1-00057	train	主治	yes	yes	yes
-第1册1-00060	train	组成	yes	yes	yes
-第1册1-00060	train	用法	yes	yes	yes
-第1册1-00060	train	功用	no	no	yes
-第1册1-00060	train	主治	yes	yes	yes
-第1册1-00061	train	组成	yes	no	no
-第1册1-00061	train	用法	yes	yes	yes
-第1册1-00061	train	功用	no	no	yes
-第1册1-00061	train	主治	no	no	yes
-第1册1-00062	train	组成	yes	yes	yes
-第1册1-00062	train	用法	yes	yes	yes
-第1册1-00062	train	功用	yes	no	no
-第1册1-00062	train	主治	yes	yes	yes
-第6册1-00728	train	组成	yes	yes	yes
-第6册1-00728	train	用法	yes	yes	yes
-第6册1-00728	train	功用	no	no	yes
-第6册1-00728	train	主治	yes	yes	yes
+item_id	source_file	source_line_start	source_line_end	split	boundary_index_overlap	sample_source	field	relaxed_reference_present	strict_prediction_present	agreement
+第1册1-00001	restricted_source/第1册1.md	1	11	train	yes	boundary-index overlap	组成	yes	yes	yes
+第1册1-00001	restricted_source/第1册1.md	1	11	train	yes	boundary-index overlap	用法	yes	yes	yes
+第1册1-00001	restricted_source/第1册1.md	1	11	train	yes	boundary-index overlap	功用	no	no	yes
+第1册1-00001	restricted_source/第1册1.md	1	11	train	yes	boundary-index overlap	主治	yes	yes	yes
+第1册1-00005	restricted_source/第1册1.md	34	41	train	yes	boundary-index overlap	组成	yes	yes	yes
+第1册1-00005	restricted_source/第1册1.md	34	41	train	yes	boundary-index overlap	用法	yes	no	no
+第1册1-00005	restricted_source/第1册1.md	34	41	train	yes	boundary-index overlap	功用	no	no	yes
+第1册1-00005	restricted_source/第1册1.md	34	41	train	yes	boundary-index overlap	主治	yes	yes	yes
+第1册1-00015	restricted_source/第1册1.md	111	115	train	yes	boundary-index overlap	组成	no	no	yes
+第1册1-00015	restricted_source/第1册1.md	111	115	train	yes	boundary-index overlap	用法	no	no	yes
+第1册1-00015	restricted_source/第1册1.md	111	115	train	yes	boundary-index overlap	功用	no	no	yes
+第1册1-00015	restricted_source/第1册1.md	111	115	train	yes	boundary-index overlap	主治	no	no	yes
+第1册1-00019	restricted_source/第1册1.md	134	145	train	yes	boundary-index overlap	组成	yes	yes	yes
+第1册1-00019	restricted_source/第1册1.md	134	145	train	yes	boundary-index overlap	用法	yes	yes	yes
+第1册1-00019	restricted_source/第1册1.md	134	145	train	yes	boundary-index overlap	功用	yes	yes	yes
+第1册1-00019	restricted_source/第1册1.md	134	145	train	yes	boundary-index overlap	主治	yes	yes	yes
+第1册1-00449	restricted_source/第1册1.md	3651	3653	train	yes	boundary-index overlap	组成	no	no	yes
+第1册1-00449	restricted_source/第1册1.md	3651	3653	train	yes	boundary-index overlap	用法	no	no	yes
+第1册1-00449	restricted_source/第1册1.md	3651	3653	train	yes	boundary-index overlap	功用	no	no	yes
+第1册1-00449	restricted_source/第1册1.md	3651	3653	train	yes	boundary-index overlap	主治	no	no	yes
+第1册2-00001	restricted_source/第1册2.md	1	8	train	yes	boundary-index overlap	组成	yes	yes	yes
+第1册2-00001	restricted_source/第1册2.md	1	8	train	yes	boundary-index overlap	用法	yes	yes	yes
+第1册2-00001	restricted_source/第1册2.md	1	8	train	yes	boundary-index overlap	功用	no	no	yes
+第1册2-00001	restricted_source/第1册2.md	1	8	train	yes	boundary-index overlap	主治	yes	no	no
+第1册2-00003	restricted_source/第1册2.md	21	32	train	yes	boundary-index overlap	组成	yes	yes	yes
+第1册2-00003	restricted_source/第1册2.md	21	32	train	yes	boundary-index overlap	用法	yes	yes	yes
+第1册2-00003	restricted_source/第1册2.md	21	32	train	yes	boundary-index overlap	功用	no	no	yes
+第1册2-00003	restricted_source/第1册2.md	21	32	train	yes	boundary-index overlap	主治	yes	yes	yes
+第1册2-00005	restricted_source/第1册2.md	42	46	train	yes	boundary-index overlap	组成	no	no	yes
+第1册2-00005	restricted_source/第1册2.md	42	46	train	yes	boundary-index overlap	用法	no	no	yes
+第1册2-00005	restricted_source/第1册2.md	42	46	train	yes	boundary-index overlap	功用	no	no	yes
+第1册2-00005	restricted_source/第1册2.md	42	46	train	yes	boundary-index overlap	主治	no	no	yes
+第1册2-00006	restricted_source/第1册2.md	46	56	train	yes	boundary-index overlap	组成	yes	yes	yes
+第1册2-00006	restricted_source/第1册2.md	46	56	train	yes	boundary-index overlap	用法	yes	yes	yes
+第1册2-00006	restricted_source/第1册2.md	46	56	train	yes	boundary-index overlap	功用	no	no	yes
+第1册2-00006	restricted_source/第1册2.md	46	56	train	yes	boundary-index overlap	主治	yes	yes	yes
+第1册2-00346	restricted_source/第1册2.md	2723	2723	train	yes	boundary-index overlap	组成	no	no	yes
+第1册2-00346	restricted_source/第1册2.md	2723	2723	train	yes	boundary-index overlap	用法	no	no	yes
+第1册2-00346	restricted_source/第1册2.md	2723	2723	train	yes	boundary-index overlap	功用	no	no	yes
+第1册2-00346	restricted_source/第1册2.md	2723	2723	train	yes	boundary-index overlap	主治	yes	yes	yes
+第1册3-00001	restricted_source/第1册3.md	1	12	dev	yes	boundary-index overlap	组成	yes	yes	yes
+第1册3-00001	restricted_source/第1册3.md	1	12	dev	yes	boundary-index overlap	用法	yes	yes	yes
+第1册3-00001	restricted_source/第1册3.md	1	12	dev	yes	boundary-index overlap	功用	yes	yes	yes
+第1册3-00001	restricted_source/第1册3.md	1	12	dev	yes	boundary-index overlap	主治	yes	yes	yes
+第1册3-00002	restricted_source/第1册3.md	12	20	dev	yes	boundary-index overlap	组成	yes	yes	yes
+第1册3-00002	restricted_source/第1册3.md	12	20	dev	yes	boundary-index overlap	用法	yes	yes	yes
+第1册3-00002	restricted_source/第1册3.md	12	20	dev	yes	boundary-index overlap	功用	no	no	yes
+第1册3-00002	restricted_source/第1册3.md	12	20	dev	yes	boundary-index overlap	主治	yes	no	no
+第1册3-00004	restricted_source/第1册3.md	30	34	dev	yes	boundary-index overlap	组成	no	no	yes
+第1册3-00004	restricted_source/第1册3.md	30	34	dev	yes	boundary-index overlap	用法	no	no	yes
+第1册3-00004	restricted_source/第1册3.md	30	34	dev	yes	boundary-index overlap	功用	no	no	yes
+第1册3-00004	restricted_source/第1册3.md	30	34	dev	yes	boundary-index overlap	主治	no	no	yes
+第1册3-00038	restricted_source/第1册3.md	286	296	dev	yes	boundary-index overlap	组成	yes	yes	yes
+第1册3-00038	restricted_source/第1册3.md	286	296	dev	yes	boundary-index overlap	用法	yes	yes	yes
+第1册3-00038	restricted_source/第1册3.md	286	296	dev	yes	boundary-index overlap	功用	no	no	yes
+第1册3-00038	restricted_source/第1册3.md	286	296	dev	yes	boundary-index overlap	主治	yes	yes	yes
+第1册3-00330	restricted_source/第1册3.md	2679	2683	dev	yes	boundary-index overlap	组成	no	no	yes
+第1册3-00330	restricted_source/第1册3.md	2679	2683	dev	yes	boundary-index overlap	用法	no	no	yes
+第1册3-00330	restricted_source/第1册3.md	2679	2683	dev	yes	boundary-index overlap	功用	no	no	yes
+第1册3-00330	restricted_source/第1册3.md	2679	2683	dev	yes	boundary-index overlap	主治	no	no	yes
+第1册4-00001	restricted_source/第1册4.md	6	14	train	yes	boundary-index overlap	组成	yes	yes	yes
+第1册4-00001	restricted_source/第1册4.md	6	14	train	yes	boundary-index overlap	用法	yes	yes	yes
+第1册4-00001	restricted_source/第1册4.md	6	14	train	yes	boundary-index overlap	功用	no	no	yes
+第1册4-00001	restricted_source/第1册4.md	6	14	train	yes	boundary-index overlap	主治	yes	yes	yes
+第1册4-00002	restricted_source/第1册4.md	14	38	train	yes	boundary-index overlap	组成	yes	yes	yes
+第1册4-00002	restricted_source/第1册4.md	14	38	train	yes	boundary-index overlap	用法	yes	yes	yes
+第1册4-00002	restricted_source/第1册4.md	14	38	train	yes	boundary-index overlap	功用	yes	no	no
+第1册4-00002	restricted_source/第1册4.md	14	38	train	yes	boundary-index overlap	主治	yes	yes	yes
+第1册4-00003	restricted_source/第1册4.md	39	41	train	yes	boundary-index overlap	组成	no	no	yes
+第1册4-00003	restricted_source/第1册4.md	39	41	train	yes	boundary-index overlap	用法	no	no	yes
+第1册4-00003	restricted_source/第1册4.md	39	41	train	yes	boundary-index overlap	功用	no	no	yes
+第1册4-00003	restricted_source/第1册4.md	39	41	train	yes	boundary-index overlap	主治	no	no	yes
+第1册4-00005	restricted_source/第1册4.md	48	58	train	yes	boundary-index overlap	组成	yes	yes	yes
+第1册4-00005	restricted_source/第1册4.md	48	58	train	yes	boundary-index overlap	用法	yes	yes	yes
+第1册4-00005	restricted_source/第1册4.md	48	58	train	yes	boundary-index overlap	功用	no	no	yes
+第1册4-00005	restricted_source/第1册4.md	48	58	train	yes	boundary-index overlap	主治	yes	yes	yes
+第1册4-01163	restricted_source/第1册4.md	9416	9417	train	yes	boundary-index overlap	组成	no	no	yes
+第1册4-01163	restricted_source/第1册4.md	9416	9417	train	yes	boundary-index overlap	用法	no	no	yes
+第1册4-01163	restricted_source/第1册4.md	9416	9417	train	yes	boundary-index overlap	功用	no	no	yes
+第1册4-01163	restricted_source/第1册4.md	9416	9417	train	yes	boundary-index overlap	主治	yes	yes	yes
+第1册5-00001	restricted_source/第1册5.md	3	9	train	yes	boundary-index overlap	组成	yes	yes	yes
+第1册5-00001	restricted_source/第1册5.md	3	9	train	yes	boundary-index overlap	用法	no	no	yes
+第1册5-00001	restricted_source/第1册5.md	3	9	train	yes	boundary-index overlap	功用	no	no	yes
+第1册5-00001	restricted_source/第1册5.md	3	9	train	yes	boundary-index overlap	主治	yes	yes	yes
+第1册5-00002	restricted_source/第1册5.md	9	16	train	yes	boundary-index overlap	组成	yes	yes	yes
+第1册5-00002	restricted_source/第1册5.md	9	16	train	yes	boundary-index overlap	用法	yes	no	no
+第1册5-00002	restricted_source/第1册5.md	9	16	train	yes	boundary-index overlap	功用	no	no	yes
+第1册5-00002	restricted_source/第1册5.md	9	16	train	yes	boundary-index overlap	主治	yes	no	no
+第1册5-00010	restricted_source/第1册5.md	78	82	train	yes	boundary-index overlap	组成	no	no	yes
+第1册5-00010	restricted_source/第1册5.md	78	82	train	yes	boundary-index overlap	用法	no	no	yes
+第1册5-00010	restricted_source/第1册5.md	78	82	train	yes	boundary-index overlap	功用	no	no	yes
+第1册5-00010	restricted_source/第1册5.md	78	82	train	yes	boundary-index overlap	主治	no	no	yes
+第1册5-00014	restricted_source/第1册5.md	104	110	train	yes	boundary-index overlap	组成	no	no	yes
+第1册5-00014	restricted_source/第1册5.md	104	110	train	yes	boundary-index overlap	用法	no	no	yes
+第1册5-00014	restricted_source/第1册5.md	104	110	train	yes	boundary-index overlap	功用	no	no	yes
+第1册5-00014	restricted_source/第1册5.md	104	110	train	yes	boundary-index overlap	主治	no	no	yes
+第1册5-00224	restricted_source/第1册5.md	1888	1890	train	yes	boundary-index overlap	组成	no	no	yes
+第1册5-00224	restricted_source/第1册5.md	1888	1890	train	yes	boundary-index overlap	用法	no	no	yes
+第1册5-00224	restricted_source/第1册5.md	1888	1890	train	yes	boundary-index overlap	功用	no	no	yes
+第1册5-00224	restricted_source/第1册5.md	1888	1890	train	yes	boundary-index overlap	主治	no	no	yes
+第1册6-00001	restricted_source/第1册6.md	20	30	train	yes	boundary-index overlap	组成	yes	yes	yes
+第1册6-00001	restricted_source/第1册6.md	20	30	train	yes	boundary-index overlap	用法	yes	yes	yes
+第1册6-00001	restricted_source/第1册6.md	20	30	train	yes	boundary-index overlap	功用	yes	no	no
+第1册6-00001	restricted_source/第1册6.md	20	30	train	yes	boundary-index overlap	主治	yes	yes	yes
+第1册6-00002	restricted_source/第1册6.md	30	38	train	yes	boundary-index overlap	组成	yes	yes	yes
+第1册6-00002	restricted_source/第1册6.md	30	38	train	yes	boundary-index overlap	用法	yes	yes	yes
+第1册6-00002	restricted_source/第1册6.md	30	38	train	yes	boundary-index overlap	功用	no	no	yes
+第1册6-00002	restricted_source/第1册6.md	30	38	train	yes	boundary-index overlap	主治	yes	yes	yes
+第1册6-00003	restricted_source/第1册6.md	38	50	train	yes	boundary-index overlap	组成	yes	yes	yes
+第1册6-00003	restricted_source/第1册6.md	38	50	train	yes	boundary-index overlap	用法	yes	yes	yes
+第1册6-00003	restricted_source/第1册6.md	38	50	train	yes	boundary-index overlap	功用	yes	yes	yes
+第1册6-00003	restricted_source/第1册6.md	38	50	train	yes	boundary-index overlap	主治	yes	yes	yes
+第1册6-00015	restricted_source/第1册6.md	140	144	train	yes	boundary-index overlap	组成	no	no	yes
+第1册6-00015	restricted_source/第1册6.md	140	144	train	yes	boundary-index overlap	用法	no	no	yes
+第1册6-00015	restricted_source/第1册6.md	140	144	train	yes	boundary-index overlap	功用	no	no	yes
+第1册6-00015	restricted_source/第1册6.md	140	144	train	yes	boundary-index overlap	主治	no	no	yes
+第2册1-00001	restricted_source/第2册1.md	5	15	test	yes	boundary-index overlap	组成	yes	yes	yes
+第2册1-00001	restricted_source/第2册1.md	5	15	test	yes	boundary-index overlap	用法	yes	yes	yes
+第2册1-00001	restricted_source/第2册1.md	5	15	test	yes	boundary-index overlap	功用	no	no	yes
+第2册1-00001	restricted_source/第2册1.md	5	15	test	yes	boundary-index overlap	主治	yes	yes	yes
+第2册1-00002	restricted_source/第2册1.md	15	19	test	yes	boundary-index overlap	组成	no	no	yes
+第2册1-00002	restricted_source/第2册1.md	15	19	test	yes	boundary-index overlap	用法	no	no	yes
+第2册1-00002	restricted_source/第2册1.md	15	19	test	yes	boundary-index overlap	功用	no	no	yes
+第2册1-00002	restricted_source/第2册1.md	15	19	test	yes	boundary-index overlap	主治	no	no	yes
+第2册1-00003	restricted_source/第2册1.md	19	29	test	yes	boundary-index overlap	组成	yes	yes	yes
+第2册1-00003	restricted_source/第2册1.md	19	29	test	yes	boundary-index overlap	用法	yes	yes	yes
+第2册1-00003	restricted_source/第2册1.md	19	29	test	yes	boundary-index overlap	功用	no	no	yes
+第2册1-00003	restricted_source/第2册1.md	19	29	test	yes	boundary-index overlap	主治	yes	no	no
+第2册1-00059	restricted_source/第2册1.md	449	457	test	yes	boundary-index overlap	组成	yes	yes	yes
+第2册1-00059	restricted_source/第2册1.md	449	457	test	yes	boundary-index overlap	用法	yes	yes	yes
+第2册1-00059	restricted_source/第2册1.md	449	457	test	yes	boundary-index overlap	功用	yes	yes	yes
+第2册1-00059	restricted_source/第2册1.md	449	457	test	yes	boundary-index overlap	主治	no	no	yes
+第2册1-00291	restricted_source/第2册1.md	2378	2379	test	yes	boundary-index overlap	组成	no	no	yes
+第2册1-00291	restricted_source/第2册1.md	2378	2379	test	yes	boundary-index overlap	用法	no	no	yes
+第2册1-00291	restricted_source/第2册1.md	2378	2379	test	yes	boundary-index overlap	功用	no	no	yes
+第2册1-00291	restricted_source/第2册1.md	2378	2379	test	yes	boundary-index overlap	主治	no	no	yes
+第2册2-00001	restricted_source/第2册2.md	29	37	train	yes	boundary-index overlap	组成	yes	yes	yes
+第2册2-00001	restricted_source/第2册2.md	29	37	train	yes	boundary-index overlap	用法	yes	yes	yes
+第2册2-00001	restricted_source/第2册2.md	29	37	train	yes	boundary-index overlap	功用	no	no	yes
+第2册2-00001	restricted_source/第2册2.md	29	37	train	yes	boundary-index overlap	主治	yes	yes	yes
+第2册2-00007	restricted_source/第2册2.md	79	81	train	yes	boundary-index overlap	组成	no	no	yes
+第2册2-00007	restricted_source/第2册2.md	79	81	train	yes	boundary-index overlap	用法	no	no	yes
+第2册2-00007	restricted_source/第2册2.md	79	81	train	yes	boundary-index overlap	功用	no	no	yes
+第2册2-00007	restricted_source/第2册2.md	79	81	train	yes	boundary-index overlap	主治	no	no	yes
+第2册2-00010	restricted_source/第2册2.md	99	108	train	yes	boundary-index overlap	组成	yes	yes	yes
+第2册2-00010	restricted_source/第2册2.md	99	108	train	yes	boundary-index overlap	用法	yes	yes	yes
+第2册2-00010	restricted_source/第2册2.md	99	108	train	yes	boundary-index overlap	功用	no	no	yes
+第2册2-00010	restricted_source/第2册2.md	99	108	train	yes	boundary-index overlap	主治	yes	yes	yes
+第2册2-00041	restricted_source/第2册2.md	297	306	train	yes	boundary-index overlap	组成	yes	yes	yes
+第2册2-00041	restricted_source/第2册2.md	297	306	train	yes	boundary-index overlap	用法	yes	yes	yes
+第2册2-00041	restricted_source/第2册2.md	297	306	train	yes	boundary-index overlap	功用	no	no	yes
+第2册2-00041	restricted_source/第2册2.md	297	306	train	yes	boundary-index overlap	主治	yes	yes	yes
+第2册2-01152	restricted_source/第2册2.md	9506	9508	train	yes	boundary-index overlap	组成	no	no	yes
+第2册2-01152	restricted_source/第2册2.md	9506	9508	train	yes	boundary-index overlap	用法	no	no	yes
+第2册2-01152	restricted_source/第2册2.md	9506	9508	train	yes	boundary-index overlap	功用	no	no	yes
+第2册2-01152	restricted_source/第2册2.md	9506	9508	train	yes	boundary-index overlap	主治	no	no	yes
+第2册3-00001	restricted_source/第2册3.md	7	9	train	yes	boundary-index overlap	组成	no	no	yes
+第2册3-00001	restricted_source/第2册3.md	7	9	train	yes	boundary-index overlap	用法	no	no	yes
+第2册3-00001	restricted_source/第2册3.md	7	9	train	yes	boundary-index overlap	功用	no	no	yes
+第2册3-00001	restricted_source/第2册3.md	7	9	train	yes	boundary-index overlap	主治	no	no	yes
+第2册3-00002	restricted_source/第2册3.md	9	22	train	yes	boundary-index overlap	组成	yes	yes	yes
+第2册3-00002	restricted_source/第2册3.md	9	22	train	yes	boundary-index overlap	用法	yes	yes	yes
+第2册3-00002	restricted_source/第2册3.md	9	22	train	yes	boundary-index overlap	功用	no	no	yes
+第2册3-00002	restricted_source/第2册3.md	9	22	train	yes	boundary-index overlap	主治	yes	yes	yes
+第2册3-00004	restricted_source/第2册3.md	29	42	train	yes	boundary-index overlap	组成	yes	yes	yes
+第2册3-00004	restricted_source/第2册3.md	29	42	train	yes	boundary-index overlap	用法	yes	yes	yes
+第2册3-00004	restricted_source/第2册3.md	29	42	train	yes	boundary-index overlap	功用	no	no	yes
+第2册3-00004	restricted_source/第2册3.md	29	42	train	yes	boundary-index overlap	主治	yes	yes	yes
+第2册3-00008	restricted_source/第2册3.md	68	76	train	yes	boundary-index overlap	组成	yes	yes	yes
+第2册3-00008	restricted_source/第2册3.md	68	76	train	yes	boundary-index overlap	用法	yes	yes	yes
+第2册3-00008	restricted_source/第2册3.md	68	76	train	yes	boundary-index overlap	功用	no	no	yes
+第2册3-00008	restricted_source/第2册3.md	68	76	train	yes	boundary-index overlap	主治	yes	yes	yes
+第2册3-00613	restricted_source/第2册3.md	4910	4913	train	yes	boundary-index overlap	组成	no	no	yes
+第2册3-00613	restricted_source/第2册3.md	4910	4913	train	yes	boundary-index overlap	用法	no	no	yes
+第2册3-00613	restricted_source/第2册3.md	4910	4913	train	yes	boundary-index overlap	功用	no	no	yes
+第2册3-00613	restricted_source/第2册3.md	4910	4913	train	yes	boundary-index overlap	主治	no	no	yes
+第2册4-00001	restricted_source/第2册4.md	14	22	train	yes	boundary-index overlap	组成	yes	yes	yes
+第2册4-00001	restricted_source/第2册4.md	14	22	train	yes	boundary-index overlap	用法	yes	yes	yes
+第2册4-00001	restricted_source/第2册4.md	14	22	train	yes	boundary-index overlap	功用	no	no	yes
+第2册4-00001	restricted_source/第2册4.md	14	22	train	yes	boundary-index overlap	主治	yes	no	no
+第2册4-00002	restricted_source/第2册4.md	22	26	train	yes	boundary-index overlap	组成	no	no	yes
+第2册4-00002	restricted_source/第2册4.md	22	26	train	yes	boundary-index overlap	用法	no	no	yes
+第2册4-00002	restricted_source/第2册4.md	22	26	train	yes	boundary-index overlap	功用	no	no	yes
+第2册4-00002	restricted_source/第2册4.md	22	26	train	yes	boundary-index overlap	主治	no	no	yes
+第2册4-00005	restricted_source/第2册4.md	39	45	train	yes	boundary-index overlap	组成	yes	yes	yes
+第2册4-00005	restricted_source/第2册4.md	39	45	train	yes	boundary-index overlap	用法	yes	yes	yes
+第2册4-00005	restricted_source/第2册4.md	39	45	train	yes	boundary-index overlap	功用	no	no	yes
+第2册4-00005	restricted_source/第2册4.md	39	45	train	yes	boundary-index overlap	主治	yes	yes	yes
+第2册4-00049	restricted_source/第2册4.md	382	392	train	yes	boundary-index overlap	组成	yes	yes	yes
+第2册4-00049	restricted_source/第2册4.md	382	392	train	yes	boundary-index overlap	用法	yes	yes	yes
+第2册4-00049	restricted_source/第2册4.md	382	392	train	yes	boundary-index overlap	功用	no	no	yes
+第2册4-00049	restricted_source/第2册4.md	382	392	train	yes	boundary-index overlap	主治	yes	yes	yes
+第2册4-00150	restricted_source/第2册4.md	1237	1243	train	yes	boundary-index overlap	组成	yes	yes	yes
+第2册4-00150	restricted_source/第2册4.md	1237	1243	train	yes	boundary-index overlap	用法	no	no	yes
+第2册4-00150	restricted_source/第2册4.md	1237	1243	train	yes	boundary-index overlap	功用	no	no	yes
+第2册4-00150	restricted_source/第2册4.md	1237	1243	train	yes	boundary-index overlap	主治	no	no	yes
+第2册4-00151	restricted_source/第2册4.md	1243	1243	train	yes	boundary-index overlap	组成	no	no	yes
+第2册4-00151	restricted_source/第2册4.md	1243	1243	train	yes	boundary-index overlap	用法	no	no	yes
+第2册4-00151	restricted_source/第2册4.md	1243	1243	train	yes	boundary-index overlap	功用	no	no	yes
+第2册4-00151	restricted_source/第2册4.md	1243	1243	train	yes	boundary-index overlap	主治	no	no	yes
+第2册5-00001	restricted_source/第2册5.md	10	18	train	yes	boundary-index overlap	组成	yes	yes	yes
+第2册5-00001	restricted_source/第2册5.md	10	18	train	yes	boundary-index overlap	用法	yes	yes	yes
+第2册5-00001	restricted_source/第2册5.md	10	18	train	yes	boundary-index overlap	功用	no	no	yes
+第2册5-00001	restricted_source/第2册5.md	10	18	train	yes	boundary-index overlap	主治	yes	no	no
+第2册5-00002	restricted_source/第2册5.md	18	24	train	yes	boundary-index overlap	组成	yes	yes	yes
+第2册5-00002	restricted_source/第2册5.md	18	24	train	yes	boundary-index overlap	用法	yes	yes	yes
+第2册5-00002	restricted_source/第2册5.md	18	24	train	yes	boundary-index overlap	功用	no	no	yes
+第2册5-00002	restricted_source/第2册5.md	18	24	train	yes	boundary-index overlap	主治	no	no	yes
+第2册5-00012	restricted_source/第2册5.md	90	96	train	yes	boundary-index overlap	组成	yes	yes	yes
+第2册5-00012	restricted_source/第2册5.md	90	96	train	yes	boundary-index overlap	用法	yes	yes	yes
+第2册5-00012	restricted_source/第2册5.md	90	96	train	yes	boundary-index overlap	功用	no	no	yes
+第2册5-00012	restricted_source/第2册5.md	90	96	train	yes	boundary-index overlap	主治	no	no	yes
+第2册5-00051	restricted_source/第2册5.md	407	411	train	yes	boundary-index overlap	组成	no	no	yes
+第2册5-00051	restricted_source/第2册5.md	407	411	train	yes	boundary-index overlap	用法	no	no	yes
+第2册5-00051	restricted_source/第2册5.md	407	411	train	yes	boundary-index overlap	功用	no	no	yes
+第2册5-00051	restricted_source/第2册5.md	407	411	train	yes	boundary-index overlap	主治	no	no	yes
+第2册5-00374	restricted_source/第2册5.md	3011	3013	train	yes	boundary-index overlap	组成	no	no	yes
+第2册5-00374	restricted_source/第2册5.md	3011	3013	train	yes	boundary-index overlap	用法	no	no	yes
+第2册5-00374	restricted_source/第2册5.md	3011	3013	train	yes	boundary-index overlap	功用	no	no	yes
+第2册5-00374	restricted_source/第2册5.md	3011	3013	train	yes	boundary-index overlap	主治	no	no	yes
+第2册6-00001	restricted_source/第2册6.md	3	5	train	yes	boundary-index overlap	组成	no	no	yes
+第2册6-00001	restricted_source/第2册6.md	3	5	train	yes	boundary-index overlap	用法	no	no	yes
+第2册6-00001	restricted_source/第2册6.md	3	5	train	yes	boundary-index overlap	功用	no	no	yes
+第2册6-00001	restricted_source/第2册6.md	3	5	train	yes	boundary-index overlap	主治	no	no	yes
+第2册6-00002	restricted_source/第2册6.md	5	22	train	yes	boundary-index overlap	组成	yes	yes	yes
+第2册6-00002	restricted_source/第2册6.md	5	22	train	yes	boundary-index overlap	用法	yes	yes	yes
+第2册6-00002	restricted_source/第2册6.md	5	22	train	yes	boundary-index overlap	功用	no	no	yes
+第2册6-00002	restricted_source/第2册6.md	5	22	train	yes	boundary-index overlap	主治	yes	yes	yes
+第2册6-00004	restricted_source/第2册6.md	25	34	train	yes	boundary-index overlap	组成	yes	yes	yes
+第2册6-00004	restricted_source/第2册6.md	25	34	train	yes	boundary-index overlap	用法	yes	yes	yes
+第2册6-00004	restricted_source/第2册6.md	25	34	train	yes	boundary-index overlap	功用	no	no	yes
+第2册6-00004	restricted_source/第2册6.md	25	34	train	yes	boundary-index overlap	主治	yes	yes	yes
+第2册6-00007	restricted_source/第2册6.md	43	49	train	yes	boundary-index overlap	组成	yes	yes	yes
+第2册6-00007	restricted_source/第2册6.md	43	49	train	yes	boundary-index overlap	用法	yes	yes	yes
+第2册6-00007	restricted_source/第2册6.md	43	49	train	yes	boundary-index overlap	功用	no	no	yes
+第2册6-00007	restricted_source/第2册6.md	43	49	train	yes	boundary-index overlap	主治	yes	yes	yes
+第2册6-00080	restricted_source/第2册6.md	674	683	train	yes	boundary-index overlap	组成	yes	yes	yes
+第2册6-00080	restricted_source/第2册6.md	674	683	train	yes	boundary-index overlap	用法	yes	yes	yes
+第2册6-00080	restricted_source/第2册6.md	674	683	train	yes	boundary-index overlap	功用	no	no	yes
+第2册6-00080	restricted_source/第2册6.md	674	683	train	yes	boundary-index overlap	主治	yes	yes	yes
+第3册1-00001	restricted_source/第3册1.md	5	15	test	yes	boundary-index overlap	组成	yes	yes	yes
+第3册1-00001	restricted_source/第3册1.md	5	15	test	yes	boundary-index overlap	用法	yes	yes	yes
+第3册1-00001	restricted_source/第3册1.md	5	15	test	yes	boundary-index overlap	功用	no	no	yes
+第3册1-00001	restricted_source/第3册1.md	5	15	test	yes	boundary-index overlap	主治	yes	yes	yes
+第3册1-00003	restricted_source/第3册1.md	21	42	test	yes	boundary-index overlap	组成	yes	yes	yes
+第3册1-00003	restricted_source/第3册1.md	21	42	test	yes	boundary-index overlap	用法	yes	yes	yes
+第3册1-00003	restricted_source/第3册1.md	21	42	test	yes	boundary-index overlap	功用	yes	yes	yes
+第3册1-00003	restricted_source/第3册1.md	21	42	test	yes	boundary-index overlap	主治	yes	yes	yes
+第3册1-00005	restricted_source/第3册1.md	55	59	test	yes	boundary-index overlap	组成	no	no	yes
+第3册1-00005	restricted_source/第3册1.md	55	59	test	yes	boundary-index overlap	用法	no	no	yes
+第3册1-00005	restricted_source/第3册1.md	55	59	test	yes	boundary-index overlap	功用	no	no	yes
+第3册1-00005	restricted_source/第3册1.md	55	59	test	yes	boundary-index overlap	主治	no	no	yes
+第3册1-00923	restricted_source/第3册1.md	7581	7582	test	yes	boundary-index overlap	组成	no	no	yes
+第3册1-00923	restricted_source/第3册1.md	7581	7582	test	yes	boundary-index overlap	用法	no	no	yes
+第3册1-00923	restricted_source/第3册1.md	7581	7582	test	yes	boundary-index overlap	功用	no	no	yes
+第3册1-00923	restricted_source/第3册1.md	7581	7582	test	yes	boundary-index overlap	主治	no	no	yes
+第3册2-00001	restricted_source/第3册2.md	22	26	train	yes	boundary-index overlap	组成	no	no	yes
+第3册2-00001	restricted_source/第3册2.md	22	26	train	yes	boundary-index overlap	用法	no	no	yes
+第3册2-00001	restricted_source/第3册2.md	22	26	train	yes	boundary-index overlap	功用	no	no	yes
+第3册2-00001	restricted_source/第3册2.md	22	26	train	yes	boundary-index overlap	主治	no	no	yes
+第3册2-00002	restricted_source/第3册2.md	26	34	train	yes	boundary-index overlap	组成	yes	yes	yes
+第3册2-00002	restricted_source/第3册2.md	26	34	train	yes	boundary-index overlap	用法	yes	yes	yes
+第3册2-00002	restricted_source/第3册2.md	26	34	train	yes	boundary-index overlap	功用	no	no	yes
+第3册2-00002	restricted_source/第3册2.md	26	34	train	yes	boundary-index overlap	主治	yes	yes	yes
+第3册2-00003	restricted_source/第3册2.md	34	42	train	yes	boundary-index overlap	组成	yes	yes	yes
+第3册2-00003	restricted_source/第3册2.md	34	42	train	yes	boundary-index overlap	用法	yes	yes	yes
+第3册2-00003	restricted_source/第3册2.md	34	42	train	yes	boundary-index overlap	功用	no	no	yes
+第3册2-00003	restricted_source/第3册2.md	34	42	train	yes	boundary-index overlap	主治	yes	yes	yes
+第3册2-01516	restricted_source/第3册2.md	11913	11923	train	yes	boundary-index overlap	组成	yes	yes	yes
+第3册2-01516	restricted_source/第3册2.md	11913	11923	train	yes	boundary-index overlap	用法	yes	yes	yes
+第3册2-01516	restricted_source/第3册2.md	11913	11923	train	yes	boundary-index overlap	功用	no	no	yes
+第3册2-01516	restricted_source/第3册2.md	11913	11923	train	yes	boundary-index overlap	主治	yes	no	no
+第3册2-01932	restricted_source/第3册2.md	15215	15219	train	yes	boundary-index overlap	组成	no	no	yes
+第3册2-01932	restricted_source/第3册2.md	15215	15219	train	yes	boundary-index overlap	用法	no	no	yes
+第3册2-01932	restricted_source/第3册2.md	15215	15219	train	yes	boundary-index overlap	功用	no	no	yes
+第3册2-01932	restricted_source/第3册2.md	15215	15219	train	yes	boundary-index overlap	主治	no	no	yes
+第3册3-00001	restricted_source/第3册3.md	8	18	test	yes	boundary-index overlap	组成	yes	yes	yes
+第3册3-00001	restricted_source/第3册3.md	8	18	test	yes	boundary-index overlap	用法	yes	yes	yes
+第3册3-00001	restricted_source/第3册3.md	8	18	test	yes	boundary-index overlap	功用	yes	yes	yes
+第3册3-00001	restricted_source/第3册3.md	8	18	test	yes	boundary-index overlap	主治	yes	yes	yes
+第3册3-00002	restricted_source/第3册3.md	18	26	test	yes	boundary-index overlap	组成	yes	yes	yes
+第3册3-00002	restricted_source/第3册3.md	18	26	test	yes	boundary-index overlap	用法	yes	yes	yes
+第3册3-00002	restricted_source/第3册3.md	18	26	test	yes	boundary-index overlap	功用	no	no	yes
+第3册3-00002	restricted_source/第3册3.md	18	26	test	yes	boundary-index overlap	主治	yes	yes	yes
+第3册3-00014	restricted_source/第3册3.md	124	128	test	yes	boundary-index overlap	组成	no	no	yes
+第3册3-00014	restricted_source/第3册3.md	124	128	test	yes	boundary-index overlap	用法	no	no	yes
+第3册3-00014	restricted_source/第3册3.md	124	128	test	yes	boundary-index overlap	功用	no	no	yes
+第3册3-00014	restricted_source/第3册3.md	124	128	test	yes	boundary-index overlap	主治	no	no	yes
+第3册4-00001	restricted_source/第3册4.md	1	8	train	yes	boundary-index overlap	组成	yes	yes	yes
+第3册4-00001	restricted_source/第3册4.md	1	8	train	yes	boundary-index overlap	用法	yes	yes	yes
+第3册4-00001	restricted_source/第3册4.md	1	8	train	yes	boundary-index overlap	功用	no	no	yes
+第3册4-00001	restricted_source/第3册4.md	1	8	train	yes	boundary-index overlap	主治	yes	yes	yes
+第3册4-00004	restricted_source/第3册4.md	24	32	train	yes	boundary-index overlap	组成	yes	yes	yes
+第3册4-00004	restricted_source/第3册4.md	24	32	train	yes	boundary-index overlap	用法	yes	yes	yes
+第3册4-00004	restricted_source/第3册4.md	24	32	train	yes	boundary-index overlap	功用	no	no	yes
+第3册4-00004	restricted_source/第3册4.md	24	32	train	yes	boundary-index overlap	主治	yes	yes	yes
+第3册4-00043	restricted_source/第3册4.md	359	362	train	yes	boundary-index overlap	组成	no	no	yes
+第3册4-00043	restricted_source/第3册4.md	359	362	train	yes	boundary-index overlap	用法	no	no	yes
+第3册4-00043	restricted_source/第3册4.md	359	362	train	yes	boundary-index overlap	功用	no	no	yes
+第3册4-00043	restricted_source/第3册4.md	359	362	train	yes	boundary-index overlap	主治	no	no	yes
+第3册4-00088	restricted_source/第3册4.md	737	741	train	no	supplemental field-heading sample	组成	no	no	yes
+第3册4-00088	restricted_source/第3册4.md	737	741	train	no	supplemental field-heading sample	用法	no	no	yes
+第3册4-00088	restricted_source/第3册4.md	737	741	train	no	supplemental field-heading sample	功用	no	no	yes
+第3册4-00088	restricted_source/第3册4.md	737	741	train	no	supplemental field-heading sample	主治	no	no	yes
+第3册5-00001	restricted_source/第3册5.md	6	10	test	yes	boundary-index overlap	组成	no	no	yes
+第3册5-00001	restricted_source/第3册5.md	6	10	test	yes	boundary-index overlap	用法	no	no	yes
+第3册5-00001	restricted_source/第3册5.md	6	10	test	yes	boundary-index overlap	功用	no	no	yes
+第3册5-00001	restricted_source/第3册5.md	6	10	test	yes	boundary-index overlap	主治	no	no	yes
+第3册5-00003	restricted_source/第3册5.md	14	20	test	yes	boundary-index overlap	组成	yes	yes	yes
+第3册5-00003	restricted_source/第3册5.md	14	20	test	yes	boundary-index overlap	用法	no	no	yes
+第3册5-00003	restricted_source/第3册5.md	14	20	test	yes	boundary-index overlap	功用	no	no	yes
+第3册5-00003	restricted_source/第3册5.md	14	20	test	yes	boundary-index overlap	主治	yes	yes	yes
+第3册5-00033	restricted_source/第3册5.md	257	282	test	yes	boundary-index overlap	组成	yes	yes	yes
+第3册5-00033	restricted_source/第3册5.md	257	282	test	yes	boundary-index overlap	用法	yes	yes	yes
+第3册5-00033	restricted_source/第3册5.md	257	282	test	yes	boundary-index overlap	功用	no	no	yes
+第3册5-00033	restricted_source/第3册5.md	257	282	test	yes	boundary-index overlap	主治	yes	yes	yes
+第3册5-00988	restricted_source/第3册5.md	8305	8310	test	yes	boundary-index overlap	组成	no	no	yes
+第3册5-00988	restricted_source/第3册5.md	8305	8310	test	yes	boundary-index overlap	用法	no	no	yes
+第3册5-00988	restricted_source/第3册5.md	8305	8310	test	yes	boundary-index overlap	功用	no	no	yes
+第3册5-00988	restricted_source/第3册5.md	8305	8310	test	yes	boundary-index overlap	主治	no	no	yes
+第3册6-00001	restricted_source/第3册6.md	14	22	train	yes	boundary-index overlap	组成	yes	yes	yes
+第3册6-00001	restricted_source/第3册6.md	14	22	train	yes	boundary-index overlap	用法	yes	yes	yes
+第3册6-00001	restricted_source/第3册6.md	14	22	train	yes	boundary-index overlap	功用	no	no	yes
+第3册6-00001	restricted_source/第3册6.md	14	22	train	yes	boundary-index overlap	主治	yes	yes	yes
+第3册6-00007	restricted_source/第3册6.md	74	84	train	yes	boundary-index overlap	组成	yes	yes	yes
+第3册6-00007	restricted_source/第3册6.md	74	84	train	yes	boundary-index overlap	用法	yes	yes	yes
+第3册6-00007	restricted_source/第3册6.md	74	84	train	yes	boundary-index overlap	功用	yes	yes	yes
+第3册6-00007	restricted_source/第3册6.md	74	84	train	yes	boundary-index overlap	主治	yes	yes	yes
+第3册6-00008	restricted_source/第3册6.md	84	88	train	yes	boundary-index overlap	组成	no	no	yes
+第3册6-00008	restricted_source/第3册6.md	84	88	train	yes	boundary-index overlap	用法	no	no	yes
+第3册6-00008	restricted_source/第3册6.md	84	88	train	yes	boundary-index overlap	功用	no	no	yes
+第3册6-00008	restricted_source/第3册6.md	84	88	train	yes	boundary-index overlap	主治	no	no	yes
+第4册1-00001	restricted_source/第4册1.md	7	13	train	no	supplemental field-heading sample	组成	yes	yes	yes
+第4册1-00001	restricted_source/第4册1.md	7	13	train	no	supplemental field-heading sample	用法	yes	yes	yes
+第4册1-00001	restricted_source/第4册1.md	7	13	train	no	supplemental field-heading sample	功用	no	no	yes
+第4册1-00001	restricted_source/第4册1.md	7	13	train	no	supplemental field-heading sample	主治	yes	yes	yes
+第4册1-00004	restricted_source/第4册1.md	29	35	train	yes	boundary-index overlap	组成	yes	no	no
+第4册1-00004	restricted_source/第4册1.md	29	35	train	yes	boundary-index overlap	用法	yes	yes	yes
+第4册1-00004	restricted_source/第4册1.md	29	35	train	yes	boundary-index overlap	功用	no	no	yes
+第4册1-00004	restricted_source/第4册1.md	29	35	train	yes	boundary-index overlap	主治	yes	yes	yes
+第4册1-00006	restricted_source/第4册1.md	44	48	train	yes	boundary-index overlap	组成	no	no	yes
+第4册1-00006	restricted_source/第4册1.md	44	48	train	yes	boundary-index overlap	用法	no	no	yes
+第4册1-00006	restricted_source/第4册1.md	44	48	train	yes	boundary-index overlap	功用	no	no	yes
+第4册1-00006	restricted_source/第4册1.md	44	48	train	yes	boundary-index overlap	主治	no	no	yes
+第4册1-00007	restricted_source/第4册1.md	48	54	train	yes	boundary-index overlap	组成	yes	yes	yes
+第4册1-00007	restricted_source/第4册1.md	48	54	train	yes	boundary-index overlap	用法	no	no	yes
+第4册1-00007	restricted_source/第4册1.md	48	54	train	yes	boundary-index overlap	功用	yes	yes	yes
+第4册1-00007	restricted_source/第4册1.md	48	54	train	yes	boundary-index overlap	主治	no	no	yes
+第4册1-00027	restricted_source/第4册1.md	214	216	train	yes	boundary-index overlap	组成	no	no	yes
+第4册1-00027	restricted_source/第4册1.md	214	216	train	yes	boundary-index overlap	用法	no	no	yes
+第4册1-00027	restricted_source/第4册1.md	214	216	train	yes	boundary-index overlap	功用	no	no	yes
+第4册1-00027	restricted_source/第4册1.md	214	216	train	yes	boundary-index overlap	主治	no	no	yes
+第4册2-00001	restricted_source/第4册2.md	2	10	dev	yes	boundary-index overlap	组成	yes	yes	yes
+第4册2-00001	restricted_source/第4册2.md	2	10	dev	yes	boundary-index overlap	用法	yes	yes	yes
+第4册2-00001	restricted_source/第4册2.md	2	10	dev	yes	boundary-index overlap	功用	no	no	yes
+第4册2-00001	restricted_source/第4册2.md	2	10	dev	yes	boundary-index overlap	主治	yes	yes	yes
+第4册2-00003	restricted_source/第4册2.md	20	22	dev	yes	boundary-index overlap	组成	no	no	yes
+第4册2-00003	restricted_source/第4册2.md	20	22	dev	yes	boundary-index overlap	用法	no	no	yes
+第4册2-00003	restricted_source/第4册2.md	20	22	dev	yes	boundary-index overlap	功用	no	no	yes
+第4册2-00003	restricted_source/第4册2.md	20	22	dev	yes	boundary-index overlap	主治	no	no	yes
+第4册2-00004	restricted_source/第4册2.md	22	32	dev	yes	boundary-index overlap	组成	yes	no	no
+第4册2-00004	restricted_source/第4册2.md	22	32	dev	yes	boundary-index overlap	用法	yes	yes	yes
+第4册2-00004	restricted_source/第4册2.md	22	32	dev	yes	boundary-index overlap	功用	yes	yes	yes
+第4册2-00004	restricted_source/第4册2.md	22	32	dev	yes	boundary-index overlap	主治	yes	yes	yes
+第4册2-00006	restricted_source/第4册2.md	34	36	dev	yes	boundary-index overlap	组成	no	no	yes
+第4册2-00006	restricted_source/第4册2.md	34	36	dev	yes	boundary-index overlap	用法	no	no	yes
+第4册2-00006	restricted_source/第4册2.md	34	36	dev	yes	boundary-index overlap	功用	no	no	yes
+第4册2-00006	restricted_source/第4册2.md	34	36	dev	yes	boundary-index overlap	主治	no	no	yes
+第4册2-00014	restricted_source/第4册2.md	110	114	dev	yes	boundary-index overlap	组成	no	no	yes
+第4册2-00014	restricted_source/第4册2.md	110	114	dev	yes	boundary-index overlap	用法	no	no	yes
+第4册2-00014	restricted_source/第4册2.md	110	114	dev	yes	boundary-index overlap	功用	no	no	yes
+第4册2-00014	restricted_source/第4册2.md	110	114	dev	yes	boundary-index overlap	主治	no	no	yes
+第4册3-00002	restricted_source/第4册3.md	14	22	dev	yes	boundary-index overlap	组成	yes	no	no
+第4册3-00002	restricted_source/第4册3.md	14	22	dev	yes	boundary-index overlap	用法	yes	yes	yes
+第4册3-00002	restricted_source/第4册3.md	14	22	dev	yes	boundary-index overlap	功用	no	no	yes
+第4册3-00002	restricted_source/第4册3.md	14	22	dev	yes	boundary-index overlap	主治	yes	yes	yes
+第4册3-00080	restricted_source/第4册3.md	674	676	dev	yes	boundary-index overlap	组成	no	no	yes
+第4册3-00080	restricted_source/第4册3.md	674	676	dev	yes	boundary-index overlap	用法	no	no	yes
+第4册3-00080	restricted_source/第4册3.md	674	676	dev	yes	boundary-index overlap	功用	no	no	yes
+第4册3-00080	restricted_source/第4册3.md	674	676	dev	yes	boundary-index overlap	主治	no	no	yes
+第4册4-00010	restricted_source/第4册4.md	78	88	train	yes	boundary-index overlap	组成	yes	yes	yes
+第4册4-00010	restricted_source/第4册4.md	78	88	train	yes	boundary-index overlap	用法	yes	yes	yes
+第4册4-00010	restricted_source/第4册4.md	78	88	train	yes	boundary-index overlap	功用	no	no	yes
+第4册4-00010	restricted_source/第4册4.md	78	88	train	yes	boundary-index overlap	主治	yes	yes	yes
+第4册4-00173	restricted_source/第4册4.md	1387	1387	train	no	supplemental field-heading sample	组成	yes	yes	yes
+第4册4-00173	restricted_source/第4册4.md	1387	1387	train	no	supplemental field-heading sample	用法	no	no	yes
+第4册4-00173	restricted_source/第4册4.md	1387	1387	train	no	supplemental field-heading sample	功用	no	no	yes
+第4册4-00173	restricted_source/第4册4.md	1387	1387	train	no	supplemental field-heading sample	主治	no	no	yes
+第4册5-00002	restricted_source/第4册5.md	18	28	test	yes	boundary-index overlap	组成	yes	yes	yes
+第4册5-00002	restricted_source/第4册5.md	18	28	test	yes	boundary-index overlap	用法	yes	yes	yes
+第4册5-00002	restricted_source/第4册5.md	18	28	test	yes	boundary-index overlap	功用	no	no	yes
+第4册5-00002	restricted_source/第4册5.md	18	28	test	yes	boundary-index overlap	主治	yes	no	no
+第4册5-00485	restricted_source/第4册5.md	4045	4045	test	yes	boundary-index overlap	组成	no	no	yes
+第4册5-00485	restricted_source/第4册5.md	4045	4045	test	yes	boundary-index overlap	用法	no	no	yes
+第4册5-00485	restricted_source/第4册5.md	4045	4045	test	yes	boundary-index overlap	功用	no	no	yes
+第4册5-00485	restricted_source/第4册5.md	4045	4045	test	yes	boundary-index overlap	主治	yes	yes	yes
+第4册5-01896	restricted_source/第4册5.md	14845	14862	test	yes	boundary-index overlap	组成	yes	yes	yes
+第4册5-01896	restricted_source/第4册5.md	14845	14862	test	yes	boundary-index overlap	用法	yes	yes	yes
+第4册5-01896	restricted_source/第4册5.md	14845	14862	test	yes	boundary-index overlap	功用	no	no	yes
+第4册5-01896	restricted_source/第4册5.md	14845	14862	test	yes	boundary-index overlap	主治	yes	yes	yes
+第5册1-00002	restricted_source/第5册1.md	14	28	train	yes	boundary-index overlap	组成	yes	yes	yes
+第5册1-00002	restricted_source/第5册1.md	14	28	train	yes	boundary-index overlap	用法	yes	yes	yes
+第5册1-00002	restricted_source/第5册1.md	14	28	train	yes	boundary-index overlap	功用	yes	no	no
+第5册1-00002	restricted_source/第5册1.md	14	28	train	yes	boundary-index overlap	主治	yes	yes	yes
+第5册1-00560	restricted_source/第5册1.md	4518	4522	train	yes	boundary-index overlap	组成	no	no	yes
+第5册1-00560	restricted_source/第5册1.md	4518	4522	train	yes	boundary-index overlap	用法	no	no	yes
+第5册1-00560	restricted_source/第5册1.md	4518	4522	train	yes	boundary-index overlap	功用	no	no	yes
+第5册1-00560	restricted_source/第5册1.md	4518	4522	train	yes	boundary-index overlap	主治	no	no	yes
+第5册2-00030	restricted_source/第5册2.md	266	274	train	yes	boundary-index overlap	组成	yes	yes	yes
+第5册2-00030	restricted_source/第5册2.md	266	274	train	yes	boundary-index overlap	用法	yes	yes	yes
+第5册2-00030	restricted_source/第5册2.md	266	274	train	yes	boundary-index overlap	功用	no	no	yes
+第5册2-00030	restricted_source/第5册2.md	266	274	train	yes	boundary-index overlap	主治	yes	no	no
+第7册6-00062	restricted_source/第7册6.md	482	495	train	no	supplemental field-heading sample	组成	yes	yes	yes
+第7册6-00062	restricted_source/第7册6.md	482	495	train	no	supplemental field-heading sample	用法	yes	yes	yes
+第7册6-00062	restricted_source/第7册6.md	482	495	train	no	supplemental field-heading sample	功用	no	no	yes
+第7册6-00062	restricted_source/第7册6.md	482	495	train	no	supplemental field-heading sample	主治	yes	yes	yes
+第1册1-00006	restricted_source/第1册1.md	41	53	train	yes	boundary-index overlap	组成	yes	yes	yes
+第1册1-00006	restricted_source/第1册1.md	41	53	train	yes	boundary-index overlap	用法	yes	yes	yes
+第1册1-00006	restricted_source/第1册1.md	41	53	train	yes	boundary-index overlap	功用	no	no	yes
+第1册1-00006	restricted_source/第1册1.md	41	53	train	yes	boundary-index overlap	主治	yes	no	no
+第1册1-00008	restricted_source/第1册1.md	64	69	train	yes	boundary-index overlap	组成	yes	yes	yes
+第1册1-00008	restricted_source/第1册1.md	64	69	train	yes	boundary-index overlap	用法	no	no	yes
+第1册1-00008	restricted_source/第1册1.md	64	69	train	yes	boundary-index overlap	功用	no	no	yes
+第1册1-00008	restricted_source/第1册1.md	64	69	train	yes	boundary-index overlap	主治	no	no	yes
+第1册1-00014	restricted_source/第1册1.md	104	111	train	yes	boundary-index overlap	组成	yes	yes	yes
+第1册1-00014	restricted_source/第1册1.md	104	111	train	yes	boundary-index overlap	用法	yes	yes	yes
+第1册1-00014	restricted_source/第1册1.md	104	111	train	yes	boundary-index overlap	功用	no	no	yes
+第1册1-00014	restricted_source/第1册1.md	104	111	train	yes	boundary-index overlap	主治	yes	yes	yes
+第1册1-00017	restricted_source/第1册1.md	118	125	train	yes	boundary-index overlap	组成	yes	yes	yes
+第1册1-00017	restricted_source/第1册1.md	118	125	train	yes	boundary-index overlap	用法	yes	yes	yes
+第1册1-00017	restricted_source/第1册1.md	118	125	train	yes	boundary-index overlap	功用	no	no	yes
+第1册1-00017	restricted_source/第1册1.md	118	125	train	yes	boundary-index overlap	主治	yes	no	no
+第1册1-00018	restricted_source/第1册1.md	125	133	train	yes	boundary-index overlap	组成	yes	yes	yes
+第1册1-00018	restricted_source/第1册1.md	125	133	train	yes	boundary-index overlap	用法	yes	yes	yes
+第1册1-00018	restricted_source/第1册1.md	125	133	train	yes	boundary-index overlap	功用	no	no	yes
+第1册1-00018	restricted_source/第1册1.md	125	133	train	yes	boundary-index overlap	主治	yes	no	no
+第1册1-00022	restricted_source/第1册1.md	154	165	train	yes	boundary-index overlap	组成	yes	no	no
+第1册1-00022	restricted_source/第1册1.md	154	165	train	yes	boundary-index overlap	用法	yes	yes	yes
+第1册1-00022	restricted_source/第1册1.md	154	165	train	yes	boundary-index overlap	功用	no	no	yes
+第1册1-00022	restricted_source/第1册1.md	154	165	train	yes	boundary-index overlap	主治	yes	yes	yes
+第1册1-00023	restricted_source/第1册1.md	165	175	train	yes	boundary-index overlap	组成	yes	yes	yes
+第1册1-00023	restricted_source/第1册1.md	165	175	train	yes	boundary-index overlap	用法	yes	yes	yes
+第1册1-00023	restricted_source/第1册1.md	165	175	train	yes	boundary-index overlap	功用	no	no	yes
+第1册1-00023	restricted_source/第1册1.md	165	175	train	yes	boundary-index overlap	主治	yes	no	no
+第1册1-00031	restricted_source/第1册1.md	233	241	train	yes	boundary-index overlap	组成	yes	yes	yes
+第1册1-00031	restricted_source/第1册1.md	233	241	train	yes	boundary-index overlap	用法	yes	no	no
+第1册1-00031	restricted_source/第1册1.md	233	241	train	yes	boundary-index overlap	功用	no	no	yes
+第1册1-00031	restricted_source/第1册1.md	233	241	train	yes	boundary-index overlap	主治	yes	yes	yes
+第1册1-00033	restricted_source/第1册1.md	244	254	train	yes	boundary-index overlap	组成	yes	yes	yes
+第1册1-00033	restricted_source/第1册1.md	244	254	train	yes	boundary-index overlap	用法	yes	yes	yes
+第1册1-00033	restricted_source/第1册1.md	244	254	train	yes	boundary-index overlap	功用	no	no	yes
+第1册1-00033	restricted_source/第1册1.md	244	254	train	yes	boundary-index overlap	主治	yes	no	no
+第1册1-00034	restricted_source/第1册1.md	254	263	train	yes	boundary-index overlap	组成	yes	yes	yes
+第1册1-00034	restricted_source/第1册1.md	254	263	train	yes	boundary-index overlap	用法	yes	yes	yes
+第1册1-00034	restricted_source/第1册1.md	254	263	train	yes	boundary-index overlap	功用	yes	no	no
+第1册1-00034	restricted_source/第1册1.md	254	263	train	yes	boundary-index overlap	主治	yes	no	no
+第1册1-00036	restricted_source/第1册1.md	270	276	train	yes	boundary-index overlap	组成	yes	yes	yes
+第1册1-00036	restricted_source/第1册1.md	270	276	train	yes	boundary-index overlap	用法	yes	no	no
+第1册1-00036	restricted_source/第1册1.md	270	276	train	yes	boundary-index overlap	功用	no	no	yes
+第1册1-00036	restricted_source/第1册1.md	270	276	train	yes	boundary-index overlap	主治	yes	yes	yes
+第1册1-00038	restricted_source/第1册1.md	283	293	train	yes	boundary-index overlap	组成	yes	yes	yes
+第1册1-00038	restricted_source/第1册1.md	283	293	train	yes	boundary-index overlap	用法	yes	yes	yes
+第1册1-00038	restricted_source/第1册1.md	283	293	train	yes	boundary-index overlap	功用	no	no	yes
+第1册1-00038	restricted_source/第1册1.md	283	293	train	yes	boundary-index overlap	主治	yes	yes	yes
+第1册1-00039	restricted_source/第1册1.md	293	299	train	yes	boundary-index overlap	组成	yes	yes	yes
+第1册1-00039	restricted_source/第1册1.md	293	299	train	yes	boundary-index overlap	用法	yes	no	no
+第1册1-00039	restricted_source/第1册1.md	293	299	train	yes	boundary-index overlap	功用	no	no	yes
+第1册1-00039	restricted_source/第1册1.md	293	299	train	yes	boundary-index overlap	主治	no	no	yes
+第1册1-00041	restricted_source/第1册1.md	306	314	train	yes	boundary-index overlap	组成	yes	yes	yes
+第1册1-00041	restricted_source/第1册1.md	306	314	train	yes	boundary-index overlap	用法	yes	yes	yes
+第1册1-00041	restricted_source/第1册1.md	306	314	train	yes	boundary-index overlap	功用	yes	no	no
+第1册1-00041	restricted_source/第1册1.md	306	314	train	yes	boundary-index overlap	主治	yes	yes	yes
+第1册1-00044	restricted_source/第1册1.md	333	343	train	yes	boundary-index overlap	组成	yes	yes	yes
+第1册1-00044	restricted_source/第1册1.md	333	343	train	yes	boundary-index overlap	用法	yes	yes	yes
+第1册1-00044	restricted_source/第1册1.md	333	343	train	yes	boundary-index overlap	功用	no	no	yes
+第1册1-00044	restricted_source/第1册1.md	333	343	train	yes	boundary-index overlap	主治	yes	yes	yes
+第1册1-00045	restricted_source/第1册1.md	343	355	train	yes	boundary-index overlap	组成	yes	yes	yes
+第1册1-00045	restricted_source/第1册1.md	343	355	train	yes	boundary-index overlap	用法	yes	yes	yes
+第1册1-00045	restricted_source/第1册1.md	343	355	train	yes	boundary-index overlap	功用	no	no	yes
+第1册1-00045	restricted_source/第1册1.md	343	355	train	yes	boundary-index overlap	主治	yes	no	no
+第1册1-00046	restricted_source/第1册1.md	355	363	train	yes	boundary-index overlap	组成	yes	yes	yes
+第1册1-00046	restricted_source/第1册1.md	355	363	train	yes	boundary-index overlap	用法	yes	yes	yes
+第1册1-00046	restricted_source/第1册1.md	355	363	train	yes	boundary-index overlap	功用	no	no	yes
+第1册1-00046	restricted_source/第1册1.md	355	363	train	yes	boundary-index overlap	主治	yes	no	no
+第1册1-00051	restricted_source/第1册1.md	394	401	train	yes	boundary-index overlap	组成	yes	yes	yes
+第1册1-00051	restricted_source/第1册1.md	394	401	train	yes	boundary-index overlap	用法	yes	yes	yes
+第1册1-00051	restricted_source/第1册1.md	394	401	train	yes	boundary-index overlap	功用	no	no	yes
+第1册1-00051	restricted_source/第1册1.md	394	401	train	yes	boundary-index overlap	主治	yes	yes	yes
+第1册1-00054	restricted_source/第1册1.md	413	421	train	yes	boundary-index overlap	组成	yes	yes	yes
+第1册1-00054	restricted_source/第1册1.md	413	421	train	yes	boundary-index overlap	用法	yes	yes	yes
+第1册1-00054	restricted_source/第1册1.md	413	421	train	yes	boundary-index overlap	功用	no	no	yes
+第1册1-00054	restricted_source/第1册1.md	413	421	train	yes	boundary-index overlap	主治	yes	no	no
+第1册1-00057	restricted_source/第1册1.md	438	444	train	yes	boundary-index overlap	组成	yes	no	no
+第1册1-00057	restricted_source/第1册1.md	438	444	train	yes	boundary-index overlap	用法	yes	yes	yes
+第1册1-00057	restricted_source/第1册1.md	438	444	train	yes	boundary-index overlap	功用	no	no	yes
+第1册1-00057	restricted_source/第1册1.md	438	444	train	yes	boundary-index overlap	主治	yes	yes	yes
+第1册1-00060	restricted_source/第1册1.md	456	463	train	yes	boundary-index overlap	组成	yes	yes	yes
+第1册1-00060	restricted_source/第1册1.md	456	463	train	yes	boundary-index overlap	用法	yes	yes	yes
+第1册1-00060	restricted_source/第1册1.md	456	463	train	yes	boundary-index overlap	功用	no	no	yes
+第1册1-00060	restricted_source/第1册1.md	456	463	train	yes	boundary-index overlap	主治	yes	yes	yes
+第1册1-00061	restricted_source/第1册1.md	463	469	train	yes	boundary-index overlap	组成	yes	no	no
+第1册1-00061	restricted_source/第1册1.md	463	469	train	yes	boundary-index overlap	用法	yes	yes	yes
+第1册1-00061	restricted_source/第1册1.md	463	469	train	yes	boundary-index overlap	功用	no	no	yes
+第1册1-00061	restricted_source/第1册1.md	463	469	train	yes	boundary-index overlap	主治	no	no	yes
+第1册1-00062	restricted_source/第1册1.md	470	482	train	yes	boundary-index overlap	组成	yes	yes	yes
+第1册1-00062	restricted_source/第1册1.md	470	482	train	yes	boundary-index overlap	用法	yes	yes	yes
+第1册1-00062	restricted_source/第1册1.md	470	482	train	yes	boundary-index overlap	功用	yes	no	no
+第1册1-00062	restricted_source/第1册1.md	470	482	train	yes	boundary-index overlap	主治	yes	yes	yes
+第6册1-00728	restricted_source/第6册1.md	6063	6078	train	yes	boundary-index overlap	组成	yes	yes	yes
+第6册1-00728	restricted_source/第6册1.md	6063	6078	train	yes	boundary-index overlap	用法	yes	yes	yes
+第6册1-00728	restricted_source/第6册1.md	6063	6078	train	yes	boundary-index overlap	功用	no	no	yes
+第6册1-00728	restricted_source/第6册1.md	6063	6078	train	yes	boundary-index overlap	主治	yes	yes	yes

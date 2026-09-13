@@ -5,11 +5,11 @@ Lines (n)	759186
 Characters (n)	16640727
 HTML blocks (n)	181
 Image links (n)	10
-Suspicious joined entries (n)	18179
-Suspicious heading noise (n)	24239
+Joined-entry signals (n)	18179
+Malformed-heading signals (n)	24239
 Parsed records (n)	97527
-Doc type: full entries (n)	62778
-Doc type: noisy entries (n)	21821
-Doc type: redirects (n)	11803
-Doc type: index-like (n)	683
-Doc type: mixed/unknown (n)	442
+Doc type: clean entry records (n)	62778
+Doc type: noisy entry records (n)	21821
+Doc type: redirect-like records (n)	11803
+Doc type: index-like records (n)	683
+Doc type: mixed/unknown records (n)	442

@@ -11,4 +11,4 @@ Entry-text records (FULL + NOISY)	84599	Primary extraction substrate for structu
 Entry-like records (FULL + NOISY + REDIRECT)	96402	Closer to “entry universe” but still not identical to printed entry definition
 Non-entry records (TOC_INDEX + MIXED_UNKNOWN)	1125	Explicitly retained as first-class records rather than filtered out
 Skipped non-entry spans (not materialized as records)	4542	Parser-level skips for non-entry spans during segmentation (see parse summary v14)
-Joined-entry signal occurrences (corpus-level diagnostic)	18179	Heuristic count used in Table 1 (“Suspicious joined entries”); diagnostic indicator, not a gold merge count
+Joined-entry signal occurrences (corpus-level diagnostic)	18179	Heuristic count used in Table 2 (“Joined-entry signals”); diagnostic indicator, not a gold merge count

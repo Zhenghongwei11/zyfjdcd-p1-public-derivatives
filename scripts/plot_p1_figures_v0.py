@@ -129,12 +129,11 @@ def human_noise_flag(flag: str) -> str:
 
 
 def ascii_field_label(field: str) -> str:
-    # Paper figures should be English/ASCII-first for portability.
     mapping = {
-        "组成": "composition",
-        "用法": "administration",
-        "功用": "actions",
-        "主治": "indications",
+        "组成": "Composition",
+        "用法": "Administration",
+        "功用": "Actions",
+        "主治": "Indications",
     }
     f = (field or "").strip()
     if f in mapping:
@@ -184,10 +183,10 @@ def fig2_volume_composition(root: Path, outdir: Path) -> None:
 
     x = list(range(len(vols)))
     fig, ax = plt.subplots(figsize=(7.2, 3.4))
-    ax.bar(x, full_p, label="Clean entries", color=COLORS["blue"], alpha=0.9)
-    ax.bar(x, noisy_p, bottom=full_p, label="Noisy entries", color=COLORS["orange"], alpha=0.9)
+    ax.bar(x, full_p, label="Clean entry records", color=COLORS["blue"], alpha=0.9)
+    ax.bar(x, noisy_p, bottom=full_p, label="Noisy entry records", color=COLORS["orange"], alpha=0.9)
     bottom2 = [a + b for a, b in zip(full_p, noisy_p)]
-    ax.bar(x, redir_p, bottom=bottom2, label="Redirect-like", color=COLORS["red"], alpha=0.85)
+    ax.bar(x, redir_p, bottom=bottom2, label="Redirect-like records", color=COLORS["red"], alpha=0.85)
     bottom3 = [a + b for a, b in zip(bottom2, redir_p)]
     ax.bar(x, other_p, bottom=bottom3, label="Index/Mixed/Other", color=COLORS["light_gray"], alpha=0.9)
 
@@ -322,7 +321,6 @@ def fig4_benchmark_composition(root: Path, outdir: Path) -> None:
     ax1.grid(axis="x", alpha=0.22)
     ax1.legend(frameon=True, loc="lower right", fontsize=8)
 
-    # Top noise flags across splits
     total_noise = Counter()
     for s in splits:
         total_noise.update(noise_counts[s])
@@ -447,10 +445,10 @@ def fig5_baselines_and_field_robustness(root: Path, outdir: Path) -> None:
         "MIXED_UNKNOWN",
     ]
     doc_labels = {
-        "FORMULA_ENTRY_FULL": "Clean entries",
-        "FORMULA_ENTRY_NOISY": "Noisy entries",
-        "FORMULA_ENTRY_REDIRECT": "Redirect-like",
-        "MIXED_UNKNOWN": "Mixed/unknown",
+        "FORMULA_ENTRY_FULL": "Clean entry records",
+        "FORMULA_ENTRY_NOISY": "Noisy entry records",
+        "FORMULA_ENTRY_REDIRECT": "Redirect-like records",
+        "MIXED_UNKNOWN": "Mixed/unknown records",
     }
     model_ids = order
     counts = {doc_type: sum(1 for item in items_by_id.values() if item.get("split") == "test" and item.get("doc_type_label") == doc_type) for doc_type in doc_types}

@@ -41,7 +41,7 @@ FIELD_HEADING_STRINGS = (
 )
 
 # Many TOC/index blocks look like "09708飞补汤 1-720" (page locator), sometimes followed by HTML tables.
-# Allow spaces inside the headword ("史国公百病无 忧药酒") and extra trailing tokens.
+# Allow spaces inside OCR-damaged headwords and extra trailing tokens.
 INDEX_HEADER_RE = re.compile(r"^\s*(?:#+\s*)?\d{5}.*?\b\d+\s*-\s*\d+\b.*$")
 PAGE_LOCATOR_RE = re.compile(r"\b\d+\s*-\s*\d+\b")
 

@@ -2,4 +2,4 @@ Metric	Value
 Records evaluated for span correspondence (n)	97527
 Exact source-span matches (n)	97527
 Records evaluated for field consistency (n)	97527
-Empty heading but extracted value empty (n)	2
+Field heading present but extracted value empty (n)	2

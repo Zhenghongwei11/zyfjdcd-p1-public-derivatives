@@ -101,9 +101,27 @@ def main() -> None:
         ("Records evaluated for span correspondence (n)", str(sf.get("records", ""))),
         ("Exact source-span matches (n)", str(sf.get("ok", ""))),
         ("Records evaluated for field consistency (n)", str(fs.get("records", ""))),
-        ("Empty heading but extracted value empty (n)", str(fs.get("issue_heading_but_empty", ""))),
+        ("Field heading present but extracted value empty (n)", str(fs.get("issue_heading_but_empty", ""))),
     ]
     write_kv_tsv(out_dir / "table2_quality_audits.tsv", kv2)
+
+    field_issue_rows = []
+    field_issue_path = root / "results/corpus/field_selfcheck_issues_v0.tsv"
+    if field_issue_path.exists():
+        for row in read_tsv(field_issue_path):
+            field_issue_rows.append(
+                {
+                    "Record identifier": row.get("record_id", ""),
+                    "Document type": row.get("doc_type", ""),
+                    "Field": row.get("field", ""),
+                    "Flag": "heading present but extracted value empty",
+                }
+            )
+    write_tsv(
+        out_dir / "source_data19_field_consistency_flags.tsv",
+        ["Record identifier", "Document type", "Field", "Flag"],
+        field_issue_rows,
+    )
 
     # Table 3: Boundary consensus summary (metric/value)
     bc = boundary_consensus.get("counters") or {}
@@ -175,8 +193,14 @@ def main() -> None:
                 "field": f,
                 "presence_f1_all": rp.get("f1", ""),
                 "presence_recall_all": rp.get("recall", ""),
+                "presence_n_items_all": rp.get("n_items", ""),
+                "presence_n_true_all": rp.get("n_true", ""),
+                "presence_tp_all": rp.get("tp", ""),
                 "value_f1_all": rv.get("f1", ""),
                 "value_recall_all": rv.get("recall", ""),
+                "value_n_items_all": rv.get("n_items", ""),
+                "value_n_true_all": rv.get("n_true", ""),
+                "value_tp_all": rv.get("tp", ""),
                 "notes": "strict heading parsing vs relaxed reference definition on OCR-derived text",
             }
         )
@@ -184,7 +208,20 @@ def main() -> None:
     # Keep a version with stable column names for Figure 5.
     write_tsv(
         out_dir / "table5_field_robustness_all.tsv",
-        ["field", "presence_f1_all", "presence_recall_all", "value_f1_all", "value_recall_all", "notes"],
+        [
+            "field",
+            "presence_f1_all",
+            "presence_recall_all",
+            "presence_n_items_all",
+            "presence_n_true_all",
+            "presence_tp_all",
+            "value_f1_all",
+            "value_recall_all",
+            "value_n_items_all",
+            "value_n_true_all",
+            "value_tp_all",
+            "notes",
+        ],
         out,
     )
 
@@ -200,13 +237,21 @@ def main() -> None:
         out_paper.append(
             {
                 "Field": field_name.get(r["field"], r["field"]),
-                "Heading presence recall": r["presence_recall_all"],
-                "Value extraction recall": r["value_recall_all"],
+                "Heading presence recall (recovered/reference; 128 spans)": (
+                    f"{r['presence_recall_all']} ({r['presence_tp_all']}/{r['presence_n_true_all']})"
+                ),
+                "Exact-value recall (recovered/reference; 84,599 records)": (
+                    f"{r['value_recall_all']} ({r['value_tp_all']}/{r['value_n_true_all']})"
+                ),
             }
         )
     write_tsv(
         out_dir / "table5_field_robustness_paper.tsv",
-        ["Field", "Heading presence recall", "Value extraction recall"],
+        [
+            "Field",
+            "Heading presence recall (recovered/reference; 128 spans)",
+            "Exact-value recall (recovered/reference; 84,599 records)",
+        ],
         out_paper,
     )
 
@@ -452,7 +497,9 @@ def main() -> None:
         with path.open("r", encoding="utf-8", newline="") as handle:
             return max(0, sum(1 for _ in handle) - 1)
 
-    items_gold_path = root / "data/benchmarks/items_gold_v3_dual.tsv"
+    items_gold_path = root / "data/benchmarks/entry_segmentation_gold_index_v1.tsv"
+    if not items_gold_path.exists():
+        items_gold_path = root / "data/benchmarks/items_gold_v3_dual.tsv"
     # Count labeled rows (boundary_ok_gold in {yes,no}) for the gold subset size.
     n_boundary_gold = 0
     if items_gold_path.exists():
@@ -487,7 +534,7 @@ def main() -> None:
             "Label tier": "Rule-consensus (silver)",
             "N": str(boundary_consensus.get("n_rows") or ""),
             "Availability": "Public (derived-only)",
-            "Reported as": "Tables 4, 6, and 7",
+            "Reported as": "Table 4; S3 and S4 Tables",
         },
         {
             "Asset": "Boundary hard-case slice",

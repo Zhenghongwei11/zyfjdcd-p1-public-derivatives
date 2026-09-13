@@ -2,13 +2,15 @@ artifact	path	description	role
 corpus_profile	results/corpus/corpus_profile.json	Corpus-scale counts and heterogeneity signals	Table 2; Figs 2 and 3
 source_registry	results/corpus/source_registry.tsv	File-level record counts and document-type composition	Fig 2
 source_anomalies	results/corpus/source_anomalies.tsv	File-level structural-noise counts	Fig 3
-entry_segmentation_gold	data/benchmarks/items_gold_v3_dual.tsv	Benchmark indices, splits, noise flags, and adjudicated boundary labels for 600 items	Methods; Fig 4
+entry_segmentation_gold	data/benchmarks/entry_segmentation_gold_index_v1.tsv	Benchmark indices, splits, noise flags, and adjudicated boundary labels for 600 items	Methods; Fig 4
 entry_segmentation_dual_labels	data/benchmarks/entry_segmentation_dual_labels_v1.tsv	Paired annotator labels and adjudicated outcomes without source text	Agreement analysis
 document_type_dual_labels	data/benchmarks/document_type_dual_labels_v1.tsv	Paired document-type labels and adjudicated outcomes without source text	Agreement analysis
 field_hardcase_labels	data/benchmarks/field_hardcase_labels_public_v1.tsv	Binary paired labels and adjudicated outcomes for the 240-row field slice	Field-review agreement
 boundary_predictions	results/benchmarks/boundary_baseline_test_predictions_v2.tsv	Held-out gold labels and predictions from four boundary baselines	Table 5; Fig 5; paired tests
 boundary_summary	results/benchmarks/boundary_baseline_test_summary_v2.tsv	Held-out accuracy, precision, recall, F1, and bootstrap intervals	Table 5; Fig 5
 boundary_pairwise_tests	results/statistics/boundary_baseline_mcnemar_v2.tsv	Exact paired McNemar tests with Holm adjustment	Table 5
-field_outcomes	results/benchmarks/field_value_item_outcomes_v1.tsv	Per-record binary field-presence and exact-match outcomes without extracted values	Table 8; Fig 5
-article_tables	results/manuscript/	Derived tables reported in the article and supporting information	Tables 1-9; S1 File
+field_outcomes	results/benchmarks/field_value_item_outcomes_v1.tsv	Per-record binary field-presence and exact-match outcomes without extracted values	Table 6; Fig 5
+field_heading_outcomes	results/benchmarks/field_presence_item_outcomes_v1.tsv	Per-item strict and relaxed heading-presence outcomes without source text	Table 6; Fig 5
+field_consistency_flags	results/manuscript/source_data19_field_consistency_flags.tsv	Identifiers and categories for the two heading-without-value flags	Table 3
+article_tables	results/manuscript/	Derived tables reported in the article and supporting information	Tables 1-6; S1 Tables
 figures	plots/p1/	Publication figures in PDF and PNG, with SVG for the conceptual workflow	Figs 1-5

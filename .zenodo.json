@@ -23,6 +23,6 @@
   ],
   "license": "MIT",
   "access_right": "open",
-  "version": "v1.0.6",
+  "version": "v1.0.7",
   "notes": "Rights-sensitive OCR-derived full text is excluded by design. A stable public repository URL and DOI are assigned at the final external deposit step."
 }

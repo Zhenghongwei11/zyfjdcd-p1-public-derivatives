@@ -36,9 +36,10 @@ def ensure_outdir(outdir: Path) -> None:
 def save_fig(fig, outdir: Path, stem: str) -> None:
     pdf = outdir / f"{stem}.pdf"
     png = outdir / f"{stem}.png"
+    tif = outdir / f"{stem}.tif"
     fig.savefig(pdf, bbox_inches="tight")
-    # IEEE graphics guidance commonly expects >=300 dpi for color/grayscale raster images.
     fig.savefig(png, dpi=300, bbox_inches="tight")
+    fig.savefig(tif, dpi=300, bbox_inches="tight", pil_kwargs={"compression": "tiff_lzw"})
 
 
 def set_style() -> None:
@@ -197,7 +198,7 @@ def fig2_volume_composition(root: Path, outdir: Path) -> None:
     ax.set_yticks([0.0, 0.25, 0.5, 0.75, 1.0])
     ax.set_yticklabels(["0%", "25%", "50%", "75%", "100%"])
     ax.grid(axis="y", alpha=0.22)
-    ax.legend(ncols=2, frameon=True, loc="upper right")
+    ax.legend(ncols=4, frameon=False, loc="lower center", bbox_to_anchor=(0.5, 1.01))
     save_fig(fig, outdir, "fig2_volume_composition")
     plt.close(fig)
 
@@ -227,31 +228,45 @@ def fig3_heterogeneity_distributions(root: Path, outdir: Path) -> None:
 
     fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(9.0, 3.6), sharex=True)
 
-    def violin(ax, data, ylabel, panel):
-        vp = ax.violinplot(data, showmeans=False, showmedians=True, showextrema=False)
-        for body in vp["bodies"]:
-            body.set_facecolor(COLORS["blue"])
-            body.set_edgecolor(COLORS["blue"])
-            body.set_alpha(0.25)
-        vp["cmedians"].set_color(COLORS["blue"])
-        vp["cmedians"].set_linewidth(1.2)
+    def point_range(ax, data, ylabel, panel):
+        for position, values in enumerate(data, start=1):
+            if not values:
+                continue
+            offsets = [0.0] if len(values) == 1 else [
+                -0.16 + 0.32 * index / (len(values) - 1) for index in range(len(values))
+            ]
+            ax.vlines(position, min(values), max(values), color=COLORS["light_gray"], linewidth=1.5, zorder=1)
+            ax.scatter(
+                [position + offset for offset in offsets],
+                values,
+                s=24,
+                color=COLORS["blue"],
+                alpha=0.78,
+                edgecolors="white",
+                linewidths=0.4,
+                zorder=2,
+            )
+            ordered = sorted(values)
+            midpoint = len(ordered) // 2
+            median = ordered[midpoint] if len(ordered) % 2 else (ordered[midpoint - 1] + ordered[midpoint]) / 2
+            ax.hlines(median, position - 0.20, position + 0.20, color=COLORS["ink"], linewidth=1.6, zorder=3)
         ax.set_xticks(list(range(1, len(vols) + 1)))
         ax.set_xticklabels(vols, rotation=0)
         ax.set_ylabel(ylabel)
         ax.grid(axis="y", alpha=0.22)
         ax.text(0.01, 0.96, panel, transform=ax.transAxes, fontsize=10, fontweight="bold", va="top", ha="left")
 
-    violin(ax1, join_data, "Joined-entry signals (per file)", "(a)")
-    violin(ax2, head_data, "Field-heading noise signals (per file)", "(b)")
+    point_range(ax1, join_data, "Joined-entry signals per file", "(a)")
+    point_range(ax2, head_data, "Malformed-heading signals per file", "(b)")
 
     save_fig(fig, outdir, "fig3_heterogeneity_distributions")
     plt.close(fig)
 
 
 def fig4_benchmark_composition(root: Path, outdir: Path) -> None:
-    items_path = root / "data/benchmarks/items_gold_v3_dual.tsv"
+    items_path = root / "data/benchmarks/entry_segmentation_gold_index_v1.tsv"
     if not items_path.exists():
-        items_path = root / "data/benchmarks/items_gold_v2.tsv"
+        items_path = root / "data/benchmarks/items_gold_v3_dual.tsv"
     items = read_tsv(items_path)
 
     def norm(v: str) -> str:
@@ -262,9 +277,9 @@ def fig4_benchmark_composition(root: Path, outdir: Path) -> None:
             return "no"
         return ""
 
-    split_map = {"train": "train", "dev": "validation", "validation": "validation", "test": "test"}
-    splits = ["train", "validation", "test"]
-    split_labels = {"train": "Train", "validation": "Validation", "test": "Test"}
+    split_map = {"train": "train", "dev": "development", "development": "development", "test": "test"}
+    splits = ["train", "development", "test"]
+    split_labels = {"train": "Train", "development": "Development", "test": "Test"}
     ok_counts = {s: 0 for s in splits}
     error_counts = {s: 0 for s in splits}
     doc_type_counts = {s: Counter() for s in splits}
@@ -289,7 +304,7 @@ def fig4_benchmark_composition(root: Path, outdir: Path) -> None:
 
     fig, axes = plt.subplots(1, 2, figsize=(9.2, 3.6), gridspec_kw={"width_ratios": [1.1, 1.9]})
     ax1, ax2 = axes
-    ax1.text(0.01, 0.96, "(a)", transform=ax1.transAxes, fontsize=10, fontweight="bold", va="top", ha="left")
+    ax1.text(0.01, 1.02, "(a)", transform=ax1.transAxes, fontsize=10, fontweight="bold", va="bottom", ha="left")
 
     # Gold-only split composition by boundary label.
     y = list(range(len(splits)))[::-1]
@@ -315,14 +330,13 @@ def fig4_benchmark_composition(root: Path, outdir: Path) -> None:
     top_labels = [human_noise_flag(k) for k in top]
 
     # Show the same information as a compact heatmap.
-    ax2.text(0.01, 0.96, "(b)", transform=ax2.transAxes, fontsize=10, fontweight="bold", va="top", ha="left")
+    ax2.text(0.01, 1.02, "(b)", transform=ax2.transAxes, fontsize=10, fontweight="bold", va="bottom", ha="left")
     mat = [[noise_counts[s].get(k, 0) for s in splits] for k in top]
     im = ax2.imshow(mat, aspect="auto", cmap="Blues")
     ax2.set_yticks(list(range(len(top_labels))))
     ax2.set_yticklabels(top_labels)
     ax2.set_xticks(list(range(len(splits))))
     ax2.set_xticklabels([split_labels.get(s, s) for s in splits])
-    ax2.set_title("Top noise indicators (counts)")
     # Increase spacing so y tick labels do not collide with panel (a).
     ax2.tick_params(axis="y", pad=2)
 
@@ -350,7 +364,9 @@ def fig5_baselines_and_field_robustness(root: Path, outdir: Path) -> None:
 
     # Panel C: held-out error rates by document type, reconstructed from public predictions.
     predictions = read_tsv(root / "results/benchmarks/boundary_baseline_test_predictions_v2.tsv")
-    items_path = root / "data/benchmarks/items_gold_v3_dual.tsv"
+    items_path = root / "data/benchmarks/entry_segmentation_gold_index_v1.tsv"
+    if not items_path.exists():
+        items_path = root / "data/benchmarks/items_gold_v3_dual.tsv"
     items_by_id = {row["item_id"]: row for row in read_tsv(items_path)}
 
     def as_int(v: str) -> int:
@@ -405,18 +421,24 @@ def fig5_baselines_and_field_robustness(root: Path, outdir: Path) -> None:
     val_recall = [float(r["value_recall_all"]) for r in field_rows]
     ax2.text(0.01, 0.96, "(b)", transform=ax2.transAxes, fontsize=10, fontweight="bold", va="top", ha="left")
 
-    # Dumbbell plot: two recall definitions per field.
+    presence_recovered = [int(r.get("presence_tp_all") or 0) for r in field_rows]
+    presence_reference = [int(r.get("presence_n_true_all") or 0) for r in field_rows]
+    value_recovered = [int(r.get("value_tp_all") or 0) for r in field_rows]
+    value_reference = [int(r.get("value_n_true_all") or 0) for r in field_rows]
+
+    # Offset points keep the two analyses visually separate because their populations differ.
     y = list(range(len(fields)))[::-1]
-    for yi, pr, vr in zip(y, pres_recall, val_recall):
-        ax2.plot([pr, vr], [yi, yi], color=COLORS["light_gray"], linewidth=2.0, alpha=0.95)
-        ax2.plot(pr, yi, "o", color=COLORS["orange"], markersize=7, label="Heading presence recall" if yi == y[0] else None)
-        ax2.plot(vr, yi, "s", color=COLORS["red"], markersize=6, label="Value extraction recall" if yi == y[0] else None)
+    for index, (yi, pr, vr) in enumerate(zip(y, pres_recall, val_recall)):
+        ax2.plot(pr, yi + 0.12, "o", color=COLORS["orange"], markersize=7, label="Heading presence (128 spans)" if index == 0 else None)
+        ax2.plot(vr, yi - 0.12, "s", color=COLORS["red"], markersize=6, label="Exact value (84,599 records)" if index == 0 else None)
+        ax2.text(min(1.02, pr + 0.018), yi + 0.12, f"{presence_recovered[index]}/{presence_reference[index]}", va="center", fontsize=7.5)
+        ax2.text(min(1.02, vr + 0.018), yi - 0.12, f"{value_recovered[index]}/{value_reference[index]}", va="center", fontsize=7.5)
     ax2.set_yticks(y)
     ax2.set_yticklabels(fields)
     ax2.set_xlim(0, 1.05)
-    ax2.set_xlabel("Recall (strict vs relaxed truth)")
+    ax2.set_xlabel("Recall against relaxed parser reference")
     ax2.grid(axis="x", alpha=0.22)
-    ax2.legend(frameon=True, loc="upper right")
+    ax2.legend(frameon=False, loc="lower left")
 
     doc_types = [
         "FORMULA_ENTRY_FULL",

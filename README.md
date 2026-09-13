@@ -32,4 +32,4 @@ To re-run extraction from source, researchers need lawful access to the underlyi
 
 ## Public Deposit
 
-Versioned GitHub releases are archived on Zenodo. Release `v1.0.6` is available at `https://doi.org/10.5281/zenodo.22723625`; the concept DOI `https://doi.org/10.5281/zenodo.20376555` resolves to the latest archived version.
+Versioned GitHub releases are archived on Zenodo. This repository corresponds to release `v1.0.7`; the concept DOI `https://doi.org/10.5281/zenodo.20376555` resolves to the latest archived version.

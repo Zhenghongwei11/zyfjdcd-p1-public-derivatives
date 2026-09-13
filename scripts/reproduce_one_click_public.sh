@@ -71,7 +71,8 @@ checksum_file() {
 
 checksum_file "$ROOT/docs/DATA_MANIFEST.tsv"
 checksum_file "$ROOT/docs/FIGURE_PROVENANCE.tsv"
-checksum_file "$ROOT/data/benchmarks/items_gold_v3_dual.tsv"
+checksum_file "$ROOT/data/benchmarks/entry_segmentation_gold_index_v1.tsv"
+checksum_file "$ROOT/results/benchmarks/field_presence_item_outcomes_v1.tsv"
 checksum_file "$ROOT/results/benchmarks/task_eval_models_v3_dual.tsv"
 checksum_file "$ROOT/results/error_analysis/error_slices_models_v3_dual.tsv"
 checksum_file "$ROOT/results/iaa/field_extraction_hardcase_iaa_v2.tsv"
